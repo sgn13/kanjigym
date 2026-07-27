@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
@@ -9,14 +10,11 @@ import { CenteredMenu } from '@/features/landing/CenteredMenu';
 import { Section } from '@/features/landing/Section';
 
 import { Logo } from './Logo';
-import { usePathname } from 'next/navigation';
 
 export const Navbar = () => {
   const t = useTranslations('Navbar');
-    const pathname = usePathname();
+  const pathname = usePathname();
 
-  
-console.log({pathname})
   return (
     <Section className="px-3 py-6">
       <CenteredMenu
@@ -35,19 +33,28 @@ console.log({pathname})
                 {t('sign_up')}
               </Link>
             </li>
-            
           </>
         )}
       >
         <li>
-          <Link href="/" className={`${pathname=='/'? `text-[#ca15d7] font-bold`:''}`}>Home</Link>
+          <Link
+            href="/"
+            className={`${pathname === '/' ? `font-bold text-[#ca15d7]` : ''}`}
+          >
+            Home
+          </Link>
         </li>
 
         <li>
-          <Link href="/about" className={`${pathname=='/about'? `text-[#ca15d7] font-bold`:''}`}>About</Link>
+          <Link
+            href="/about"
+            className={`${pathname === '/about' ? `font-bold text-[#ca15d7]` : ''}`}
+          >
+            About
+          </Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link href="/phrases" className={`${pathname=='/phrases'? `text-[#ca15d7] font-bold`:''}`}>Phrases</Link>
         </li>
 
@@ -57,6 +64,10 @@ console.log({pathname})
 
         <li>
           <Link href="/grammar" className={`${pathname=='/grammar'? `text-[#ca15d7] font-bold`:''}`}>Grammar</Link>
+        </li> */}
+        <li>
+          High Score:
+          {localStorage.getItem('highscore') || '0'}
         </li>
       </CenteredMenu>
     </Section>

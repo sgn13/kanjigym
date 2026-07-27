@@ -1,7 +1,9 @@
 import { auth } from '@clerk/nextjs/server';
 import { redirect } from 'next/navigation';
 
-export default async function CenteredLayout(props: { children: React.ReactNode }) {
+export default async function CenteredLayout(props: {
+  children: React.ReactNode;
+}) {
   const { userId } = await auth();
 
   if (userId) {

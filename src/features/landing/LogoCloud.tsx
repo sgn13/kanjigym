@@ -1,4 +1,7 @@
-export const LogoCloud = (props: { text: string; children: React.ReactNode }) => (
+export const LogoCloud = (props: {
+  text: string;
+  children: React.ReactNode;
+}) => (
   <>
     <div className="text-center text-xl font-medium text-muted-foreground">
       {props.text}

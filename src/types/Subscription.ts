@@ -47,11 +47,12 @@ export type IStripeSubscription = {
 
 export type PlanDetails =
   | {
-    isPaid: true;
-    plan: PricingPlan;
-    stripeDetails: IStripeSubscription;
-  } | {
-    isPaid: false;
-    plan: PricingPlan;
-    stripeDetails?: undefined;
-  };
+      isPaid: true;
+      plan: PricingPlan;
+      stripeDetails: IStripeSubscription;
+    }
+  | {
+      isPaid: false;
+      plan: PricingPlan;
+      stripeDetails?: undefined;
+    };

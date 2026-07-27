@@ -5,7 +5,8 @@ import { cn } from '@/utils/Helpers';
 
 import { badgeVariants } from './badgeVariants';
 
-export type BadgeProps = {} & React.HTMLAttributes<HTMLDivElement> & VariantProps<typeof badgeVariants>;
+export type BadgeProps = {} & React.HTMLAttributes<HTMLDivElement> &
+  VariantProps<typeof badgeVariants>;
 
 function Badge({ className, variant, ...props }: BadgeProps) {
   return (

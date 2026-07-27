@@ -1,4035 +1,3559 @@
 [
-    {
-        "id": 1,
-        "kanji": "一",
-        "answer": "ひと",
-        "meaning": "one",
-        "onyomi": [
-            "イチ"
-        ],
-        "kunyomi": [
-            "ひと",
-            "ひとつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "1_word_1",
-        "parent_id": 1,
-        "parent_kanji": "一",
-        "type": "word",
-        "kanji": "一つ",
-        "answer": "ひとつ",
-        "meaning": "one (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "1_word_2",
-        "parent_id": 1,
-        "parent_kanji": "一",
-        "type": "word",
-        "kanji": "一人",
-        "answer": "ひとり",
-        "meaning": "one person",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "1_word_3",
-        "parent_id": 1,
-        "parent_kanji": "一",
-        "type": "word",
-        "kanji": "一番",
-        "answer": "いちばん",
-        "meaning": "first, best, most",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 2,
-        "kanji": "七",
-        "answer": "なな",
-        "meaning": "seven",
-        "onyomi": [
-            "シチ"
-        ],
-        "kunyomi": [
-            "なな",
-            "ななつ",
-            "なの"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "2_word_1",
-        "parent_id": 2,
-        "parent_kanji": "七",
-        "type": "word",
-        "kanji": "七つ",
-        "answer": "ななつ",
-        "meaning": "seven (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "2_word_2",
-        "parent_id": 2,
-        "parent_kanji": "七",
-        "type": "word",
-        "kanji": "七日",
-        "answer": "なのか",
-        "meaning": "the seventh day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 3,
-        "kanji": "万",
-        "answer": "マン",
-        "meaning": "ten thousand, 10,000",
-        "onyomi": [
-            "マン"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "3_word_1",
-        "parent_id": 3,
-        "parent_kanji": "万",
-        "type": "word",
-        "kanji": "十万",
-        "answer": "じゅうまん",
-        "meaning": "100,000",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 4,
-        "kanji": "三",
-        "answer": "さん",
-        "meaning": "three",
-        "onyomi": [
-            "サン"
-        ],
-        "kunyomi": [
-            "み",
-            "みつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "4_word_1",
-        "parent_id": 4,
-        "parent_kanji": "三",
-        "type": "word",
-        "kanji": "三つ",
-        "answer": "みっつ",
-        "meaning": "three (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "4_word_2",
-        "parent_id": 4,
-        "parent_kanji": "三",
-        "type": "word",
-        "kanji": "三日",
-        "answer": "みっか",
-        "meaning": "the third day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 5,
-        "kanji": "上",
-        "answer": "うえ",
-        "meaning": "above, up",
-        "onyomi": [
-            "ショウ",
-            "ジョウ"
-        ],
-        "kunyomi": [
-            "あがる",
-            "あげる",
-            "うえ",
-            "うわ"
-        ],
-        "jlpt": "N5",
-        "category": "Position",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "5_word_1",
-        "parent_id": 5,
-        "parent_kanji": "上",
-        "type": "word",
-        "kanji": "上げる",
-        "answer": "あげる",
-        "meaning": "to raise, to elevate, to increase",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "5_word_2",
-        "parent_id": 5,
-        "parent_kanji": "上",
-        "type": "word",
-        "kanji": "上手",
-        "answer": "じょうず",
-        "meaning": "skillful, proficient, good at",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "5_word_3",
-        "parent_id": 5,
-        "parent_kanji": "上",
-        "type": "word",
-        "kanji": "上着",
-        "answer": "うわぎ",
-        "meaning": "coat, jacket, outer garment",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": 6,
-        "kanji": "下",
-        "answer": "した",
-        "meaning": "below, descend, inferior, low",
-        "onyomi": [
-            "カ",
-            "ゲ"
-        ],
-        "kunyomi": [
-            "さがる",
-            "さげる",
-            "した",
-            "くださる"
-        ],
-        "jlpt": "N5",
-        "category": "Position",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "6_word_1",
-        "parent_id": 6,
-        "parent_kanji": "下",
-        "type": "word",
-        "kanji": "地下鉄",
-        "answer": "ちかてつ",
-        "meaning": "subway",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "6_word_2",
-        "parent_id": 6,
-        "parent_kanji": "下",
-        "type": "word",
-        "kanji": "廊下",
-        "answer": "ろうか",
-        "meaning": "corridor, hallway",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "6_word_3",
-        "parent_id": 6,
-        "parent_kanji": "下",
-        "type": "word",
-        "kanji": "靴下",
-        "answer": "くつした",
-        "meaning": "socks",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": 7,
-        "kanji": "中",
-        "answer": "なか",
-        "meaning": "center, inside, middle",
-        "onyomi": [
-            "チュウ"
-        ],
-        "kunyomi": [
-            "うち",
-            "なか"
-        ],
-        "jlpt": "N5",
-        "category": "Position",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "7_word_1",
-        "parent_id": 7,
-        "parent_kanji": "中",
-        "type": "word",
-        "kanji": "中国",
-        "answer": "ちゅうごく",
-        "meaning": "China",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": 8,
-        "kanji": "九",
-        "answer": "ここの",
-        "meaning": "nine",
-        "onyomi": [
-            "キュウ",
-            "ク"
-        ],
-        "kunyomi": [
-            "ここの",
-            "ここのつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "8_word_1",
-        "parent_id": 8,
-        "parent_kanji": "九",
-        "type": "word",
-        "kanji": "九つ",
-        "answer": "ここのつ",
-        "meaning": "nine (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "8_word_2",
-        "parent_id": 8,
-        "parent_kanji": "九",
-        "type": "word",
-        "kanji": "九日",
-        "answer": "ここのか",
-        "meaning": "the ninth day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 9,
-        "kanji": "二",
-        "answer": "ふた",
-        "meaning": "two, two radical (No. 7)",
-        "onyomi": [
-            "ニ"
-        ],
-        "kunyomi": [
-            "ふたつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "9_word_1",
-        "parent_id": 9,
-        "parent_kanji": "二",
-        "type": "word",
-        "kanji": "二つ",
-        "answer": "ふたつ",
-        "meaning": "two (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "9_word_2",
-        "parent_id": 9,
-        "parent_kanji": "二",
-        "type": "word",
-        "kanji": "二人",
-        "answer": "ふたり",
-        "meaning": "two people, pair, couple",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "9_word_3",
-        "parent_id": 9,
-        "parent_kanji": "二",
-        "type": "word",
-        "kanji": "二日",
-        "answer": "ふつか",
-        "meaning": "the second day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 10,
-        "kanji": "五",
-        "answer": "いつ",
-        "meaning": "five",
-        "onyomi": [
-            "ゴ"
-        ],
-        "kunyomi": [
-            "いつ",
-            "いつつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "10_word_1",
-        "parent_id": 10,
-        "parent_kanji": "五",
-        "type": "word",
-        "kanji": "五つ",
-        "answer": "いつつ",
-        "meaning": "five (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "10_word_2",
-        "parent_id": 10,
-        "parent_kanji": "五",
-        "type": "word",
-        "kanji": "五日",
-        "answer": "いつか",
-        "meaning": "the fifth day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 11,
-        "kanji": "人",
-        "answer": "ひと",
-        "meaning": "person",
-        "onyomi": [
-            "ジン",
-            "ニン"
-        ],
-        "kunyomi": [
-            "ひと",
-            "と",
-            "り"
-        ],
-        "jlpt": "N5",
-        "category": "People",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "11_word_1",
-        "parent_id": 11,
-        "parent_kanji": "人",
-        "type": "word",
-        "kanji": "一人",
-        "answer": "ひとり",
-        "meaning": "one person",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "11_word_2",
-        "parent_id": 11,
-        "parent_kanji": "人",
-        "type": "word",
-        "kanji": "二人",
-        "answer": "ふたり",
-        "meaning": "two people, pair, couple",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "11_word_3",
-        "parent_id": 11,
-        "parent_kanji": "人",
-        "type": "word",
-        "kanji": "外国人",
-        "answer": "がいこくじん",
-        "meaning": "foreigner, foreign citizen",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "11_word_4",
-        "parent_id": 11,
-        "parent_kanji": "人",
-        "type": "word",
-        "kanji": "ご主人",
-        "answer": "しゅじん",
-        "meaning": "(hon.) your husband",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": 12,
-        "kanji": "今",
-        "answer": "いま",
-        "meaning": "now",
-        "onyomi": [
-            "コン"
-        ],
-        "kunyomi": [
-            "いま"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "12_word_1",
-        "parent_id": 12,
-        "parent_kanji": "今",
-        "type": "word",
-        "kanji": "今年",
-        "answer": "ことし",
-        "meaning": "this year",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "12_word_2",
-        "parent_id": 12,
-        "parent_kanji": "今",
-        "type": "word",
-        "kanji": "今晩",
-        "answer": "こんばん",
-        "meaning": "tonight",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "12_word_3",
-        "parent_id": 12,
-        "parent_kanji": "今",
-        "type": "word",
-        "kanji": "今月",
-        "answer": "こんげつ",
-        "meaning": "this month",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 13,
-        "kanji": "休",
-        "answer": "やすむ",
-        "meaning": "day off, rest, retire",
-        "onyomi": [
-            "キュウ"
-        ],
-        "kunyomi": [
-            "やすむ"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "13_word_1",
-        "parent_id": 13,
-        "parent_kanji": "休",
-        "type": "word",
-        "kanji": "休み",
-        "answer": "やすみ",
-        "meaning": "rest, vacation, holiday",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "13_word_2",
-        "parent_id": 13,
-        "parent_kanji": "休",
-        "type": "word",
-        "kanji": "休む",
-        "answer": "やすむ",
-        "meaning": "to take a day off, to rest, to have a break",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "13_word_3",
-        "parent_id": 13,
-        "parent_kanji": "休",
-        "type": "word",
-        "kanji": "夏休み",
-        "answer": "なつやすみ",
-        "meaning": "summer vacation",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 14,
-        "kanji": "会",
-        "answer": "あう",
-        "meaning": "association, join, meet, meeting",
-        "onyomi": [
-            "カイ"
-        ],
-        "kunyomi": [
-            "あう"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "14_word_1",
-        "parent_id": 14,
-        "parent_kanji": "会",
-        "type": "word",
-        "kanji": "会う",
-        "answer": "あう",
-        "meaning": "to meet",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "14_word_2",
-        "parent_id": 14,
-        "parent_kanji": "会",
-        "type": "word",
-        "kanji": "会社",
-        "answer": "かいしゃ",
-        "meaning": "company",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 15,
-        "kanji": "何",
-        "answer": "なに",
-        "meaning": "what",
-        "onyomi": [
-            "カ"
-        ],
-        "kunyomi": [
-            "なに",
-            "なん"
-        ],
-        "jlpt": "N5",
-        "category": "Question Words",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "15_word_1",
-        "parent_id": 15,
-        "parent_kanji": "何",
-        "type": "word",
-        "kanji": "何の料理",
-        "answer": "なんのりょうり",
-        "meaning": "what kind of food",
-        "jlpt": "N5",
-        "category": "Question Words"
-    },
-    {
-        "id": 16,
-        "kanji": "先",
-        "answer": "さき",
-        "meaning": "ahead, before, future, previous",
-        "onyomi": [
-            "セン"
-        ],
-        "kunyomi": [
-            "さき"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "16_word_1",
-        "parent_id": 16,
-        "parent_kanji": "先",
-        "type": "word",
-        "kanji": "先月",
-        "answer": "せんげつ",
-        "meaning": "last month",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "16_word_2",
-        "parent_id": 16,
-        "parent_kanji": "先",
-        "type": "word",
-        "kanji": "先生",
-        "answer": "せんせい",
-        "meaning": "teacher, doctor",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "16_word_3",
-        "parent_id": 16,
-        "parent_kanji": "先",
-        "type": "word",
-        "kanji": "先週",
-        "answer": "せんしゅう",
-        "meaning": "last week",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 17,
-        "kanji": "入",
-        "answer": "はいる",
-        "meaning": "enter, insert",
-        "onyomi": [
-            "ニュウ"
-        ],
-        "kunyomi": [
-            "いる",
-            "いれる",
-            "はいる"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "17_word_1",
-        "parent_id": 17,
-        "parent_kanji": "入",
-        "type": "word",
-        "kanji": "入れる",
-        "answer": "いれる",
-        "meaning": "to put in, to insert",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "17_word_2",
-        "parent_id": 17,
-        "parent_kanji": "入",
-        "type": "word",
-        "kanji": "入る",
-        "answer": "はいる",
-        "meaning": "to enter, to go into, to join, to enroll",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "17_word_3",
-        "parent_id": 17,
-        "parent_kanji": "入",
-        "type": "word",
-        "kanji": "入口",
-        "answer": "いりぐち",
-        "meaning": "entrance, entry",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 18,
-        "kanji": "八",
-        "answer": "や",
-        "meaning": "eight",
-        "onyomi": [
-            "ハチ"
-        ],
-        "kunyomi": [
-            "や",
-            "やつ",
-            "よう"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "18_word_1",
-        "parent_id": 18,
-        "parent_kanji": "八",
-        "type": "word",
-        "kanji": "八つ",
-        "answer": "やっつ",
-        "meaning": "eight (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "18_word_2",
-        "parent_id": 18,
-        "parent_kanji": "八",
-        "type": "word",
-        "kanji": "八日",
-        "answer": "ようか",
-        "meaning": "the eighth day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "18_word_3",
-        "parent_id": 18,
-        "parent_kanji": "八",
-        "type": "word",
-        "kanji": "八百屋",
-        "answer": "やおや",
-        "meaning": "greengrocer",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 19,
-        "kanji": "六",
-        "answer": "む",
-        "meaning": "six",
-        "onyomi": [
-            "ロク"
-        ],
-        "kunyomi": [
-            "む",
-            "むい",
-            "むつ",
-            "むっつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "19_word_1",
-        "parent_id": 19,
-        "parent_kanji": "六",
-        "type": "word",
-        "kanji": "六つ",
-        "answer": "むっつ",
-        "meaning": "six (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "19_word_2",
-        "parent_id": 19,
-        "parent_kanji": "六",
-        "type": "word",
-        "kanji": "六日",
-        "answer": "むいか",
-        "meaning": "the sixth day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 20,
-        "kanji": "円",
-        "answer": "えん",
-        "meaning": "circle, round, yen",
-        "onyomi": [
-            "エン"
-        ],
-        "kunyomi": [
-            "まるい"
-        ],
-        "jlpt": "N5",
-        "category": "Money",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "20_word_1",
-        "parent_id": 20,
-        "parent_kanji": "円",
-        "type": "word",
-        "kanji": "十円",
-        "answer": "じゅうえん",
-        "meaning": "10 yen",
-        "jlpt": "N5",
-        "category": "Money"
-    },
-    {
-        "id": 21,
-        "kanji": "出",
-        "answer": "でる",
-        "meaning": "come out, exit, go out, leave, protrude, put out",
-        "onyomi": [
-            "シュツ"
-        ],
-        "kunyomi": [
-            "だす",
-            "でる"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "21_word_1",
-        "parent_id": 21,
-        "parent_kanji": "出",
-        "type": "word",
-        "kanji": "出す",
-        "answer": "だす",
-        "meaning": "to take out, to get out, to submit, to send",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "21_word_2",
-        "parent_id": 21,
-        "parent_kanji": "出",
-        "type": "word",
-        "kanji": "出かける",
-        "answer": "でかける",
-        "meaning": "to go out, to set out",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "21_word_3",
-        "parent_id": 21,
-        "parent_kanji": "出",
-        "type": "word",
-        "kanji": "出る",
-        "answer": "でる",
-        "meaning": "to leave, to exit, to go out",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "21_word_4",
-        "parent_id": 21,
-        "parent_kanji": "出",
-        "type": "word",
-        "kanji": "出口",
-        "answer": "でぐち",
-        "meaning": "exit",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "21_word_5",
-        "parent_id": 21,
-        "parent_kanji": "出",
-        "type": "word",
-        "kanji": "出来る",
-        "answer": "できる",
-        "meaning": "to be able to do",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 22,
-        "kanji": "分",
-        "answer": "わかる",
-        "meaning": "degree, know, understand, minute of time, part",
-        "onyomi": [
-            "フン",
-            "ブン"
-        ],
-        "kunyomi": [
-            "わかる",
-            "わかれる",
-            "わける"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "22_word_1",
-        "parent_id": 22,
-        "parent_kanji": "分",
-        "type": "word",
-        "kanji": "分かる",
-        "answer": "わかる",
-        "meaning": "to understand, to comprehend",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "22_word_2",
-        "parent_id": 22,
-        "parent_kanji": "分",
-        "type": "word",
-        "kanji": "半分",
-        "answer": "はんぶん",
-        "meaning": "half",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "22_word_3",
-        "parent_id": 22,
-        "parent_kanji": "分",
-        "type": "word",
-        "kanji": "多分",
-        "answer": "たぶん",
-        "meaning": "perhaps, probably",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "22_word_4",
-        "parent_id": 22,
-        "parent_kanji": "分",
-        "type": "word",
-        "kanji": "自分",
-        "answer": "じぶん",
-        "meaning": "myself, oneself",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "22_word_5",
-        "parent_id": 22,
-        "parent_kanji": "分",
-        "type": "word",
-        "kanji": "分",
-        "answer": "ぶん",
-        "meaning": "minutes (unit of time), counter for minutes",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 23,
-        "kanji": "前",
-        "answer": "まえ",
-        "meaning": "before, in front",
-        "onyomi": [
-            "ゼン"
-        ],
-        "kunyomi": [
-            "まえ"
-        ],
-        "jlpt": "N5",
-        "category": "Position",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "23_word_1",
-        "parent_id": 23,
-        "parent_kanji": "前",
-        "type": "word",
-        "kanji": "午前",
-        "answer": "ごぜん",
-        "meaning": "morning, a.m.",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "23_word_2",
-        "parent_id": 23,
-        "parent_kanji": "前",
-        "type": "word",
-        "kanji": "名前",
-        "answer": "なまえ",
-        "meaning": "name, given name, first name",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": 24,
-        "kanji": "北",
-        "answer": "きた",
-        "meaning": "north",
-        "onyomi": [
-            "ホク"
-        ],
-        "kunyomi": [
-            "きた"
-        ],
-        "jlpt": "N5",
-        "category": "Directions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "24_word_1",
-        "parent_id": 24,
-        "parent_kanji": "北",
-        "type": "word",
-        "kanji": "北",
-        "answer": "きた",
-        "meaning": "north",
-        "jlpt": "N5",
-        "category": "Directions"
-    },
-    {
-        "id": 25,
-        "kanji": "十",
-        "answer": "とお",
-        "meaning": "ten",
-        "onyomi": [
-            "ジュウ",
-            "ジュッ"
-        ],
-        "kunyomi": [
-            "とお"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "25_word_1",
-        "parent_id": 25,
-        "parent_kanji": "十",
-        "type": "word",
-        "kanji": "十個",
-        "answer": "じゅっこ",
-        "meaning": "10 small objects",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "25_word_2",
-        "parent_id": 25,
-        "parent_kanji": "十",
-        "type": "word",
-        "kanji": "十日",
-        "answer": "とおか",
-        "meaning": "the tenth day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 26,
-        "kanji": "千",
-        "answer": "セン",
-        "meaning": "thousand",
-        "onyomi": [
-            "セン"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "26_word_1",
-        "parent_id": 26,
-        "parent_kanji": "千",
-        "type": "word",
-        "kanji": "千",
-        "answer": "せん",
-        "meaning": "thousand",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 27,
-        "kanji": "午",
-        "answer": "ゴ",
-        "meaning": "11AM-1PM, noon, seventh sign of Chinese zodiac, sign of the horse",
-        "onyomi": [
-            "ゴ"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "27_word_1",
-        "parent_id": 27,
-        "parent_kanji": "午",
-        "type": "word",
-        "kanji": "午前",
-        "answer": "ごぜん",
-        "meaning": "morning, a.m.",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "27_word_2",
-        "parent_id": 27,
-        "parent_kanji": "午",
-        "type": "word",
-        "kanji": "午後",
-        "answer": "ごご",
-        "meaning": "afternoon, p.m.",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 28,
-        "kanji": "半",
-        "answer": "なかば",
-        "meaning": "half, middle, odd number, part-, semi-",
-        "onyomi": [
-            "ハン"
-        ],
-        "kunyomi": [
-            "なかば"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "28_word_1",
-        "parent_id": 28,
-        "parent_kanji": "半",
-        "type": "word",
-        "kanji": "半分",
-        "answer": "はんぶん",
-        "meaning": "half",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 29,
-        "kanji": "南",
-        "answer": "みなみ",
-        "meaning": "south",
-        "onyomi": [
-            "ナン"
-        ],
-        "kunyomi": [
-            "みなみ"
-        ],
-        "jlpt": "N5",
-        "category": "Directions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "29_word_1",
-        "parent_id": 29,
-        "parent_kanji": "南",
-        "type": "word",
-        "kanji": "南",
-        "answer": "みなみ",
-        "meaning": "south",
-        "jlpt": "N5",
-        "category": "Directions"
-    },
-    {
-        "id": 30,
-        "kanji": "友",
-        "answer": "とも",
-        "meaning": "friend",
-        "onyomi": [
-            "ユウ"
-        ],
-        "kunyomi": [
-            "とも"
-        ],
-        "jlpt": "N5",
-        "category": "People",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "30_word_1",
-        "parent_id": 30,
-        "parent_kanji": "友",
-        "type": "word",
-        "kanji": "友達",
-        "answer": "ともだち",
-        "meaning": "friend, companion",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": 31,
-        "kanji": "口",
-        "answer": "くち",
-        "meaning": "mouth",
-        "onyomi": [
-            "ク",
-            "コウ"
-        ],
-        "kunyomi": [
-            "くち"
-        ],
-        "jlpt": "N5",
-        "category": "Body",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "31_word_1",
-        "parent_id": 31,
-        "parent_kanji": "口",
-        "type": "word",
-        "kanji": "入口",
-        "answer": "いりぐち",
-        "meaning": "entrance, entry",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": "31_word_2",
-        "parent_id": 31,
-        "parent_kanji": "口",
-        "type": "word",
-        "kanji": "出口",
-        "answer": "でぐち",
-        "meaning": "exit",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": 32,
-        "kanji": "古",
-        "answer": "ふるい",
-        "meaning": "old",
-        "onyomi": [
-            "コ"
-        ],
-        "kunyomi": [
-            "ふるい"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "32_word_1",
-        "parent_id": 32,
-        "parent_kanji": "古",
-        "type": "word",
-        "kanji": "古い",
-        "answer": "ふるい",
-        "meaning": "old, aged, stale",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 33,
-        "kanji": "右",
-        "answer": "みぎ",
-        "meaning": "right",
-        "onyomi": [
-            "ウ",
-            "ユウ"
-        ],
-        "kunyomi": [
-            "みぎ"
-        ],
-        "jlpt": "N5",
-        "category": "Directions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "33_word_1",
-        "parent_id": 33,
-        "parent_kanji": "右",
-        "type": "word",
-        "kanji": "右",
-        "answer": "みぎ",
-        "meaning": "right",
-        "jlpt": "N5",
-        "category": "Directions"
-    },
-    {
-        "id": 34,
-        "kanji": "名",
-        "answer": "な",
-        "meaning": "distinguished, name",
-        "onyomi": [
-            "ミョウ",
-            "メイ"
-        ],
-        "kunyomi": [
-            "な"
-        ],
-        "jlpt": "N5",
-        "category": "People",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "34_word_1",
-        "parent_id": 34,
-        "parent_kanji": "名",
-        "type": "word",
-        "kanji": "名前",
-        "answer": "なまえ",
-        "meaning": "name, given name, first name",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "34_word_2",
-        "parent_id": 34,
-        "parent_kanji": "名",
-        "type": "word",
-        "kanji": "平仮名",
-        "answer": "ひらがな",
-        "meaning": "hiragana",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "34_word_3",
-        "parent_id": 34,
-        "parent_kanji": "名",
-        "type": "word",
-        "kanji": "有名",
-        "answer": "ゆうめい",
-        "meaning": "famous",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": 35,
-        "kanji": "四",
-        "answer": "よん",
-        "meaning": "four",
-        "onyomi": [
-            "シ"
-        ],
-        "kunyomi": [
-            "よん",
-            "よっつ",
-            "よつ"
-        ],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "35_word_1",
-        "parent_id": 35,
-        "parent_kanji": "四",
-        "type": "word",
-        "kanji": "四つ",
-        "answer": "よっつ",
-        "meaning": "four (general counter)",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": "35_word_2",
-        "parent_id": 35,
-        "parent_kanji": "四",
-        "type": "word",
-        "kanji": "四日",
-        "answer": "よっか",
-        "meaning": "the fourth day of the month",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 36,
-        "kanji": "国",
-        "answer": "くに",
-        "meaning": "country",
-        "onyomi": [
-            "コク"
-        ],
-        "kunyomi": [
-            "くに"
-        ],
-        "jlpt": "N5",
-        "category": "Places",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "36_word_1",
-        "parent_id": 36,
-        "parent_kanji": "国",
-        "type": "word",
-        "kanji": "外国",
-        "answer": "がいこく",
-        "meaning": "foreign country",
-        "jlpt": "N5",
-        "category": "Places"
-    },
-    {
-        "id": "36_word_2",
-        "parent_id": 36,
-        "parent_kanji": "国",
-        "type": "word",
-        "kanji": "外国人",
-        "answer": "がいこくじん",
-        "meaning": "foreigner, foreign citizen",
-        "jlpt": "N5",
-        "category": "Places"
-    },
-    {
-        "id": 37,
-        "kanji": "土",
-        "answer": "つち",
-        "meaning": "earth, ground, soil",
-        "onyomi": [
-            "ト",
-            "ド"
-        ],
-        "kunyomi": [
-            "つち"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "37_word_1",
-        "parent_id": 37,
-        "parent_kanji": "土",
-        "type": "word",
-        "kanji": "土曜日",
-        "answer": "どようび",
-        "meaning": "Saturday",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 38,
-        "kanji": "外",
-        "answer": "そと",
-        "meaning": "outside",
-        "onyomi": [
-            "ガイ"
-        ],
-        "kunyomi": [
-            "そと",
-            "はずす",
-            "はずれる",
-            "ほか"
-        ],
-        "jlpt": "N5",
-        "category": "Position",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "38_word_1",
-        "parent_id": 38,
-        "parent_kanji": "外",
-        "type": "word",
-        "kanji": "外国",
-        "answer": "がいこく",
-        "meaning": "foreign country",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "38_word_2",
-        "parent_id": 38,
-        "parent_kanji": "外",
-        "type": "word",
-        "kanji": "外国人",
-        "answer": "がいこくじん",
-        "meaning": "foreigner, foreign citizen",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": 39,
-        "kanji": "多",
-        "answer": "おおい",
-        "meaning": "frequent, many, much",
-        "onyomi": [
-            "タ"
-        ],
-        "kunyomi": [
-            "おおい"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "39_word_1",
-        "parent_id": 39,
-        "parent_kanji": "多",
-        "type": "word",
-        "kanji": "多分",
-        "answer": "たぶん",
-        "meaning": "perhaps, probably",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 40,
-        "kanji": "大",
-        "answer": "おおきい",
-        "meaning": "big, large",
-        "onyomi": [
-            "タイ",
-            "ダイ"
-        ],
-        "kunyomi": [
-            "おおきい"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "40_word_1",
-        "parent_id": 40,
-        "parent_kanji": "大",
-        "type": "word",
-        "kanji": "大丈夫",
-        "answer": "だいじょうぶ",
-        "meaning": "safe, all right, alright, OK",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "40_word_2",
-        "parent_id": 40,
-        "parent_kanji": "大",
-        "type": "word",
-        "kanji": "大使館",
-        "answer": "たいしかん",
-        "meaning": "embassy",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "40_word_3",
-        "parent_id": 40,
-        "parent_kanji": "大",
-        "type": "word",
-        "kanji": "大切",
-        "answer": "たいせつ",
-        "meaning": "important, necessary",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "40_word_4",
-        "parent_id": 40,
-        "parent_kanji": "大",
-        "type": "word",
-        "kanji": "大勢",
-        "answer": "おおぜい",
-        "meaning": "many people",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "40_word_5",
-        "parent_id": 40,
-        "parent_kanji": "大",
-        "type": "word",
-        "kanji": "大学",
-        "answer": "だいがく",
-        "meaning": "university, college",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 41,
-        "kanji": "天",
-        "answer": "あめ",
-        "meaning": "heavens, imperial, sky",
-        "onyomi": [
-            "テン"
-        ],
-        "kunyomi": [
-            "あめ"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "41_word_1",
-        "parent_id": 41,
-        "parent_kanji": "天",
-        "type": "word",
-        "kanji": "天気",
-        "answer": "てんき",
-        "meaning": "weather",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 42,
-        "kanji": "女",
-        "answer": "おんな",
-        "meaning": "female, woman",
-        "onyomi": [
-            "ジョ"
-        ],
-        "kunyomi": [
-            "おんな"
-        ],
-        "jlpt": "N5",
-        "category": "People",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "42_word_1",
-        "parent_id": 42,
-        "parent_kanji": "女",
-        "type": "word",
-        "kanji": "女の子",
-        "answer": "おんなのこ",
-        "meaning": "girl, young woman",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": 43,
-        "kanji": "子",
-        "answer": "こ",
-        "meaning": "child",
-        "onyomi": [
-            "シ",
-            "ス"
-        ],
-        "kunyomi": [
-            "こ"
-        ],
-        "jlpt": "N5",
-        "category": "People",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "43_word_1",
-        "parent_id": 43,
-        "parent_kanji": "子",
-        "type": "word",
-        "kanji": "女の子",
-        "answer": "おんなのこ",
-        "meaning": "girl, young woman",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "43_word_2",
-        "parent_id": 43,
-        "parent_kanji": "子",
-        "type": "word",
-        "kanji": "子供",
-        "answer": "こども",
-        "meaning": "child, children",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "43_word_3",
-        "parent_id": 43,
-        "parent_kanji": "子",
-        "type": "word",
-        "kanji": "帽子",
-        "answer": "ぼうし",
-        "meaning": "hat",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": "43_word_4",
-        "parent_id": 43,
-        "parent_kanji": "子",
-        "type": "word",
-        "kanji": "男の子",
-        "answer": "おとこのこ",
-        "meaning": "boy",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": 44,
-        "kanji": "学",
-        "answer": "まなぶ",
-        "meaning": "learning, science, study",
-        "onyomi": [
-            "ガク"
-        ],
-        "kunyomi": [
-            "まなぶ"
-        ],
-        "jlpt": "N5",
-        "category": "Education",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "44_word_1",
-        "parent_id": 44,
-        "parent_kanji": "学",
-        "type": "word",
-        "kanji": "大学",
-        "answer": "だいがく",
-        "meaning": "university, college",
-        "jlpt": "N5",
-        "category": "Education"
-    },
-    {
-        "id": "44_word_2",
-        "parent_id": 44,
-        "parent_kanji": "学",
-        "type": "word",
-        "kanji": "学校",
-        "answer": "がっこう",
-        "meaning": "school",
-        "jlpt": "N5",
-        "category": "Education"
-    },
-    {
-        "id": "44_word_3",
-        "parent_id": 44,
-        "parent_kanji": "学",
-        "type": "word",
-        "kanji": "留学生",
-        "answer": "りゅうがくせい",
-        "meaning": "exchange student",
-        "jlpt": "N5",
-        "category": "Education"
-    },
-    {
-        "id": 45,
-        "kanji": "安",
-        "answer": "やすい",
-        "meaning": "cheap, contented, low, peaceful, quiet, relaxed, rested",
-        "onyomi": [
-            "アン"
-        ],
-        "kunyomi": [
-            "やすい"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "45_word_1",
-        "parent_id": 45,
-        "parent_kanji": "安",
-        "type": "word",
-        "kanji": "安い",
-        "answer": "やすい",
-        "meaning": "cheap, inexpensive",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 46,
-        "kanji": "小",
-        "answer": "ちいさい",
-        "meaning": "little, small",
-        "onyomi": [
-            "ショウ"
-        ],
-        "kunyomi": [
-            "ちいさい"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "46_word_1",
-        "parent_id": 46,
-        "parent_kanji": "小",
-        "type": "word",
-        "kanji": "小さい",
-        "answer": "ちいさい",
-        "meaning": "small, little, tiny",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "46_word_2",
-        "parent_id": 46,
-        "parent_kanji": "小",
-        "type": "word",
-        "kanji": "小さな",
-        "answer": "ちいさな",
-        "meaning": "small, little, tiny",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 47,
-        "kanji": "少",
-        "answer": "すくない",
-        "meaning": "few, little",
-        "onyomi": [
-            "ショウ"
-        ],
-        "kunyomi": [
-            "すくない",
-            "すこし"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "47_word_1",
-        "parent_id": 47,
-        "parent_kanji": "少",
-        "type": "word",
-        "kanji": "少ない",
-        "answer": "すくない",
-        "meaning": "few, a little",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "47_word_2",
-        "parent_id": 47,
-        "parent_kanji": "少",
-        "type": "word",
-        "kanji": "少し",
-        "answer": "すこし",
-        "meaning": "small quantity, little, few",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 48,
-        "kanji": "山",
-        "answer": "やま",
-        "meaning": "mountain",
-        "onyomi": [
-            "サン"
-        ],
-        "kunyomi": [
-            "やま"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "48_word_1",
-        "parent_id": 48,
-        "parent_kanji": "山",
-        "type": "word",
-        "kanji": "沢山",
-        "answer": "たくさん",
-        "meaning": "a lot, many, a large number",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 49,
-        "kanji": "川",
-        "answer": "かわ",
-        "meaning": "river",
-        "onyomi": [
-            "セン"
-        ],
-        "kunyomi": [
-            "かわ"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "49_word_1",
-        "parent_id": 49,
-        "parent_kanji": "川",
-        "type": "word",
-        "kanji": "川",
-        "answer": "かわ",
-        "meaning": "river",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 50,
-        "kanji": "左",
-        "answer": "ひだり",
-        "meaning": "left",
-        "onyomi": [
-            "サ",
-            "シャ"
-        ],
-        "kunyomi": [
-            "ひだり"
-        ],
-        "jlpt": "N5",
-        "category": "Directions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "50_word_1",
-        "parent_id": 50,
-        "parent_kanji": "左",
-        "type": "word",
-        "kanji": "左",
-        "answer": "ひだり",
-        "meaning": "left",
-        "jlpt": "N5",
-        "category": "Directions"
-    },
-    {
-        "id": 51,
-        "kanji": "年",
-        "answer": "とし",
-        "meaning": "year",
-        "onyomi": [
-            "ネン"
-        ],
-        "kunyomi": [
-            "とし"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "51_word_1",
-        "parent_id": 51,
-        "parent_kanji": "年",
-        "type": "word",
-        "kanji": "今年",
-        "answer": "ことし",
-        "meaning": "this year",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "51_word_2",
-        "parent_id": 51,
-        "parent_kanji": "年",
-        "type": "word",
-        "kanji": "再来年",
-        "answer": "さらいねん",
-        "meaning": "the year after next",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "51_word_3",
-        "parent_id": 51,
-        "parent_kanji": "年",
-        "type": "word",
-        "kanji": "毎年",
-        "answer": "まいとし",
-        "meaning": "every year, annually",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "51_word_4",
-        "parent_id": 51,
-        "parent_kanji": "年",
-        "type": "word",
-        "kanji": "年",
-        "answer": "ねん",
-        "meaning": "year (unit of time), counter for years",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 52,
-        "kanji": "店",
-        "answer": "みせ",
-        "meaning": "shop, store",
-        "onyomi": [
-            "テン"
-        ],
-        "kunyomi": [
-            "みせ"
-        ],
-        "jlpt": "N5",
-        "category": "Places",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "52_word_1",
-        "parent_id": 52,
-        "parent_kanji": "店",
-        "type": "word",
-        "kanji": "喫茶店",
-        "answer": "きっさてん",
-        "meaning": "coffee shop, cafe",
-        "jlpt": "N5",
-        "category": "Places"
-    },
-    {
-        "id": 53,
-        "kanji": "後",
-        "answer": "あと",
-        "meaning": "back, behind, later",
-        "onyomi": [
-            "コウ",
-            "ゴ"
-        ],
-        "kunyomi": [
-            "あと",
-            "うしろ"
-        ],
-        "jlpt": "N5",
-        "category": "Position",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "53_word_1",
-        "parent_id": 53,
-        "parent_kanji": "後",
-        "type": "word",
-        "kanji": "午後",
-        "answer": "ごご",
-        "meaning": "afternoon, p.m.",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": "53_word_2",
-        "parent_id": 53,
-        "parent_kanji": "後",
-        "type": "word",
-        "kanji": "後ろ",
-        "answer": "うしろ",
-        "meaning": "back, behind, rear",
-        "jlpt": "N5",
-        "category": "Position"
-    },
-    {
-        "id": 54,
-        "kanji": "手",
-        "answer": "て",
-        "meaning": "hand",
-        "onyomi": [
-            "シュ",
-            "ズ"
-        ],
-        "kunyomi": [
-            "て",
-            "た"
-        ],
-        "jlpt": "N5",
-        "category": "Body",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "54_word_1",
-        "parent_id": 54,
-        "parent_kanji": "手",
-        "type": "word",
-        "kanji": "上手",
-        "answer": "じょうず",
-        "meaning": "skillful, proficient, good (at)",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": "54_word_2",
-        "parent_id": 54,
-        "parent_kanji": "手",
-        "type": "word",
-        "kanji": "下手",
-        "answer": "へた",
-        "meaning": "unskillful, poor, awkward",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": "54_word_3",
-        "parent_id": 54,
-        "parent_kanji": "手",
-        "type": "word",
-        "kanji": "切手",
-        "answer": "きって",
-        "meaning": "postage stamp",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": "54_word_4",
-        "parent_id": 54,
-        "parent_kanji": "手",
-        "type": "word",
-        "kanji": "手紙",
-        "answer": "てがみ",
-        "meaning": "letter",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": "54_word_5",
-        "parent_id": 54,
-        "parent_kanji": "手",
-        "type": "word",
-        "kanji": "お手洗い",
-        "answer": "おてあらい",
-        "meaning": "toilet, restroom",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": 55,
-        "kanji": "新",
-        "answer": "あたらしい",
-        "meaning": "new",
-        "onyomi": [
-            "シン"
-        ],
-        "kunyomi": [
-            "あたらしい",
-            "あらた"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "55_word_1",
-        "parent_id": 55,
-        "parent_kanji": "新",
-        "type": "word",
-        "kanji": "新しい",
-        "answer": "あたらしい",
-        "meaning": "new",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "55_word_2",
-        "parent_id": 55,
-        "parent_kanji": "新",
-        "type": "word",
-        "kanji": "新聞",
-        "answer": "しんぶん",
-        "meaning": "newspaper",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 56,
-        "kanji": "日",
-        "answer": "ひ",
-        "meaning": "counter for days, day, Japan, sun",
-        "onyomi": [
-            "ジツ",
-            "ニチ"
-        ],
-        "kunyomi": [
-            "か",
-            "び",
-            "ひ"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "56_word_1",
-        "parent_id": 56,
-        "parent_kanji": "日",
-        "type": "word",
-        "kanji": "七日",
-        "answer": "なのか",
-        "meaning": "the seventh day of the month",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "56_word_2",
-        "parent_id": 56,
-        "parent_kanji": "日",
-        "type": "word",
-        "kanji": "土曜日",
-        "answer": "どようび",
-        "meaning": "Saturday",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "56_word_3",
-        "parent_id": 56,
-        "parent_kanji": "日",
-        "type": "word",
-        "kanji": "日曜日",
-        "answer": "にちようび",
-        "meaning": "Sunday",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 57,
-        "kanji": "時",
-        "answer": "とき",
-        "meaning": "hour, time",
-        "onyomi": [
-            "ジ"
-        ],
-        "kunyomi": [
-            "どき",
-            "とき"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "57_word_1",
-        "parent_id": 57,
-        "parent_kanji": "時",
-        "type": "word",
-        "kanji": "時々",
-        "answer": "ときどき",
-        "meaning": "sometimes",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "57_word_2",
-        "parent_id": 57,
-        "parent_kanji": "時",
-        "type": "word",
-        "kanji": "時間",
-        "answer": "じかん",
-        "meaning": "period of hours",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 58,
-        "kanji": "書",
-        "answer": "かく",
-        "meaning": "write",
-        "onyomi": [
-            "ショ"
-        ],
-        "kunyomi": [
-            "かく"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "58_word_1",
-        "parent_id": 58,
-        "parent_kanji": "書",
-        "type": "word",
-        "kanji": "図書館",
-        "answer": "としょかん",
-        "meaning": "library",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "58_word_2",
-        "parent_id": 58,
-        "parent_kanji": "書",
-        "type": "word",
-        "kanji": "葉書",
-        "answer": "はがき",
-        "meaning": "postcard",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "58_word_3",
-        "parent_id": 58,
-        "parent_kanji": "書",
-        "type": "word",
-        "kanji": "辞書",
-        "answer": "じしょ",
-        "meaning": "dictionary",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 59,
-        "kanji": "月",
-        "answer": "つき",
-        "meaning": "month, moon",
-        "onyomi": [
-            "ガツ",
-            "ゲツ"
-        ],
-        "kunyomi": [
-            "つき"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "59_word_1",
-        "parent_id": 59,
-        "parent_kanji": "月",
-        "type": "word",
-        "kanji": "一月",
-        "answer": "いちがつ",
-        "meaning": "January",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "59_word_2",
-        "parent_id": 59,
-        "parent_kanji": "月",
-        "type": "word",
-        "kanji": "今月",
-        "answer": "こんげつ",
-        "meaning": "this month",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "59_word_3",
-        "parent_id": 59,
-        "parent_kanji": "月",
-        "type": "word",
-        "kanji": "先月",
-        "answer": "せんげつ",
-        "meaning": "last month",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "59_word_4",
-        "parent_id": 59,
-        "parent_kanji": "月",
-        "type": "word",
-        "kanji": "月曜日",
-        "answer": "げつようび",
-        "meaning": "Monday",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "59_word_5",
-        "parent_id": 59,
-        "parent_kanji": "月",
-        "type": "word",
-        "kanji": "毎月",
-        "answer": "まいつき",
-        "meaning": "every month",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 60,
-        "kanji": "木",
-        "answer": "き",
-        "meaning": "tree, wood",
-        "onyomi": [
-            "ボク",
-            "モク"
-        ],
-        "kunyomi": [
-            "き"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "60_word_1",
-        "parent_id": 60,
-        "parent_kanji": "木",
-        "type": "word",
-        "kanji": "木曜日",
-        "answer": "もくようび",
-        "meaning": "Thursday",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 61,
-        "kanji": "本",
-        "answer": "もと",
-        "meaning": "book, counter for long cylindrical things, origin, real, true",
-        "onyomi": [
-            "ホン"
-        ],
-        "kunyomi": [
-            "もと"
-        ],
-        "jlpt": "N5",
-        "category": "Objects",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "61_word_1",
-        "parent_id": 61,
-        "parent_kanji": "本",
-        "type": "word",
-        "kanji": "本当",
-        "answer": "ほんとう",
-        "meaning": "truth, reality, actuality",
-        "jlpt": "N5",
-        "category": "Objects"
-    },
-    {
-        "id": "61_word_2",
-        "parent_id": 61,
-        "parent_kanji": "本",
-        "type": "word",
-        "kanji": "本棚",
-        "answer": "ほんだな",
-        "meaning": "bookshelf",
-        "jlpt": "N5",
-        "category": "Objects"
-    },
-    {
-        "id": "61_word_3",
-        "parent_id": 61,
-        "parent_kanji": "本",
-        "type": "word",
-        "kanji": "本",
-        "answer": "ほん",
-        "meaning": "counter for cylindrical objects",
-        "jlpt": "N5",
-        "category": "Objects"
-    },
-    {
-        "id": 62,
-        "kanji": "来",
-        "answer": "くる",
-        "meaning": "become, cause, come, due, next",
-        "onyomi": [
-            "ライ"
-        ],
-        "kunyomi": [
-            "くる"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "62_word_1",
-        "parent_id": 62,
-        "parent_kanji": "来",
-        "type": "word",
-        "kanji": "来る",
-        "answer": "くる",
-        "meaning": "to come, to approach",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "62_word_2",
-        "parent_id": 62,
-        "parent_kanji": "来",
-        "type": "word",
-        "kanji": "来月",
-        "answer": "らいげつ",
-        "meaning": "next month",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "62_word_3",
-        "parent_id": 62,
-        "parent_kanji": "来",
-        "type": "word",
-        "kanji": "来週",
-        "answer": "らいしゅう",
-        "meaning": "next week",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 63,
-        "kanji": "東",
-        "answer": "ひがし",
-        "meaning": "east",
-        "onyomi": [
-            "トウ"
-        ],
-        "kunyomi": [
-            "ひがし"
-        ],
-        "jlpt": "N5",
-        "category": "Directions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "63_word_1",
-        "parent_id": 63,
-        "parent_kanji": "東",
-        "type": "word",
-        "kanji": "東",
-        "answer": "ひがし",
-        "meaning": "east",
-        "jlpt": "N5",
-        "category": "Directions"
-    },
-    {
-        "id": 64,
-        "kanji": "校",
-        "answer": "コウ",
-        "meaning": "correction, exam, printing, proof, school",
-        "onyomi": [
-            "コウ"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Education",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "64_word_1",
-        "parent_id": 64,
-        "parent_kanji": "校",
-        "type": "word",
-        "kanji": "学校",
-        "answer": "がっこう",
-        "meaning": "school",
-        "jlpt": "N5",
-        "category": "Education"
-    },
-    {
-        "id": 65,
-        "kanji": "母",
-        "answer": "はは",
-        "meaning": "mother",
-        "onyomi": [
-            "ボ"
-        ],
-        "kunyomi": [
-            "はは"
-        ],
-        "jlpt": "N5",
-        "category": "Family",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "65_word_1",
-        "parent_id": 65,
-        "parent_kanji": "母",
-        "type": "word",
-        "kanji": "お母さん",
-        "answer": "おかあさん",
-        "meaning": "mother",
-        "jlpt": "N5",
-        "category": "Family"
-    },
-    {
-        "id": 66,
-        "kanji": "毎",
-        "answer": "マイ",
-        "meaning": "every",
-        "onyomi": [
-            "マイ"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "66_word_1",
-        "parent_id": 66,
-        "parent_kanji": "毎",
-        "type": "word",
-        "kanji": "毎年",
-        "answer": "まいとし",
-        "meaning": "every year, annually",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "66_word_2",
-        "parent_id": 66,
-        "parent_kanji": "毎",
-        "type": "word",
-        "kanji": "毎日",
-        "answer": "まいにち",
-        "meaning": "every day",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "66_word_3",
-        "parent_id": 66,
-        "parent_kanji": "毎",
-        "type": "word",
-        "kanji": "毎晩",
-        "answer": "まいばん",
-        "meaning": "every night",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 67,
-        "kanji": "気",
-        "answer": "キ",
-        "meaning": "air, atmosphere, mind, mood, spirit",
-        "onyomi": [
-            "キ",
-            "ケ"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "67_word_1",
-        "parent_id": 67,
-        "parent_kanji": "気",
-        "type": "word",
-        "kanji": "元気",
-        "answer": "げんき",
-        "meaning": "healthy, well, lively",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": "67_word_2",
-        "parent_id": 67,
-        "parent_kanji": "気",
-        "type": "word",
-        "kanji": "天気",
-        "answer": "てんき",
-        "meaning": "weather",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": "67_word_3",
-        "parent_id": 67,
-        "parent_kanji": "気",
-        "type": "word",
-        "kanji": "病気",
-        "answer": "びょうき",
-        "meaning": "illness, disease",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 68,
-        "kanji": "水",
-        "answer": "みず",
-        "meaning": "water",
-        "onyomi": [
-            "スイ"
-        ],
-        "kunyomi": [
-            "みず"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "68_word_1",
-        "parent_id": 68,
-        "parent_kanji": "水",
-        "type": "word",
-        "kanji": "水曜日",
-        "answer": "すいようび",
-        "meaning": "Wednesday",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 69,
-        "kanji": "火",
-        "answer": "ひ",
-        "meaning": "fire",
-        "onyomi": [
-            "カ"
-        ],
-        "kunyomi": [
-            "ひ",
-            "び"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "69_word_1",
-        "parent_id": 69,
-        "parent_kanji": "火",
-        "type": "word",
-        "kanji": "火曜日",
-        "answer": "かようび",
-        "meaning": "Tuesday",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 70,
-        "kanji": "父",
-        "answer": "ちち",
-        "meaning": "father",
-        "onyomi": [
-            "フ"
-        ],
-        "kunyomi": [
-            "ちち"
-        ],
-        "jlpt": "N5",
-        "category": "Family",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "70_word_1",
-        "parent_id": 70,
-        "parent_kanji": "父",
-        "type": "word",
-        "kanji": "お父さん",
-        "answer": "おとうさん",
-        "meaning": "father",
-        "jlpt": "N5",
-        "category": "Family"
-    },
-    {
-        "id": 71,
-        "kanji": "生",
-        "answer": "いきる",
-        "meaning": "birth, genuine, life",
-        "onyomi": [
-            "ショウ",
-            "セイ"
-        ],
-        "kunyomi": [
-            "うまれる",
-            "うむ",
-            "いかす",
-            "いきる",
-            "いける",
-            "なま"
-        ],
-        "jlpt": "N5",
-        "category": "Life",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "71_word_1",
-        "parent_id": 71,
-        "parent_kanji": "生",
-        "type": "word",
-        "kanji": "先生",
-        "answer": "せんせい",
-        "meaning": "teacher, doctor",
-        "jlpt": "N5",
-        "category": "Life"
-    },
-    {
-        "id": "71_word_2",
-        "parent_id": 71,
-        "parent_kanji": "生",
-        "type": "word",
-        "kanji": "生まれる",
-        "answer": "うまれる",
-        "meaning": "to be born",
-        "jlpt": "N5",
-        "category": "Life"
-    },
-    {
-        "id": "71_word_3",
-        "parent_id": 71,
-        "parent_kanji": "生",
-        "type": "word",
-        "kanji": "生徒",
-        "answer": "せいと",
-        "meaning": "student",
-        "jlpt": "N5",
-        "category": "Life"
-    },
-    {
-        "id": "71_word_4",
-        "parent_id": 71,
-        "parent_kanji": "生",
-        "type": "word",
-        "kanji": "留学生",
-        "answer": "りゅうがくせい",
-        "meaning": "exchange student",
-        "jlpt": "N5",
-        "category": "Life"
-    },
-    {
-        "id": "71_word_5",
-        "parent_id": 71,
-        "parent_kanji": "生",
-        "type": "word",
-        "kanji": "誕生日",
-        "answer": "たんじょうび",
-        "meaning": "birthday",
-        "jlpt": "N5",
-        "category": "Life"
-    },
-    {
-        "id": 72,
-        "kanji": "男",
-        "answer": "おとこ",
-        "meaning": "male",
-        "onyomi": [
-            "ダン"
-        ],
-        "kunyomi": [
-            "おとこ"
-        ],
-        "jlpt": "N5",
-        "category": "People",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "72_word_1",
-        "parent_id": 72,
-        "parent_kanji": "男",
-        "type": "word",
-        "kanji": "男の子",
-        "answer": "おとこのこ",
-        "meaning": "boy",
-        "jlpt": "N5",
-        "category": "People"
-    },
-    {
-        "id": 73,
-        "kanji": "白",
-        "answer": "しろい",
-        "meaning": "white",
-        "onyomi": [
-            "ハク"
-        ],
-        "kunyomi": [
-            "しろい"
-        ],
-        "jlpt": "N5",
-        "category": "Colors",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "73_word_1",
-        "parent_id": 73,
-        "parent_kanji": "白",
-        "type": "word",
-        "kanji": "白い",
-        "answer": "しろい",
-        "meaning": "white",
-        "jlpt": "N5",
-        "category": "Colors"
-    },
-    {
-        "id": "73_word_2",
-        "parent_id": 73,
-        "parent_kanji": "白",
-        "type": "word",
-        "kanji": "面白い",
-        "answer": "おもしろい",
-        "meaning": "interesting, fascinating",
-        "jlpt": "N5",
-        "category": "Colors"
-    },
-    {
-        "id": 74,
-        "kanji": "百",
-        "answer": "ヒャク",
-        "meaning": "hundred",
-        "onyomi": [
-            "ヒャク",
-            "ビャク"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Numbers",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "74_word_1",
-        "parent_id": 74,
-        "parent_kanji": "百",
-        "type": "word",
-        "kanji": "百",
-        "answer": "ひゃく",
-        "meaning": "100",
-        "jlpt": "N5",
-        "category": "Numbers"
-    },
-    {
-        "id": 75,
-        "kanji": "目",
-        "answer": "め",
-        "meaning": "eye, favor, insight, look",
-        "onyomi": [
-            "モク"
-        ],
-        "kunyomi": [
-            "め"
-        ],
-        "jlpt": "N5",
-        "category": "Body",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "75_word_1",
-        "parent_id": 75,
-        "parent_kanji": "目",
-        "type": "word",
-        "kanji": "目",
-        "answer": "め",
-        "meaning": "eye",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": 76,
-        "kanji": "社",
-        "answer": "やしろ",
-        "meaning": "association, company, firm",
-        "onyomi": [
-            "シャ"
-        ],
-        "kunyomi": [
-            "やしろ"
-        ],
-        "jlpt": "N5",
-        "category": "Business",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "76_word_1",
-        "parent_id": 76,
-        "parent_kanji": "社",
-        "type": "word",
-        "kanji": "会社",
-        "answer": "かいしゃ",
-        "meaning": "company",
-        "jlpt": "N5",
-        "category": "Business"
-    },
-    {
-        "id": 77,
-        "kanji": "空",
-        "answer": "そら",
-        "meaning": "empty, sky, vacant, vacuum, void",
-        "onyomi": [
-            "クウ"
-        ],
-        "kunyomi": [
-            "そら",
-            "あく",
-            "あける"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "77_word_1",
-        "parent_id": 77,
-        "parent_kanji": "空",
-        "type": "word",
-        "kanji": "空",
-        "answer": "そら",
-        "meaning": "sky",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 78,
-        "kanji": "立",
-        "answer": "たつ",
-        "meaning": "stand up, erect, rise, set up",
-        "onyomi": [
-            "リツ"
-        ],
-        "kunyomi": [
-            "たつ",
-            "たてる"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "78_word_1",
-        "parent_id": 78,
-        "parent_kanji": "立",
-        "type": "word",
-        "kanji": "立つ",
-        "answer": "たつ",
-        "meaning": "to stand, to rise",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "78_word_2",
-        "parent_id": 78,
-        "parent_kanji": "立",
-        "type": "word",
-        "kanji": "立派",
-        "answer": "りっぱ",
-        "meaning": "splendid, fine",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 79,
-        "kanji": "耳",
-        "answer": "みみ",
-        "meaning": "ear",
-        "onyomi": [
-            "ジ"
-        ],
-        "kunyomi": [
-            "みみ"
-        ],
-        "jlpt": "N5",
-        "category": "Body",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "79_word_1",
-        "parent_id": 79,
-        "parent_kanji": "耳",
-        "type": "word",
-        "kanji": "耳",
-        "answer": "みみ",
-        "meaning": "ear",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": 80,
-        "kanji": "聞",
-        "answer": "きく",
-        "meaning": "ask, hear, listen",
-        "onyomi": [
-            "ブン"
-        ],
-        "kunyomi": [
-            "きく"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "80_word_1",
-        "parent_id": 80,
-        "parent_kanji": "聞",
-        "type": "word",
-        "kanji": "聞く",
-        "answer": "きく",
-        "meaning": "to hear, to listen, to ask",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "80_word_2",
-        "parent_id": 80,
-        "parent_kanji": "聞",
-        "type": "word",
-        "kanji": "新聞",
-        "answer": "しんぶん",
-        "meaning": "newspaper",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 81,
-        "kanji": "花",
-        "answer": "はな",
-        "meaning": "flower",
-        "onyomi": [
-            "カ"
-        ],
-        "kunyomi": [
-            "はな"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "81_word_1",
-        "parent_id": 81,
-        "parent_kanji": "花",
-        "type": "word",
-        "kanji": "花瓶",
-        "answer": "かびん",
-        "meaning": "flower vase",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 82,
-        "kanji": "行",
-        "answer": "いく",
-        "meaning": "go, act, carry out, line, row",
-        "onyomi": [
-            "ギョウ",
-            "コウ"
-        ],
-        "kunyomi": [
-            "いく",
-            "おこなう",
-            "ゆく"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "82_word_1",
-        "parent_id": 82,
-        "parent_kanji": "行",
-        "type": "word",
-        "kanji": "行く",
-        "answer": "いく",
-        "meaning": "to go, to head (towards)",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "82_word_2",
-        "parent_id": 82,
-        "parent_kanji": "行",
-        "type": "word",
-        "kanji": "旅行",
-        "answer": "りょこう",
-        "meaning": "trip",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "82_word_3",
-        "parent_id": 82,
-        "parent_kanji": "行",
-        "type": "word",
-        "kanji": "銀行",
-        "answer": "ぎんこう",
-        "meaning": "bank",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "82_word_4",
-        "parent_id": 82,
-        "parent_kanji": "行",
-        "type": "word",
-        "kanji": "飛行機",
-        "answer": "ひこうき",
-        "meaning": "airplane",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 83,
-        "kanji": "西",
-        "answer": "にし",
-        "meaning": "west",
-        "onyomi": [
-            "サイ",
-            "セイ"
-        ],
-        "kunyomi": [
-            "にし"
-        ],
-        "jlpt": "N5",
-        "category": "Directions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "83_word_1",
-        "parent_id": 83,
-        "parent_kanji": "西",
-        "type": "word",
-        "kanji": "西",
-        "answer": "にし",
-        "meaning": "west",
-        "jlpt": "N5",
-        "category": "Directions"
-    },
-    {
-        "id": 84,
-        "kanji": "見",
-        "answer": "みる",
-        "meaning": "look at, opinion, see, visible",
-        "onyomi": [
-            "ケン"
-        ],
-        "kunyomi": [
-            "みる",
-            "みせる"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "84_word_1",
-        "parent_id": 84,
-        "parent_kanji": "見",
-        "type": "word",
-        "kanji": "見せる",
-        "answer": "みせる",
-        "meaning": "to show, to display",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "84_word_2",
-        "parent_id": 84,
-        "parent_kanji": "見",
-        "type": "word",
-        "kanji": "見る",
-        "answer": "みる",
-        "meaning": "to see, to look",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 85,
-        "kanji": "言",
-        "answer": "いう",
-        "meaning": "say, word",
-        "onyomi": [
-            "ゲン",
-            "ゴン"
-        ],
-        "kunyomi": [
-            "いう",
-            "こと"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "85_word_1",
-        "parent_id": 85,
-        "parent_kanji": "言",
-        "type": "word",
-        "kanji": "言う",
-        "answer": "いう",
-        "meaning": "to say, to utter",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": "85_word_2",
-        "parent_id": 85,
-        "parent_kanji": "言",
-        "type": "word",
-        "kanji": "言葉",
-        "answer": "ことば",
-        "meaning": "word, phrase",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 86,
-        "kanji": "話",
-        "answer": "はなす",
-        "meaning": "tale, talk",
-        "onyomi": [
-            "ワ"
-        ],
-        "kunyomi": [
-            "はなし",
-            "はなす"
-        ],
-        "jlpt": "N5",
-        "category": "Communication",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "86_word_1",
-        "parent_id": 86,
-        "parent_kanji": "話",
-        "type": "word",
-        "kanji": "話す",
-        "answer": "はなす",
-        "meaning": "to talk, to speak, to converse",
-        "jlpt": "N5",
-        "category": "Communication"
-    },
-    {
-        "id": "86_word_2",
-        "parent_id": 86,
-        "parent_kanji": "話",
-        "type": "word",
-        "kanji": "電話",
-        "answer": "でんわ",
-        "meaning": "phone call, telephone",
-        "jlpt": "N5",
-        "category": "Communication"
-    },
-    {
-        "id": 87,
-        "kanji": "語",
-        "answer": "かたる",
-        "meaning": "language, speech, word",
-        "onyomi": [
-            "ゴ"
-        ],
-        "kunyomi": [
-            "かたる"
-        ],
-        "jlpt": "N5",
-        "category": "Language",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "87_word_1",
-        "parent_id": 87,
-        "parent_kanji": "語",
-        "type": "word",
-        "kanji": "英語",
-        "answer": "えいご",
-        "meaning": "English",
-        "jlpt": "N5",
-        "category": "Language"
-    },
-    {
-        "id": 88,
-        "kanji": "読",
-        "answer": "よむ",
-        "meaning": "read",
-        "onyomi": [
-            "ドク"
-        ],
-        "kunyomi": [
-            "よむ"
-        ],
-        "jlpt": "N5",
-        "category": "Actions",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "88_word_1",
-        "parent_id": 88,
-        "parent_kanji": "読",
-        "type": "word",
-        "kanji": "読む",
-        "answer": "よむ",
-        "meaning": "to read",
-        "jlpt": "N5",
-        "category": "Actions"
-    },
-    {
-        "id": 89,
-        "kanji": "買",
-        "answer": "かう",
-        "meaning": "buy",
-        "onyomi": [
-            "バイ"
-        ],
-        "kunyomi": [
-            "かう"
-        ],
-        "jlpt": "N5",
-        "category": "Shopping",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "89_word_1",
-        "parent_id": 89,
-        "parent_kanji": "買",
-        "type": "word",
-        "kanji": "買う",
-        "answer": "かう",
-        "meaning": "to buy",
-        "jlpt": "N5",
-        "category": "Shopping"
-    },
-    {
-        "id": "89_word_2",
-        "parent_id": 89,
-        "parent_kanji": "買",
-        "type": "word",
-        "kanji": "買い物",
-        "answer": "かいもの",
-        "meaning": "shopping, purchased goods",
-        "jlpt": "N5",
-        "category": "Shopping"
-    },
-    {
-        "id": 90,
-        "kanji": "足",
-        "answer": "あし",
-        "meaning": "be sufficient, counter for pairs of footwear, foot, leg",
-        "onyomi": [
-            "ソク"
-        ],
-        "kunyomi": [
-            "あし",
-            "たす",
-            "たりる"
-        ],
-        "jlpt": "N5",
-        "category": "Body",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "90_word_1",
-        "parent_id": 90,
-        "parent_kanji": "足",
-        "type": "word",
-        "kanji": "足",
-        "answer": "あし",
-        "meaning": "leg, foot",
-        "jlpt": "N5",
-        "category": "Body"
-    },
-    {
-        "id": 91,
-        "kanji": "車",
-        "answer": "くるま",
-        "meaning": "car",
-        "onyomi": [
-            "シャ"
-        ],
-        "kunyomi": [
-            "くるま"
-        ],
-        "jlpt": "N5",
-        "category": "Transportation",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "91_word_1",
-        "parent_id": 91,
-        "parent_kanji": "車",
-        "type": "word",
-        "kanji": "自動車",
-        "answer": "じどうしゃ",
-        "meaning": "automobile",
-        "jlpt": "N5",
-        "category": "Transportation"
-    },
-    {
-        "id": "91_word_2",
-        "parent_id": 91,
-        "parent_kanji": "車",
-        "type": "word",
-        "kanji": "自転車",
-        "answer": "じてんしゃ",
-        "meaning": "bicycle",
-        "jlpt": "N5",
-        "category": "Transportation"
-    },
-    {
-        "id": "91_word_3",
-        "parent_id": 91,
-        "parent_kanji": "車",
-        "type": "word",
-        "kanji": "電車",
-        "answer": "でんしゃ",
-        "meaning": "train",
-        "jlpt": "N5",
-        "category": "Transportation"
-    },
-    {
-        "id": 92,
-        "kanji": "週",
-        "answer": "シュウ",
-        "meaning": "week",
-        "onyomi": [
-            "シュウ"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "92_word_1",
-        "parent_id": 92,
-        "parent_kanji": "週",
-        "type": "word",
-        "kanji": "今週",
-        "answer": "こんしゅう",
-        "meaning": "this week",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "92_word_2",
-        "parent_id": 92,
-        "parent_kanji": "週",
-        "type": "word",
-        "kanji": "先週",
-        "answer": "せんしゅう",
-        "meaning": "last week",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "92_word_3",
-        "parent_id": 92,
-        "parent_kanji": "週",
-        "type": "word",
-        "kanji": "来週",
-        "answer": "らいしゅう",
-        "meaning": "next week",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "92_word_4",
-        "parent_id": 92,
-        "parent_kanji": "週",
-        "type": "word",
-        "kanji": "毎週",
-        "answer": "まいしゅう",
-        "meaning": "every week",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "92_word_5",
-        "parent_id": 92,
-        "parent_kanji": "週",
-        "type": "word",
-        "kanji": "週間",
-        "answer": "しゅうかん",
-        "meaning": "period of weeks",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 93,
-        "kanji": "道",
-        "answer": "みち",
-        "meaning": "course, district, journey, moral, roadway, street, teachings",
-        "onyomi": [
-            "トウ",
-            "ドウ"
-        ],
-        "kunyomi": [
-            "みち"
-        ],
-        "jlpt": "N5",
-        "category": "Places",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "93_word_1",
-        "parent_id": 93,
-        "parent_kanji": "道",
-        "type": "word",
-        "kanji": "道",
-        "answer": "みち",
-        "meaning": "road",
-        "jlpt": "N5",
-        "category": "Places"
-    },
-    {
-        "id": 94,
-        "kanji": "金",
-        "answer": "かね",
-        "meaning": "gold",
-        "onyomi": [
-            "キン"
-        ],
-        "kunyomi": [
-            "かね"
-        ],
-        "jlpt": "N5",
-        "category": "Money",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "94_word_1",
-        "parent_id": 94,
-        "parent_kanji": "金",
-        "type": "word",
-        "kanji": "金曜日",
-        "answer": "きんようび",
-        "meaning": "Friday",
-        "jlpt": "N5",
-        "category": "Money"
-    },
-    {
-        "id": 95,
-        "kanji": "長",
-        "answer": "ながい",
-        "meaning": "leader, long, senior, superior",
-        "onyomi": [
-            "チョウ"
-        ],
-        "kunyomi": [
-            "ながい"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "95_word_1",
-        "parent_id": 95,
-        "parent_kanji": "長",
-        "type": "word",
-        "kanji": "長い",
-        "answer": "ながい",
-        "meaning": "long (distance or time)",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 96,
-        "kanji": "間",
-        "answer": "あいだ",
-        "meaning": "interval, space",
-        "onyomi": [
-            "カン",
-            "ケン"
-        ],
-        "kunyomi": [
-            "あいだ",
-            "ま"
-        ],
-        "jlpt": "N5",
-        "category": "Time",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "96_word_1",
-        "parent_id": 96,
-        "parent_kanji": "間",
-        "type": "word",
-        "kanji": "時間",
-        "answer": "じかん",
-        "meaning": "time",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": "96_word_2",
-        "parent_id": 96,
-        "parent_kanji": "間",
-        "type": "word",
-        "kanji": "週間",
-        "answer": "しゅうかん",
-        "meaning": "period of weeks",
-        "jlpt": "N5",
-        "category": "Time"
-    },
-    {
-        "id": 97,
-        "kanji": "雨",
-        "answer": "あめ",
-        "meaning": "rain",
-        "onyomi": [
-            "ウ"
-        ],
-        "kunyomi": [
-            "あめ"
-        ],
-        "jlpt": "N5",
-        "category": "Nature",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "97_word_1",
-        "parent_id": 97,
-        "parent_kanji": "雨",
-        "type": "word",
-        "kanji": "雨",
-        "answer": "あめ",
-        "meaning": "rain",
-        "jlpt": "N5",
-        "category": "Nature"
-    },
-    {
-        "id": 98,
-        "kanji": "電",
-        "answer": "デン",
-        "meaning": "electricity",
-        "onyomi": [
-            "デン"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Technology",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "98_word_1",
-        "parent_id": 98,
-        "parent_kanji": "電",
-        "type": "word",
-        "kanji": "電気ストーブ",
-        "answer": "でんきストーブ",
-        "meaning": "electric heater",
-        "jlpt": "N5",
-        "category": "Technology"
-    },
-    {
-        "id": "98_word_2",
-        "parent_id": 98,
-        "parent_kanji": "電",
-        "type": "word",
-        "kanji": "電話",
-        "answer": "でんわ",
-        "meaning": "phone call, telephone",
-        "jlpt": "N5",
-        "category": "Technology"
-    },
-    {
-        "id": "98_word_3",
-        "parent_id": 98,
-        "parent_kanji": "電",
-        "type": "word",
-        "kanji": "電車",
-        "answer": "でんしゃ",
-        "meaning": "train",
-        "jlpt": "N5",
-        "category": "Technology"
-    },
-    {
-        "id": 99,
-        "kanji": "食",
-        "answer": "たべる",
-        "meaning": "eat, food",
-        "onyomi": [
-            "ショク"
-        ],
-        "kunyomi": [
-            "たべる",
-            "くう"
-        ],
-        "jlpt": "N5",
-        "category": "Food",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "99_word_1",
-        "parent_id": 99,
-        "parent_kanji": "食",
-        "type": "word",
-        "kanji": "食べる",
-        "answer": "たべる",
-        "meaning": "to eat",
-        "jlpt": "N5",
-        "category": "Food"
-    },
-    {
-        "id": "99_word_2",
-        "parent_id": 99,
-        "parent_kanji": "食",
-        "type": "word",
-        "kanji": "食べ物",
-        "answer": "たべもの",
-        "meaning": "food",
-        "jlpt": "N5",
-        "category": "Food"
-    },
-    {
-        "id": "99_word_3",
-        "parent_id": 99,
-        "parent_kanji": "食",
-        "type": "word",
-        "kanji": "食堂",
-        "answer": "しょくどう",
-        "meaning": "cafeteria",
-        "jlpt": "N5",
-        "category": "Food"
-    },
-    {
-        "id": 100,
-        "kanji": "飲",
-        "answer": "のむ",
-        "meaning": "drink, smoke, take",
-        "onyomi": [
-            "イン"
-        ],
-        "kunyomi": [
-            "のむ"
-        ],
-        "jlpt": "N5",
-        "category": "Food",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "100_word_1",
-        "parent_id": 100,
-        "parent_kanji": "飲",
-        "type": "word",
-        "kanji": "飲む",
-        "answer": "のむ",
-        "meaning": "to drink, to swallow, to take (medicine)",
-        "jlpt": "N5",
-        "category": "Food"
-    },
-    {
-        "id": "100_word_2",
-        "parent_id": 100,
-        "parent_kanji": "飲",
-        "type": "word",
-        "kanji": "飲み物",
-        "answer": "のみもの",
-        "meaning": "drink, beverage",
-        "jlpt": "N5",
-        "category": "Food"
-    },
-    {
-        "id": 101,
-        "kanji": "駅",
-        "answer": "エキ",
-        "meaning": "station",
-        "onyomi": [
-            "エキ"
-        ],
-        "kunyomi": [],
-        "jlpt": "N5",
-        "category": "Transportation",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "101_word_1",
-        "parent_id": 101,
-        "parent_kanji": "駅",
-        "type": "word",
-        "kanji": "駅",
-        "answer": "えき",
-        "meaning": "station",
-        "jlpt": "N5",
-        "category": "Transportation"
-    },
-    {
-        "id": 102,
-        "kanji": "高",
-        "answer": "たかい",
-        "meaning": "expensive, high, tall",
-        "onyomi": [
-            "コウ"
-        ],
-        "kunyomi": [
-            "たかい",
-            "たかまる",
-            "たかめる"
-        ],
-        "jlpt": "N5",
-        "category": "Adjectives",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "102_word_1",
-        "parent_id": 102,
-        "parent_kanji": "高",
-        "type": "word",
-        "kanji": "高い",
-        "answer": "たかい",
-        "meaning": "high, tall, expensive",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": "102_word_2",
-        "parent_id": 102,
-        "parent_kanji": "高",
-        "type": "word",
-        "kanji": "高校",
-        "answer": "こうこう",
-        "meaning": "high school",
-        "jlpt": "N5",
-        "category": "Adjectives"
-    },
-    {
-        "id": 103,
-        "kanji": "魚",
-        "answer": "さかな",
-        "meaning": "fish",
-        "onyomi": [
-            "ギョ"
-        ],
-        "kunyomi": [
-            "さかな"
-        ],
-        "jlpt": "N5",
-        "category": "Food",
-        "parent_id": null,
-        "type": "kanji"
-    },
-    {
-        "id": "103_word_1",
-        "parent_id": 103,
-        "parent_kanji": "魚",
-        "type": "word",
-        "kanji": "魚",
-        "answer": "さかな",
-        "meaning": "fish",
-        "jlpt": "N5",
-        "category": "Food"
-    }
+  {
+    "id": 1,
+    "kanji": "一",
+    "answer": "ひと",
+    "meaning": "one",
+    "onyomi": ["イチ"],
+    "kunyomi": ["ひと", "ひとつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "1_word_1",
+    "parent_id": 1,
+    "parent_kanji": "一",
+    "type": "word",
+    "kanji": "一つ",
+    "answer": "ひとつ",
+    "meaning": "one (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "1_word_2",
+    "parent_id": 1,
+    "parent_kanji": "一",
+    "type": "word",
+    "kanji": "一人",
+    "answer": "ひとり",
+    "meaning": "one person",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "1_word_3",
+    "parent_id": 1,
+    "parent_kanji": "一",
+    "type": "word",
+    "kanji": "一番",
+    "answer": "いちばん",
+    "meaning": "first, best, most",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 2,
+    "kanji": "七",
+    "answer": "なな",
+    "meaning": "seven",
+    "onyomi": ["シチ"],
+    "kunyomi": ["なな", "ななつ", "なの"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "2_word_1",
+    "parent_id": 2,
+    "parent_kanji": "七",
+    "type": "word",
+    "kanji": "七つ",
+    "answer": "ななつ",
+    "meaning": "seven (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "2_word_2",
+    "parent_id": 2,
+    "parent_kanji": "七",
+    "type": "word",
+    "kanji": "七日",
+    "answer": "なのか",
+    "meaning": "the seventh day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 3,
+    "kanji": "万",
+    "answer": "マン",
+    "meaning": "ten thousand, 10,000",
+    "onyomi": ["マン"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "3_word_1",
+    "parent_id": 3,
+    "parent_kanji": "万",
+    "type": "word",
+    "kanji": "十万",
+    "answer": "じゅうまん",
+    "meaning": "100,000",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 4,
+    "kanji": "三",
+    "answer": "さん",
+    "meaning": "three",
+    "onyomi": ["サン"],
+    "kunyomi": ["み", "みつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "4_word_1",
+    "parent_id": 4,
+    "parent_kanji": "三",
+    "type": "word",
+    "kanji": "三つ",
+    "answer": "みっつ",
+    "meaning": "three (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "4_word_2",
+    "parent_id": 4,
+    "parent_kanji": "三",
+    "type": "word",
+    "kanji": "三日",
+    "answer": "みっか",
+    "meaning": "the third day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 5,
+    "kanji": "上",
+    "answer": "うえ",
+    "meaning": "above, up",
+    "onyomi": ["ショウ", "ジョウ"],
+    "kunyomi": ["あがる", "あげる", "うえ", "うわ"],
+    "jlpt": "N5",
+    "category": "Position",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "5_word_1",
+    "parent_id": 5,
+    "parent_kanji": "上",
+    "type": "word",
+    "kanji": "上げる",
+    "answer": "あげる",
+    "meaning": "to raise, to elevate, to increase",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "5_word_2",
+    "parent_id": 5,
+    "parent_kanji": "上",
+    "type": "word",
+    "kanji": "上手",
+    "answer": "じょうず",
+    "meaning": "skillful, proficient, good at",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "5_word_3",
+    "parent_id": 5,
+    "parent_kanji": "上",
+    "type": "word",
+    "kanji": "上着",
+    "answer": "うわぎ",
+    "meaning": "coat, jacket, outer garment",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": 6,
+    "kanji": "下",
+    "answer": "した",
+    "meaning": "below, descend, inferior, low",
+    "onyomi": ["カ", "ゲ"],
+    "kunyomi": ["さがる", "さげる", "した", "くださる"],
+    "jlpt": "N5",
+    "category": "Position",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "6_word_1",
+    "parent_id": 6,
+    "parent_kanji": "下",
+    "type": "word",
+    "kanji": "地下鉄",
+    "answer": "ちかてつ",
+    "meaning": "subway",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "6_word_2",
+    "parent_id": 6,
+    "parent_kanji": "下",
+    "type": "word",
+    "kanji": "廊下",
+    "answer": "ろうか",
+    "meaning": "corridor, hallway",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "6_word_3",
+    "parent_id": 6,
+    "parent_kanji": "下",
+    "type": "word",
+    "kanji": "靴下",
+    "answer": "くつした",
+    "meaning": "socks",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": 7,
+    "kanji": "中",
+    "answer": "なか",
+    "meaning": "center, inside, middle",
+    "onyomi": ["チュウ"],
+    "kunyomi": ["うち", "なか"],
+    "jlpt": "N5",
+    "category": "Position",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "7_word_1",
+    "parent_id": 7,
+    "parent_kanji": "中",
+    "type": "word",
+    "kanji": "中国",
+    "answer": "ちゅうごく",
+    "meaning": "China",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": 8,
+    "kanji": "九",
+    "answer": "ここの",
+    "meaning": "nine",
+    "onyomi": ["キュウ", "ク"],
+    "kunyomi": ["ここの", "ここのつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "8_word_1",
+    "parent_id": 8,
+    "parent_kanji": "九",
+    "type": "word",
+    "kanji": "九つ",
+    "answer": "ここのつ",
+    "meaning": "nine (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "8_word_2",
+    "parent_id": 8,
+    "parent_kanji": "九",
+    "type": "word",
+    "kanji": "九日",
+    "answer": "ここのか",
+    "meaning": "the ninth day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 9,
+    "kanji": "二",
+    "answer": "ふた",
+    "meaning": "two, two radical (No. 7)",
+    "onyomi": ["ニ"],
+    "kunyomi": ["ふたつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "9_word_1",
+    "parent_id": 9,
+    "parent_kanji": "二",
+    "type": "word",
+    "kanji": "二つ",
+    "answer": "ふたつ",
+    "meaning": "two (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "9_word_2",
+    "parent_id": 9,
+    "parent_kanji": "二",
+    "type": "word",
+    "kanji": "二人",
+    "answer": "ふたり",
+    "meaning": "two people, pair, couple",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "9_word_3",
+    "parent_id": 9,
+    "parent_kanji": "二",
+    "type": "word",
+    "kanji": "二日",
+    "answer": "ふつか",
+    "meaning": "the second day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 10,
+    "kanji": "五",
+    "answer": "いつ",
+    "meaning": "five",
+    "onyomi": ["ゴ"],
+    "kunyomi": ["いつ", "いつつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "10_word_1",
+    "parent_id": 10,
+    "parent_kanji": "五",
+    "type": "word",
+    "kanji": "五つ",
+    "answer": "いつつ",
+    "meaning": "five (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "10_word_2",
+    "parent_id": 10,
+    "parent_kanji": "五",
+    "type": "word",
+    "kanji": "五日",
+    "answer": "いつか",
+    "meaning": "the fifth day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 11,
+    "kanji": "人",
+    "answer": "ひと",
+    "meaning": "person",
+    "onyomi": ["ジン", "ニン"],
+    "kunyomi": ["ひと", "と", "り"],
+    "jlpt": "N5",
+    "category": "People",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "11_word_1",
+    "parent_id": 11,
+    "parent_kanji": "人",
+    "type": "word",
+    "kanji": "一人",
+    "answer": "ひとり",
+    "meaning": "one person",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "11_word_2",
+    "parent_id": 11,
+    "parent_kanji": "人",
+    "type": "word",
+    "kanji": "二人",
+    "answer": "ふたり",
+    "meaning": "two people, pair, couple",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "11_word_3",
+    "parent_id": 11,
+    "parent_kanji": "人",
+    "type": "word",
+    "kanji": "外国人",
+    "answer": "がいこくじん",
+    "meaning": "foreigner, foreign citizen",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "11_word_4",
+    "parent_id": 11,
+    "parent_kanji": "人",
+    "type": "word",
+    "kanji": "ご主人",
+    "answer": "しゅじん",
+    "meaning": "(hon.) your husband",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": 12,
+    "kanji": "今",
+    "answer": "いま",
+    "meaning": "now",
+    "onyomi": ["コン"],
+    "kunyomi": ["いま"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "12_word_1",
+    "parent_id": 12,
+    "parent_kanji": "今",
+    "type": "word",
+    "kanji": "今年",
+    "answer": "ことし",
+    "meaning": "this year",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "12_word_2",
+    "parent_id": 12,
+    "parent_kanji": "今",
+    "type": "word",
+    "kanji": "今晩",
+    "answer": "こんばん",
+    "meaning": "tonight",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "12_word_3",
+    "parent_id": 12,
+    "parent_kanji": "今",
+    "type": "word",
+    "kanji": "今月",
+    "answer": "こんげつ",
+    "meaning": "this month",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 13,
+    "kanji": "休",
+    "answer": "やすむ",
+    "meaning": "day off, rest, retire",
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やすむ"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "13_word_1",
+    "parent_id": 13,
+    "parent_kanji": "休",
+    "type": "word",
+    "kanji": "休み",
+    "answer": "やすみ",
+    "meaning": "rest, vacation, holiday",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "13_word_2",
+    "parent_id": 13,
+    "parent_kanji": "休",
+    "type": "word",
+    "kanji": "休む",
+    "answer": "やすむ",
+    "meaning": "to take a day off, to rest, to have a break",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "13_word_3",
+    "parent_id": 13,
+    "parent_kanji": "休",
+    "type": "word",
+    "kanji": "夏休み",
+    "answer": "なつやすみ",
+    "meaning": "summer vacation",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 14,
+    "kanji": "会",
+    "answer": "あう",
+    "meaning": "association, join, meet, meeting",
+    "onyomi": ["カイ"],
+    "kunyomi": ["あう"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "14_word_1",
+    "parent_id": 14,
+    "parent_kanji": "会",
+    "type": "word",
+    "kanji": "会う",
+    "answer": "あう",
+    "meaning": "to meet",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "14_word_2",
+    "parent_id": 14,
+    "parent_kanji": "会",
+    "type": "word",
+    "kanji": "会社",
+    "answer": "かいしゃ",
+    "meaning": "company",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 15,
+    "kanji": "何",
+    "answer": "なに",
+    "meaning": "what",
+    "onyomi": ["カ"],
+    "kunyomi": ["なに", "なん"],
+    "jlpt": "N5",
+    "category": "Question Words",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "15_word_1",
+    "parent_id": 15,
+    "parent_kanji": "何",
+    "type": "word",
+    "kanji": "何の料理",
+    "answer": "なんのりょうり",
+    "meaning": "what kind of food",
+    "jlpt": "N5",
+    "category": "Question Words"
+  },
+  {
+    "id": 16,
+    "kanji": "先",
+    "answer": "さき",
+    "meaning": "ahead, before, future, previous",
+    "onyomi": ["セン"],
+    "kunyomi": ["さき"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "16_word_1",
+    "parent_id": 16,
+    "parent_kanji": "先",
+    "type": "word",
+    "kanji": "先月",
+    "answer": "せんげつ",
+    "meaning": "last month",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "16_word_2",
+    "parent_id": 16,
+    "parent_kanji": "先",
+    "type": "word",
+    "kanji": "先生",
+    "answer": "せんせい",
+    "meaning": "teacher, doctor",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "16_word_3",
+    "parent_id": 16,
+    "parent_kanji": "先",
+    "type": "word",
+    "kanji": "先週",
+    "answer": "せんしゅう",
+    "meaning": "last week",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 17,
+    "kanji": "入",
+    "answer": "はいる",
+    "meaning": "enter, insert",
+    "onyomi": ["ニュウ"],
+    "kunyomi": ["いる", "いれる", "はいる"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "17_word_1",
+    "parent_id": 17,
+    "parent_kanji": "入",
+    "type": "word",
+    "kanji": "入れる",
+    "answer": "いれる",
+    "meaning": "to put in, to insert",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "17_word_2",
+    "parent_id": 17,
+    "parent_kanji": "入",
+    "type": "word",
+    "kanji": "入る",
+    "answer": "はいる",
+    "meaning": "to enter, to go into, to join, to enroll",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "17_word_3",
+    "parent_id": 17,
+    "parent_kanji": "入",
+    "type": "word",
+    "kanji": "入口",
+    "answer": "いりぐち",
+    "meaning": "entrance, entry",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 18,
+    "kanji": "八",
+    "answer": "や",
+    "meaning": "eight",
+    "onyomi": ["ハチ"],
+    "kunyomi": ["や", "やつ", "よう"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "18_word_1",
+    "parent_id": 18,
+    "parent_kanji": "八",
+    "type": "word",
+    "kanji": "八つ",
+    "answer": "やっつ",
+    "meaning": "eight (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "18_word_2",
+    "parent_id": 18,
+    "parent_kanji": "八",
+    "type": "word",
+    "kanji": "八日",
+    "answer": "ようか",
+    "meaning": "the eighth day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "18_word_3",
+    "parent_id": 18,
+    "parent_kanji": "八",
+    "type": "word",
+    "kanji": "八百屋",
+    "answer": "やおや",
+    "meaning": "greengrocer",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 19,
+    "kanji": "六",
+    "answer": "む",
+    "meaning": "six",
+    "onyomi": ["ロク"],
+    "kunyomi": ["む", "むい", "むつ", "むっつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "19_word_1",
+    "parent_id": 19,
+    "parent_kanji": "六",
+    "type": "word",
+    "kanji": "六つ",
+    "answer": "むっつ",
+    "meaning": "six (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "19_word_2",
+    "parent_id": 19,
+    "parent_kanji": "六",
+    "type": "word",
+    "kanji": "六日",
+    "answer": "むいか",
+    "meaning": "the sixth day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 20,
+    "kanji": "円",
+    "answer": "えん",
+    "meaning": "circle, round, yen",
+    "onyomi": ["エン"],
+    "kunyomi": ["まるい"],
+    "jlpt": "N5",
+    "category": "Money",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "20_word_1",
+    "parent_id": 20,
+    "parent_kanji": "円",
+    "type": "word",
+    "kanji": "十円",
+    "answer": "じゅうえん",
+    "meaning": "10 yen",
+    "jlpt": "N5",
+    "category": "Money"
+  },
+  {
+    "id": 21,
+    "kanji": "出",
+    "answer": "でる",
+    "meaning": "come out, exit, go out, leave, protrude, put out",
+    "onyomi": ["シュツ"],
+    "kunyomi": ["だす", "でる"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "21_word_1",
+    "parent_id": 21,
+    "parent_kanji": "出",
+    "type": "word",
+    "kanji": "出す",
+    "answer": "だす",
+    "meaning": "to take out, to get out, to submit, to send",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "21_word_2",
+    "parent_id": 21,
+    "parent_kanji": "出",
+    "type": "word",
+    "kanji": "出かける",
+    "answer": "でかける",
+    "meaning": "to go out, to set out",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "21_word_3",
+    "parent_id": 21,
+    "parent_kanji": "出",
+    "type": "word",
+    "kanji": "出る",
+    "answer": "でる",
+    "meaning": "to leave, to exit, to go out",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "21_word_4",
+    "parent_id": 21,
+    "parent_kanji": "出",
+    "type": "word",
+    "kanji": "出口",
+    "answer": "でぐち",
+    "meaning": "exit",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "21_word_5",
+    "parent_id": 21,
+    "parent_kanji": "出",
+    "type": "word",
+    "kanji": "出来る",
+    "answer": "できる",
+    "meaning": "to be able to do",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 22,
+    "kanji": "分",
+    "answer": "わかる",
+    "meaning": "degree, know, understand, minute of time, part",
+    "onyomi": ["フン", "ブン"],
+    "kunyomi": ["わかる", "わかれる", "わける"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "22_word_1",
+    "parent_id": 22,
+    "parent_kanji": "分",
+    "type": "word",
+    "kanji": "分かる",
+    "answer": "わかる",
+    "meaning": "to understand, to comprehend",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "22_word_2",
+    "parent_id": 22,
+    "parent_kanji": "分",
+    "type": "word",
+    "kanji": "半分",
+    "answer": "はんぶん",
+    "meaning": "half",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "22_word_3",
+    "parent_id": 22,
+    "parent_kanji": "分",
+    "type": "word",
+    "kanji": "多分",
+    "answer": "たぶん",
+    "meaning": "perhaps, probably",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "22_word_4",
+    "parent_id": 22,
+    "parent_kanji": "分",
+    "type": "word",
+    "kanji": "自分",
+    "answer": "じぶん",
+    "meaning": "myself, oneself",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "22_word_5",
+    "parent_id": 22,
+    "parent_kanji": "分",
+    "type": "word",
+    "kanji": "分",
+    "answer": "ぶん",
+    "meaning": "minutes (unit of time), counter for minutes",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 23,
+    "kanji": "前",
+    "answer": "まえ",
+    "meaning": "before, in front",
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まえ"],
+    "jlpt": "N5",
+    "category": "Position",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "23_word_1",
+    "parent_id": 23,
+    "parent_kanji": "前",
+    "type": "word",
+    "kanji": "午前",
+    "answer": "ごぜん",
+    "meaning": "morning, a.m.",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "23_word_2",
+    "parent_id": 23,
+    "parent_kanji": "前",
+    "type": "word",
+    "kanji": "名前",
+    "answer": "なまえ",
+    "meaning": "name, given name, first name",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": 24,
+    "kanji": "北",
+    "answer": "きた",
+    "meaning": "north",
+    "onyomi": ["ホク"],
+    "kunyomi": ["きた"],
+    "jlpt": "N5",
+    "category": "Directions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "24_word_1",
+    "parent_id": 24,
+    "parent_kanji": "北",
+    "type": "word",
+    "kanji": "北",
+    "answer": "きた",
+    "meaning": "north",
+    "jlpt": "N5",
+    "category": "Directions"
+  },
+  {
+    "id": 25,
+    "kanji": "十",
+    "answer": "とお",
+    "meaning": "ten",
+    "onyomi": ["ジュウ", "ジュッ"],
+    "kunyomi": ["とお"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "25_word_1",
+    "parent_id": 25,
+    "parent_kanji": "十",
+    "type": "word",
+    "kanji": "十個",
+    "answer": "じゅっこ",
+    "meaning": "10 small objects",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "25_word_2",
+    "parent_id": 25,
+    "parent_kanji": "十",
+    "type": "word",
+    "kanji": "十日",
+    "answer": "とおか",
+    "meaning": "the tenth day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 26,
+    "kanji": "千",
+    "answer": "セン",
+    "meaning": "thousand",
+    "onyomi": ["セン"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "26_word_1",
+    "parent_id": 26,
+    "parent_kanji": "千",
+    "type": "word",
+    "kanji": "千",
+    "answer": "せん",
+    "meaning": "thousand",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 27,
+    "kanji": "午",
+    "answer": "ゴ",
+    "meaning": "11AM-1PM, noon, seventh sign of Chinese zodiac, sign of the horse",
+    "onyomi": ["ゴ"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "27_word_1",
+    "parent_id": 27,
+    "parent_kanji": "午",
+    "type": "word",
+    "kanji": "午前",
+    "answer": "ごぜん",
+    "meaning": "morning, a.m.",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "27_word_2",
+    "parent_id": 27,
+    "parent_kanji": "午",
+    "type": "word",
+    "kanji": "午後",
+    "answer": "ごご",
+    "meaning": "afternoon, p.m.",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 28,
+    "kanji": "半",
+    "answer": "なかば",
+    "meaning": "half, middle, odd number, part-, semi-",
+    "onyomi": ["ハン"],
+    "kunyomi": ["なかば"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "28_word_1",
+    "parent_id": 28,
+    "parent_kanji": "半",
+    "type": "word",
+    "kanji": "半分",
+    "answer": "はんぶん",
+    "meaning": "half",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 29,
+    "kanji": "南",
+    "answer": "みなみ",
+    "meaning": "south",
+    "onyomi": ["ナン"],
+    "kunyomi": ["みなみ"],
+    "jlpt": "N5",
+    "category": "Directions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "29_word_1",
+    "parent_id": 29,
+    "parent_kanji": "南",
+    "type": "word",
+    "kanji": "南",
+    "answer": "みなみ",
+    "meaning": "south",
+    "jlpt": "N5",
+    "category": "Directions"
+  },
+  {
+    "id": 30,
+    "kanji": "友",
+    "answer": "とも",
+    "meaning": "friend",
+    "onyomi": ["ユウ"],
+    "kunyomi": ["とも"],
+    "jlpt": "N5",
+    "category": "People",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "30_word_1",
+    "parent_id": 30,
+    "parent_kanji": "友",
+    "type": "word",
+    "kanji": "友達",
+    "answer": "ともだち",
+    "meaning": "friend, companion",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": 31,
+    "kanji": "口",
+    "answer": "くち",
+    "meaning": "mouth",
+    "onyomi": ["ク", "コウ"],
+    "kunyomi": ["くち"],
+    "jlpt": "N5",
+    "category": "Body",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "31_word_1",
+    "parent_id": 31,
+    "parent_kanji": "口",
+    "type": "word",
+    "kanji": "入口",
+    "answer": "いりぐち",
+    "meaning": "entrance, entry",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": "31_word_2",
+    "parent_id": 31,
+    "parent_kanji": "口",
+    "type": "word",
+    "kanji": "出口",
+    "answer": "でぐち",
+    "meaning": "exit",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": 32,
+    "kanji": "古",
+    "answer": "ふるい",
+    "meaning": "old",
+    "onyomi": ["コ"],
+    "kunyomi": ["ふるい"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "32_word_1",
+    "parent_id": 32,
+    "parent_kanji": "古",
+    "type": "word",
+    "kanji": "古い",
+    "answer": "ふるい",
+    "meaning": "old, aged, stale",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 33,
+    "kanji": "右",
+    "answer": "みぎ",
+    "meaning": "right",
+    "onyomi": ["ウ", "ユウ"],
+    "kunyomi": ["みぎ"],
+    "jlpt": "N5",
+    "category": "Directions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "33_word_1",
+    "parent_id": 33,
+    "parent_kanji": "右",
+    "type": "word",
+    "kanji": "右",
+    "answer": "みぎ",
+    "meaning": "right",
+    "jlpt": "N5",
+    "category": "Directions"
+  },
+  {
+    "id": 34,
+    "kanji": "名",
+    "answer": "な",
+    "meaning": "distinguished, name",
+    "onyomi": ["ミョウ", "メイ"],
+    "kunyomi": ["な"],
+    "jlpt": "N5",
+    "category": "People",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "34_word_1",
+    "parent_id": 34,
+    "parent_kanji": "名",
+    "type": "word",
+    "kanji": "名前",
+    "answer": "なまえ",
+    "meaning": "name, given name, first name",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "34_word_2",
+    "parent_id": 34,
+    "parent_kanji": "名",
+    "type": "word",
+    "kanji": "平仮名",
+    "answer": "ひらがな",
+    "meaning": "hiragana",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "34_word_3",
+    "parent_id": 34,
+    "parent_kanji": "名",
+    "type": "word",
+    "kanji": "有名",
+    "answer": "ゆうめい",
+    "meaning": "famous",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": 35,
+    "kanji": "四",
+    "answer": "よん",
+    "meaning": "four",
+    "onyomi": ["シ"],
+    "kunyomi": ["よん", "よっつ", "よつ"],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "35_word_1",
+    "parent_id": 35,
+    "parent_kanji": "四",
+    "type": "word",
+    "kanji": "四つ",
+    "answer": "よっつ",
+    "meaning": "four (general counter)",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": "35_word_2",
+    "parent_id": 35,
+    "parent_kanji": "四",
+    "type": "word",
+    "kanji": "四日",
+    "answer": "よっか",
+    "meaning": "the fourth day of the month",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 36,
+    "kanji": "国",
+    "answer": "くに",
+    "meaning": "country",
+    "onyomi": ["コク"],
+    "kunyomi": ["くに"],
+    "jlpt": "N5",
+    "category": "Places",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "36_word_1",
+    "parent_id": 36,
+    "parent_kanji": "国",
+    "type": "word",
+    "kanji": "外国",
+    "answer": "がいこく",
+    "meaning": "foreign country",
+    "jlpt": "N5",
+    "category": "Places"
+  },
+  {
+    "id": "36_word_2",
+    "parent_id": 36,
+    "parent_kanji": "国",
+    "type": "word",
+    "kanji": "外国人",
+    "answer": "がいこくじん",
+    "meaning": "foreigner, foreign citizen",
+    "jlpt": "N5",
+    "category": "Places"
+  },
+  {
+    "id": 37,
+    "kanji": "土",
+    "answer": "つち",
+    "meaning": "earth, ground, soil",
+    "onyomi": ["ト", "ド"],
+    "kunyomi": ["つち"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "37_word_1",
+    "parent_id": 37,
+    "parent_kanji": "土",
+    "type": "word",
+    "kanji": "土曜日",
+    "answer": "どようび",
+    "meaning": "Saturday",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 38,
+    "kanji": "外",
+    "answer": "そと",
+    "meaning": "outside",
+    "onyomi": ["ガイ"],
+    "kunyomi": ["そと", "はずす", "はずれる", "ほか"],
+    "jlpt": "N5",
+    "category": "Position",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "38_word_1",
+    "parent_id": 38,
+    "parent_kanji": "外",
+    "type": "word",
+    "kanji": "外国",
+    "answer": "がいこく",
+    "meaning": "foreign country",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "38_word_2",
+    "parent_id": 38,
+    "parent_kanji": "外",
+    "type": "word",
+    "kanji": "外国人",
+    "answer": "がいこくじん",
+    "meaning": "foreigner, foreign citizen",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": 39,
+    "kanji": "多",
+    "answer": "おおい",
+    "meaning": "frequent, many, much",
+    "onyomi": ["タ"],
+    "kunyomi": ["おおい"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "39_word_1",
+    "parent_id": 39,
+    "parent_kanji": "多",
+    "type": "word",
+    "kanji": "多分",
+    "answer": "たぶん",
+    "meaning": "perhaps, probably",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 40,
+    "kanji": "大",
+    "answer": "おおきい",
+    "meaning": "big, large",
+    "onyomi": ["タイ", "ダイ"],
+    "kunyomi": ["おおきい"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "40_word_1",
+    "parent_id": 40,
+    "parent_kanji": "大",
+    "type": "word",
+    "kanji": "大丈夫",
+    "answer": "だいじょうぶ",
+    "meaning": "safe, all right, alright, OK",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "40_word_2",
+    "parent_id": 40,
+    "parent_kanji": "大",
+    "type": "word",
+    "kanji": "大使館",
+    "answer": "たいしかん",
+    "meaning": "embassy",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "40_word_3",
+    "parent_id": 40,
+    "parent_kanji": "大",
+    "type": "word",
+    "kanji": "大切",
+    "answer": "たいせつ",
+    "meaning": "important, necessary",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "40_word_4",
+    "parent_id": 40,
+    "parent_kanji": "大",
+    "type": "word",
+    "kanji": "大勢",
+    "answer": "おおぜい",
+    "meaning": "many people",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "40_word_5",
+    "parent_id": 40,
+    "parent_kanji": "大",
+    "type": "word",
+    "kanji": "大学",
+    "answer": "だいがく",
+    "meaning": "university, college",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 41,
+    "kanji": "天",
+    "answer": "あめ",
+    "meaning": "heavens, imperial, sky",
+    "onyomi": ["テン"],
+    "kunyomi": ["あめ"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "41_word_1",
+    "parent_id": 41,
+    "parent_kanji": "天",
+    "type": "word",
+    "kanji": "天気",
+    "answer": "てんき",
+    "meaning": "weather",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 42,
+    "kanji": "女",
+    "answer": "おんな",
+    "meaning": "female, woman",
+    "onyomi": ["ジョ"],
+    "kunyomi": ["おんな"],
+    "jlpt": "N5",
+    "category": "People",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "42_word_1",
+    "parent_id": 42,
+    "parent_kanji": "女",
+    "type": "word",
+    "kanji": "女の子",
+    "answer": "おんなのこ",
+    "meaning": "girl, young woman",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": 43,
+    "kanji": "子",
+    "answer": "こ",
+    "meaning": "child",
+    "onyomi": ["シ", "ス"],
+    "kunyomi": ["こ"],
+    "jlpt": "N5",
+    "category": "People",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "43_word_1",
+    "parent_id": 43,
+    "parent_kanji": "子",
+    "type": "word",
+    "kanji": "女の子",
+    "answer": "おんなのこ",
+    "meaning": "girl, young woman",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "43_word_2",
+    "parent_id": 43,
+    "parent_kanji": "子",
+    "type": "word",
+    "kanji": "子供",
+    "answer": "こども",
+    "meaning": "child, children",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "43_word_3",
+    "parent_id": 43,
+    "parent_kanji": "子",
+    "type": "word",
+    "kanji": "帽子",
+    "answer": "ぼうし",
+    "meaning": "hat",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": "43_word_4",
+    "parent_id": 43,
+    "parent_kanji": "子",
+    "type": "word",
+    "kanji": "男の子",
+    "answer": "おとこのこ",
+    "meaning": "boy",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": 44,
+    "kanji": "学",
+    "answer": "まなぶ",
+    "meaning": "learning, science, study",
+    "onyomi": ["ガク"],
+    "kunyomi": ["まなぶ"],
+    "jlpt": "N5",
+    "category": "Education",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "44_word_1",
+    "parent_id": 44,
+    "parent_kanji": "学",
+    "type": "word",
+    "kanji": "大学",
+    "answer": "だいがく",
+    "meaning": "university, college",
+    "jlpt": "N5",
+    "category": "Education"
+  },
+  {
+    "id": "44_word_2",
+    "parent_id": 44,
+    "parent_kanji": "学",
+    "type": "word",
+    "kanji": "学校",
+    "answer": "がっこう",
+    "meaning": "school",
+    "jlpt": "N5",
+    "category": "Education"
+  },
+  {
+    "id": "44_word_3",
+    "parent_id": 44,
+    "parent_kanji": "学",
+    "type": "word",
+    "kanji": "留学生",
+    "answer": "りゅうがくせい",
+    "meaning": "exchange student",
+    "jlpt": "N5",
+    "category": "Education"
+  },
+  {
+    "id": 45,
+    "kanji": "安",
+    "answer": "やすい",
+    "meaning": "cheap, contented, low, peaceful, quiet, relaxed, rested",
+    "onyomi": ["アン"],
+    "kunyomi": ["やすい"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "45_word_1",
+    "parent_id": 45,
+    "parent_kanji": "安",
+    "type": "word",
+    "kanji": "安い",
+    "answer": "やすい",
+    "meaning": "cheap, inexpensive",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 46,
+    "kanji": "小",
+    "answer": "ちいさい",
+    "meaning": "little, small",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["ちいさい"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "46_word_1",
+    "parent_id": 46,
+    "parent_kanji": "小",
+    "type": "word",
+    "kanji": "小さい",
+    "answer": "ちいさい",
+    "meaning": "small, little, tiny",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "46_word_2",
+    "parent_id": 46,
+    "parent_kanji": "小",
+    "type": "word",
+    "kanji": "小さな",
+    "answer": "ちいさな",
+    "meaning": "small, little, tiny",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 47,
+    "kanji": "少",
+    "answer": "すくない",
+    "meaning": "few, little",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["すくない", "すこし"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "47_word_1",
+    "parent_id": 47,
+    "parent_kanji": "少",
+    "type": "word",
+    "kanji": "少ない",
+    "answer": "すくない",
+    "meaning": "few, a little",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "47_word_2",
+    "parent_id": 47,
+    "parent_kanji": "少",
+    "type": "word",
+    "kanji": "少し",
+    "answer": "すこし",
+    "meaning": "small quantity, little, few",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 48,
+    "kanji": "山",
+    "answer": "やま",
+    "meaning": "mountain",
+    "onyomi": ["サン"],
+    "kunyomi": ["やま"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "48_word_1",
+    "parent_id": 48,
+    "parent_kanji": "山",
+    "type": "word",
+    "kanji": "沢山",
+    "answer": "たくさん",
+    "meaning": "a lot, many, a large number",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 49,
+    "kanji": "川",
+    "answer": "かわ",
+    "meaning": "river",
+    "onyomi": ["セン"],
+    "kunyomi": ["かわ"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "49_word_1",
+    "parent_id": 49,
+    "parent_kanji": "川",
+    "type": "word",
+    "kanji": "川",
+    "answer": "かわ",
+    "meaning": "river",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 50,
+    "kanji": "左",
+    "answer": "ひだり",
+    "meaning": "left",
+    "onyomi": ["サ", "シャ"],
+    "kunyomi": ["ひだり"],
+    "jlpt": "N5",
+    "category": "Directions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "50_word_1",
+    "parent_id": 50,
+    "parent_kanji": "左",
+    "type": "word",
+    "kanji": "左",
+    "answer": "ひだり",
+    "meaning": "left",
+    "jlpt": "N5",
+    "category": "Directions"
+  },
+  {
+    "id": 51,
+    "kanji": "年",
+    "answer": "とし",
+    "meaning": "year",
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "51_word_1",
+    "parent_id": 51,
+    "parent_kanji": "年",
+    "type": "word",
+    "kanji": "今年",
+    "answer": "ことし",
+    "meaning": "this year",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "51_word_2",
+    "parent_id": 51,
+    "parent_kanji": "年",
+    "type": "word",
+    "kanji": "再来年",
+    "answer": "さらいねん",
+    "meaning": "the year after next",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "51_word_3",
+    "parent_id": 51,
+    "parent_kanji": "年",
+    "type": "word",
+    "kanji": "毎年",
+    "answer": "まいとし",
+    "meaning": "every year, annually",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "51_word_4",
+    "parent_id": 51,
+    "parent_kanji": "年",
+    "type": "word",
+    "kanji": "年",
+    "answer": "ねん",
+    "meaning": "year (unit of time), counter for years",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 52,
+    "kanji": "店",
+    "answer": "みせ",
+    "meaning": "shop, store",
+    "onyomi": ["テン"],
+    "kunyomi": ["みせ"],
+    "jlpt": "N5",
+    "category": "Places",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "52_word_1",
+    "parent_id": 52,
+    "parent_kanji": "店",
+    "type": "word",
+    "kanji": "喫茶店",
+    "answer": "きっさてん",
+    "meaning": "coffee shop, cafe",
+    "jlpt": "N5",
+    "category": "Places"
+  },
+  {
+    "id": 53,
+    "kanji": "後",
+    "answer": "あと",
+    "meaning": "back, behind, later",
+    "onyomi": ["コウ", "ゴ"],
+    "kunyomi": ["あと", "うしろ"],
+    "jlpt": "N5",
+    "category": "Position",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "53_word_1",
+    "parent_id": 53,
+    "parent_kanji": "後",
+    "type": "word",
+    "kanji": "午後",
+    "answer": "ごご",
+    "meaning": "afternoon, p.m.",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": "53_word_2",
+    "parent_id": 53,
+    "parent_kanji": "後",
+    "type": "word",
+    "kanji": "後ろ",
+    "answer": "うしろ",
+    "meaning": "back, behind, rear",
+    "jlpt": "N5",
+    "category": "Position"
+  },
+  {
+    "id": 54,
+    "kanji": "手",
+    "answer": "て",
+    "meaning": "hand",
+    "onyomi": ["シュ", "ズ"],
+    "kunyomi": ["て", "た"],
+    "jlpt": "N5",
+    "category": "Body",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "54_word_1",
+    "parent_id": 54,
+    "parent_kanji": "手",
+    "type": "word",
+    "kanji": "上手",
+    "answer": "じょうず",
+    "meaning": "skillful, proficient, good (at)",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": "54_word_2",
+    "parent_id": 54,
+    "parent_kanji": "手",
+    "type": "word",
+    "kanji": "下手",
+    "answer": "へた",
+    "meaning": "unskillful, poor, awkward",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": "54_word_3",
+    "parent_id": 54,
+    "parent_kanji": "手",
+    "type": "word",
+    "kanji": "切手",
+    "answer": "きって",
+    "meaning": "postage stamp",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": "54_word_4",
+    "parent_id": 54,
+    "parent_kanji": "手",
+    "type": "word",
+    "kanji": "手紙",
+    "answer": "てがみ",
+    "meaning": "letter",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": "54_word_5",
+    "parent_id": 54,
+    "parent_kanji": "手",
+    "type": "word",
+    "kanji": "お手洗い",
+    "answer": "おてあらい",
+    "meaning": "toilet, restroom",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": 55,
+    "kanji": "新",
+    "answer": "あたらしい",
+    "meaning": "new",
+    "onyomi": ["シン"],
+    "kunyomi": ["あたらしい", "あらた"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "55_word_1",
+    "parent_id": 55,
+    "parent_kanji": "新",
+    "type": "word",
+    "kanji": "新しい",
+    "answer": "あたらしい",
+    "meaning": "new",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "55_word_2",
+    "parent_id": 55,
+    "parent_kanji": "新",
+    "type": "word",
+    "kanji": "新聞",
+    "answer": "しんぶん",
+    "meaning": "newspaper",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 56,
+    "kanji": "日",
+    "answer": "ひ",
+    "meaning": "counter for days, day, Japan, sun",
+    "onyomi": ["ジツ", "ニチ"],
+    "kunyomi": ["か", "び", "ひ"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "56_word_1",
+    "parent_id": 56,
+    "parent_kanji": "日",
+    "type": "word",
+    "kanji": "七日",
+    "answer": "なのか",
+    "meaning": "the seventh day of the month",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "56_word_2",
+    "parent_id": 56,
+    "parent_kanji": "日",
+    "type": "word",
+    "kanji": "土曜日",
+    "answer": "どようび",
+    "meaning": "Saturday",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "56_word_3",
+    "parent_id": 56,
+    "parent_kanji": "日",
+    "type": "word",
+    "kanji": "日曜日",
+    "answer": "にちようび",
+    "meaning": "Sunday",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 57,
+    "kanji": "時",
+    "answer": "とき",
+    "meaning": "hour, time",
+    "onyomi": ["ジ"],
+    "kunyomi": ["どき", "とき"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "57_word_1",
+    "parent_id": 57,
+    "parent_kanji": "時",
+    "type": "word",
+    "kanji": "時々",
+    "answer": "ときどき",
+    "meaning": "sometimes",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "57_word_2",
+    "parent_id": 57,
+    "parent_kanji": "時",
+    "type": "word",
+    "kanji": "時間",
+    "answer": "じかん",
+    "meaning": "period of hours",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 58,
+    "kanji": "書",
+    "answer": "かく",
+    "meaning": "write",
+    "onyomi": ["ショ"],
+    "kunyomi": ["かく"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "58_word_1",
+    "parent_id": 58,
+    "parent_kanji": "書",
+    "type": "word",
+    "kanji": "図書館",
+    "answer": "としょかん",
+    "meaning": "library",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "58_word_2",
+    "parent_id": 58,
+    "parent_kanji": "書",
+    "type": "word",
+    "kanji": "葉書",
+    "answer": "はがき",
+    "meaning": "postcard",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "58_word_3",
+    "parent_id": 58,
+    "parent_kanji": "書",
+    "type": "word",
+    "kanji": "辞書",
+    "answer": "じしょ",
+    "meaning": "dictionary",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 59,
+    "kanji": "月",
+    "answer": "つき",
+    "meaning": "month, moon",
+    "onyomi": ["ガツ", "ゲツ"],
+    "kunyomi": ["つき"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "59_word_1",
+    "parent_id": 59,
+    "parent_kanji": "月",
+    "type": "word",
+    "kanji": "一月",
+    "answer": "いちがつ",
+    "meaning": "January",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "59_word_2",
+    "parent_id": 59,
+    "parent_kanji": "月",
+    "type": "word",
+    "kanji": "今月",
+    "answer": "こんげつ",
+    "meaning": "this month",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "59_word_3",
+    "parent_id": 59,
+    "parent_kanji": "月",
+    "type": "word",
+    "kanji": "先月",
+    "answer": "せんげつ",
+    "meaning": "last month",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "59_word_4",
+    "parent_id": 59,
+    "parent_kanji": "月",
+    "type": "word",
+    "kanji": "月曜日",
+    "answer": "げつようび",
+    "meaning": "Monday",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "59_word_5",
+    "parent_id": 59,
+    "parent_kanji": "月",
+    "type": "word",
+    "kanji": "毎月",
+    "answer": "まいつき",
+    "meaning": "every month",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 60,
+    "kanji": "木",
+    "answer": "き",
+    "meaning": "tree, wood",
+    "onyomi": ["ボク", "モク"],
+    "kunyomi": ["き"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "60_word_1",
+    "parent_id": 60,
+    "parent_kanji": "木",
+    "type": "word",
+    "kanji": "木曜日",
+    "answer": "もくようび",
+    "meaning": "Thursday",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 61,
+    "kanji": "本",
+    "answer": "ほん",
+    "meaning": "book, counter for long cylindrical things, origin, real, true",
+    "onyomi": ["ホン"],
+    "kunyomi": ["もと"],
+    "jlpt": "N5",
+    "category": "Objects",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "61_word_1",
+    "parent_id": 61,
+    "parent_kanji": "本",
+    "type": "word",
+    "kanji": "本当",
+    "answer": "ほんとう",
+    "meaning": "truth, reality, actuality",
+    "jlpt": "N5",
+    "category": "Objects"
+  },
+  {
+    "id": "61_word_2",
+    "parent_id": 61,
+    "parent_kanji": "本",
+    "type": "word",
+    "kanji": "本棚",
+    "answer": "ほんだな",
+    "meaning": "bookshelf",
+    "jlpt": "N5",
+    "category": "Objects"
+  },
+  {
+    "id": "61_word_3",
+    "parent_id": 61,
+    "parent_kanji": "本",
+    "type": "word",
+    "kanji": "本",
+    "answer": "ほん",
+    "meaning": "counter for cylindrical objects",
+    "jlpt": "N5",
+    "category": "Objects"
+  },
+  {
+    "id": 62,
+    "kanji": "来",
+    "answer": "くる",
+    "meaning": "become, cause, come, due, next",
+    "onyomi": ["ライ"],
+    "kunyomi": ["くる"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "62_word_1",
+    "parent_id": 62,
+    "parent_kanji": "来",
+    "type": "word",
+    "kanji": "来る",
+    "answer": "くる",
+    "meaning": "to come, to approach",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "62_word_2",
+    "parent_id": 62,
+    "parent_kanji": "来",
+    "type": "word",
+    "kanji": "来月",
+    "answer": "らいげつ",
+    "meaning": "next month",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "62_word_3",
+    "parent_id": 62,
+    "parent_kanji": "来",
+    "type": "word",
+    "kanji": "来週",
+    "answer": "らいしゅう",
+    "meaning": "next week",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 63,
+    "kanji": "東",
+    "answer": "ひがし",
+    "meaning": "east",
+    "onyomi": ["トウ"],
+    "kunyomi": ["ひがし"],
+    "jlpt": "N5",
+    "category": "Directions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "63_word_1",
+    "parent_id": 63,
+    "parent_kanji": "東",
+    "type": "word",
+    "kanji": "東",
+    "answer": "ひがし",
+    "meaning": "east",
+    "jlpt": "N5",
+    "category": "Directions"
+  },
+  {
+    "id": 64,
+    "kanji": "校",
+    "answer": "コウ",
+    "meaning": "correction, exam, printing, proof, school",
+    "onyomi": ["コウ"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Education",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "64_word_1",
+    "parent_id": 64,
+    "parent_kanji": "校",
+    "type": "word",
+    "kanji": "学校",
+    "answer": "がっこう",
+    "meaning": "school",
+    "jlpt": "N5",
+    "category": "Education"
+  },
+  {
+    "id": 65,
+    "kanji": "母",
+    "answer": "はは",
+    "meaning": "mother",
+    "onyomi": ["ボ"],
+    "kunyomi": ["はは"],
+    "jlpt": "N5",
+    "category": "Family",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "65_word_1",
+    "parent_id": 65,
+    "parent_kanji": "母",
+    "type": "word",
+    "kanji": "お母さん",
+    "answer": "おかあさん",
+    "meaning": "mother",
+    "jlpt": "N5",
+    "category": "Family"
+  },
+  {
+    "id": 66,
+    "kanji": "毎",
+    "answer": "マイ",
+    "meaning": "every",
+    "onyomi": ["マイ"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "66_word_1",
+    "parent_id": 66,
+    "parent_kanji": "毎",
+    "type": "word",
+    "kanji": "毎年",
+    "answer": "まいとし",
+    "meaning": "every year, annually",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "66_word_2",
+    "parent_id": 66,
+    "parent_kanji": "毎",
+    "type": "word",
+    "kanji": "毎日",
+    "answer": "まいにち",
+    "meaning": "every day",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "66_word_3",
+    "parent_id": 66,
+    "parent_kanji": "毎",
+    "type": "word",
+    "kanji": "毎晩",
+    "answer": "まいばん",
+    "meaning": "every night",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 67,
+    "kanji": "気",
+    "answer": "キ",
+    "meaning": "air, atmosphere, mind, mood, spirit",
+    "onyomi": ["キ", "ケ"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "67_word_1",
+    "parent_id": 67,
+    "parent_kanji": "気",
+    "type": "word",
+    "kanji": "元気",
+    "answer": "げんき",
+    "meaning": "healthy, well, lively",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": "67_word_2",
+    "parent_id": 67,
+    "parent_kanji": "気",
+    "type": "word",
+    "kanji": "天気",
+    "answer": "てんき",
+    "meaning": "weather",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": "67_word_3",
+    "parent_id": 67,
+    "parent_kanji": "気",
+    "type": "word",
+    "kanji": "病気",
+    "answer": "びょうき",
+    "meaning": "illness, disease",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 68,
+    "kanji": "水",
+    "answer": "みず",
+    "meaning": "water",
+    "onyomi": ["スイ"],
+    "kunyomi": ["みず"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "68_word_1",
+    "parent_id": 68,
+    "parent_kanji": "水",
+    "type": "word",
+    "kanji": "水曜日",
+    "answer": "すいようび",
+    "meaning": "Wednesday",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 69,
+    "kanji": "火",
+    "answer": "ひ",
+    "meaning": "fire",
+    "onyomi": ["カ"],
+    "kunyomi": ["ひ", "び"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "69_word_1",
+    "parent_id": 69,
+    "parent_kanji": "火",
+    "type": "word",
+    "kanji": "火曜日",
+    "answer": "かようび",
+    "meaning": "Tuesday",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 70,
+    "kanji": "父",
+    "answer": "ちち",
+    "meaning": "father",
+    "onyomi": ["フ"],
+    "kunyomi": ["ちち"],
+    "jlpt": "N5",
+    "category": "Family",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "70_word_1",
+    "parent_id": 70,
+    "parent_kanji": "父",
+    "type": "word",
+    "kanji": "お父さん",
+    "answer": "おとうさん",
+    "meaning": "father",
+    "jlpt": "N5",
+    "category": "Family"
+  },
+  {
+    "id": 71,
+    "kanji": "生",
+    "answer": "いきる",
+    "meaning": "birth, genuine, life",
+    "onyomi": ["ショウ", "セイ"],
+    "kunyomi": ["うまれる", "うむ", "いかす", "いきる", "いける", "なま"],
+    "jlpt": "N5",
+    "category": "Life",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "71_word_1",
+    "parent_id": 71,
+    "parent_kanji": "生",
+    "type": "word",
+    "kanji": "先生",
+    "answer": "せんせい",
+    "meaning": "teacher, doctor",
+    "jlpt": "N5",
+    "category": "Life"
+  },
+  {
+    "id": "71_word_2",
+    "parent_id": 71,
+    "parent_kanji": "生",
+    "type": "word",
+    "kanji": "生まれる",
+    "answer": "うまれる",
+    "meaning": "to be born",
+    "jlpt": "N5",
+    "category": "Life"
+  },
+  {
+    "id": "71_word_3",
+    "parent_id": 71,
+    "parent_kanji": "生",
+    "type": "word",
+    "kanji": "生徒",
+    "answer": "せいと",
+    "meaning": "student",
+    "jlpt": "N5",
+    "category": "Life"
+  },
+  {
+    "id": "71_word_4",
+    "parent_id": 71,
+    "parent_kanji": "生",
+    "type": "word",
+    "kanji": "留学生",
+    "answer": "りゅうがくせい",
+    "meaning": "exchange student",
+    "jlpt": "N5",
+    "category": "Life"
+  },
+  {
+    "id": "71_word_5",
+    "parent_id": 71,
+    "parent_kanji": "生",
+    "type": "word",
+    "kanji": "誕生日",
+    "answer": "たんじょうび",
+    "meaning": "birthday",
+    "jlpt": "N5",
+    "category": "Life"
+  },
+  {
+    "id": 72,
+    "kanji": "男",
+    "answer": "おとこ",
+    "meaning": "male",
+    "onyomi": ["ダン"],
+    "kunyomi": ["おとこ"],
+    "jlpt": "N5",
+    "category": "People",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "72_word_1",
+    "parent_id": 72,
+    "parent_kanji": "男",
+    "type": "word",
+    "kanji": "男の子",
+    "answer": "おとこのこ",
+    "meaning": "boy",
+    "jlpt": "N5",
+    "category": "People"
+  },
+  {
+    "id": 73,
+    "kanji": "白",
+    "answer": "しろい",
+    "meaning": "white",
+    "onyomi": ["ハク"],
+    "kunyomi": ["しろい"],
+    "jlpt": "N5",
+    "category": "Colors",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "73_word_1",
+    "parent_id": 73,
+    "parent_kanji": "白",
+    "type": "word",
+    "kanji": "白い",
+    "answer": "しろい",
+    "meaning": "white",
+    "jlpt": "N5",
+    "category": "Colors"
+  },
+  {
+    "id": "73_word_2",
+    "parent_id": 73,
+    "parent_kanji": "白",
+    "type": "word",
+    "kanji": "面白い",
+    "answer": "おもしろい",
+    "meaning": "interesting, fascinating",
+    "jlpt": "N5",
+    "category": "Colors"
+  },
+  {
+    "id": 74,
+    "kanji": "百",
+    "answer": "ヒャク",
+    "meaning": "hundred",
+    "onyomi": ["ヒャク", "ビャク"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Numbers",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "74_word_1",
+    "parent_id": 74,
+    "parent_kanji": "百",
+    "type": "word",
+    "kanji": "百",
+    "answer": "ひゃく",
+    "meaning": "100",
+    "jlpt": "N5",
+    "category": "Numbers"
+  },
+  {
+    "id": 75,
+    "kanji": "目",
+    "answer": "め",
+    "meaning": "eye, favor, insight, look",
+    "onyomi": ["モク"],
+    "kunyomi": ["め"],
+    "jlpt": "N5",
+    "category": "Body",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "75_word_1",
+    "parent_id": 75,
+    "parent_kanji": "目",
+    "type": "word",
+    "kanji": "目",
+    "answer": "め",
+    "meaning": "eye",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": 76,
+    "kanji": "社",
+    "answer": "やしろ",
+    "meaning": "association, company, firm",
+    "onyomi": ["シャ"],
+    "kunyomi": ["やしろ"],
+    "jlpt": "N5",
+    "category": "Business",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "76_word_1",
+    "parent_id": 76,
+    "parent_kanji": "社",
+    "type": "word",
+    "kanji": "会社",
+    "answer": "かいしゃ",
+    "meaning": "company",
+    "jlpt": "N5",
+    "category": "Business"
+  },
+  {
+    "id": 77,
+    "kanji": "空",
+    "answer": "そら",
+    "meaning": "empty, sky, vacant, vacuum, void",
+    "onyomi": ["クウ"],
+    "kunyomi": ["そら", "あく", "あける"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "77_word_1",
+    "parent_id": 77,
+    "parent_kanji": "空",
+    "type": "word",
+    "kanji": "空",
+    "answer": "そら",
+    "meaning": "sky",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 78,
+    "kanji": "立",
+    "answer": "たつ",
+    "meaning": "stand up, erect, rise, set up",
+    "onyomi": ["リツ"],
+    "kunyomi": ["たつ", "たてる"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "78_word_1",
+    "parent_id": 78,
+    "parent_kanji": "立",
+    "type": "word",
+    "kanji": "立つ",
+    "answer": "たつ",
+    "meaning": "to stand, to rise",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "78_word_2",
+    "parent_id": 78,
+    "parent_kanji": "立",
+    "type": "word",
+    "kanji": "立派",
+    "answer": "りっぱ",
+    "meaning": "splendid, fine",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 79,
+    "kanji": "耳",
+    "answer": "みみ",
+    "meaning": "ear",
+    "onyomi": ["ジ"],
+    "kunyomi": ["みみ"],
+    "jlpt": "N5",
+    "category": "Body",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "79_word_1",
+    "parent_id": 79,
+    "parent_kanji": "耳",
+    "type": "word",
+    "kanji": "耳",
+    "answer": "みみ",
+    "meaning": "ear",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": 80,
+    "kanji": "聞",
+    "answer": "きく",
+    "meaning": "ask, hear, listen",
+    "onyomi": ["ブン"],
+    "kunyomi": ["きく"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "80_word_1",
+    "parent_id": 80,
+    "parent_kanji": "聞",
+    "type": "word",
+    "kanji": "聞く",
+    "answer": "きく",
+    "meaning": "to hear, to listen, to ask",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "80_word_2",
+    "parent_id": 80,
+    "parent_kanji": "聞",
+    "type": "word",
+    "kanji": "新聞",
+    "answer": "しんぶん",
+    "meaning": "newspaper",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 81,
+    "kanji": "花",
+    "answer": "はな",
+    "meaning": "flower",
+    "onyomi": ["カ"],
+    "kunyomi": ["はな"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "81_word_1",
+    "parent_id": 81,
+    "parent_kanji": "花",
+    "type": "word",
+    "kanji": "花瓶",
+    "answer": "かびん",
+    "meaning": "flower vase",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 82,
+    "kanji": "行",
+    "answer": "いく",
+    "meaning": "go, act, carry out, line, row",
+    "onyomi": ["ギョウ", "コウ"],
+    "kunyomi": ["いく", "おこなう", "ゆく"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "82_word_1",
+    "parent_id": 82,
+    "parent_kanji": "行",
+    "type": "word",
+    "kanji": "行く",
+    "answer": "いく",
+    "meaning": "to go, to head (towards)",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "82_word_2",
+    "parent_id": 82,
+    "parent_kanji": "行",
+    "type": "word",
+    "kanji": "旅行",
+    "answer": "りょこう",
+    "meaning": "trip",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "82_word_3",
+    "parent_id": 82,
+    "parent_kanji": "行",
+    "type": "word",
+    "kanji": "銀行",
+    "answer": "ぎんこう",
+    "meaning": "bank",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "82_word_4",
+    "parent_id": 82,
+    "parent_kanji": "行",
+    "type": "word",
+    "kanji": "飛行機",
+    "answer": "ひこうき",
+    "meaning": "airplane",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 83,
+    "kanji": "西",
+    "answer": "にし",
+    "meaning": "west",
+    "onyomi": ["サイ", "セイ"],
+    "kunyomi": ["にし"],
+    "jlpt": "N5",
+    "category": "Directions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "83_word_1",
+    "parent_id": 83,
+    "parent_kanji": "西",
+    "type": "word",
+    "kanji": "西",
+    "answer": "にし",
+    "meaning": "west",
+    "jlpt": "N5",
+    "category": "Directions"
+  },
+  {
+    "id": 84,
+    "kanji": "見",
+    "answer": "みる",
+    "meaning": "look at, opinion, see, visible",
+    "onyomi": ["ケン"],
+    "kunyomi": ["みる", "みせる"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "84_word_1",
+    "parent_id": 84,
+    "parent_kanji": "見",
+    "type": "word",
+    "kanji": "見せる",
+    "answer": "みせる",
+    "meaning": "to show, to display",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "84_word_2",
+    "parent_id": 84,
+    "parent_kanji": "見",
+    "type": "word",
+    "kanji": "見る",
+    "answer": "みる",
+    "meaning": "to see, to look",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 85,
+    "kanji": "言",
+    "answer": "いう",
+    "meaning": "say, word",
+    "onyomi": ["ゲン", "ゴン"],
+    "kunyomi": ["いう", "こと"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "85_word_1",
+    "parent_id": 85,
+    "parent_kanji": "言",
+    "type": "word",
+    "kanji": "言う",
+    "answer": "いう",
+    "meaning": "to say, to utter",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": "85_word_2",
+    "parent_id": 85,
+    "parent_kanji": "言",
+    "type": "word",
+    "kanji": "言葉",
+    "answer": "ことば",
+    "meaning": "word, phrase",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 86,
+    "kanji": "話",
+    "answer": "はなす",
+    "meaning": "tale, talk",
+    "onyomi": ["ワ"],
+    "kunyomi": ["はなし", "はなす"],
+    "jlpt": "N5",
+    "category": "Communication",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "86_word_1",
+    "parent_id": 86,
+    "parent_kanji": "話",
+    "type": "word",
+    "kanji": "話す",
+    "answer": "はなす",
+    "meaning": "to talk, to speak, to converse",
+    "jlpt": "N5",
+    "category": "Communication"
+  },
+  {
+    "id": "86_word_2",
+    "parent_id": 86,
+    "parent_kanji": "話",
+    "type": "word",
+    "kanji": "電話",
+    "answer": "でんわ",
+    "meaning": "phone call, telephone",
+    "jlpt": "N5",
+    "category": "Communication"
+  },
+  {
+    "id": 87,
+    "kanji": "語",
+    "answer": "かたる",
+    "meaning": "language, speech, word",
+    "onyomi": ["ゴ"],
+    "kunyomi": ["かたる"],
+    "jlpt": "N5",
+    "category": "Language",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "87_word_1",
+    "parent_id": 87,
+    "parent_kanji": "語",
+    "type": "word",
+    "kanji": "英語",
+    "answer": "えいご",
+    "meaning": "English",
+    "jlpt": "N5",
+    "category": "Language"
+  },
+  {
+    "id": 88,
+    "kanji": "読",
+    "answer": "よむ",
+    "meaning": "read",
+    "onyomi": ["ドク"],
+    "kunyomi": ["よむ"],
+    "jlpt": "N5",
+    "category": "Actions",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "88_word_1",
+    "parent_id": 88,
+    "parent_kanji": "読",
+    "type": "word",
+    "kanji": "読む",
+    "answer": "よむ",
+    "meaning": "to read",
+    "jlpt": "N5",
+    "category": "Actions"
+  },
+  {
+    "id": 89,
+    "kanji": "買",
+    "answer": "かう",
+    "meaning": "buy",
+    "onyomi": ["バイ"],
+    "kunyomi": ["かう"],
+    "jlpt": "N5",
+    "category": "Shopping",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "89_word_1",
+    "parent_id": 89,
+    "parent_kanji": "買",
+    "type": "word",
+    "kanji": "買う",
+    "answer": "かう",
+    "meaning": "to buy",
+    "jlpt": "N5",
+    "category": "Shopping"
+  },
+  {
+    "id": "89_word_2",
+    "parent_id": 89,
+    "parent_kanji": "買",
+    "type": "word",
+    "kanji": "買い物",
+    "answer": "かいもの",
+    "meaning": "shopping, purchased goods",
+    "jlpt": "N5",
+    "category": "Shopping"
+  },
+  {
+    "id": 90,
+    "kanji": "足",
+    "answer": "あし",
+    "meaning": "be sufficient, counter for pairs of footwear, foot, leg",
+    "onyomi": ["ソク"],
+    "kunyomi": ["あし", "たす", "たりる"],
+    "jlpt": "N5",
+    "category": "Body",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "90_word_1",
+    "parent_id": 90,
+    "parent_kanji": "足",
+    "type": "word",
+    "kanji": "足",
+    "answer": "あし",
+    "meaning": "leg, foot",
+    "jlpt": "N5",
+    "category": "Body"
+  },
+  {
+    "id": 91,
+    "kanji": "車",
+    "answer": "くるま",
+    "meaning": "car",
+    "onyomi": ["シャ"],
+    "kunyomi": ["くるま"],
+    "jlpt": "N5",
+    "category": "Transportation",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "91_word_1",
+    "parent_id": 91,
+    "parent_kanji": "車",
+    "type": "word",
+    "kanji": "自動車",
+    "answer": "じどうしゃ",
+    "meaning": "automobile",
+    "jlpt": "N5",
+    "category": "Transportation"
+  },
+  {
+    "id": "91_word_2",
+    "parent_id": 91,
+    "parent_kanji": "車",
+    "type": "word",
+    "kanji": "自転車",
+    "answer": "じてんしゃ",
+    "meaning": "bicycle",
+    "jlpt": "N5",
+    "category": "Transportation"
+  },
+  {
+    "id": "91_word_3",
+    "parent_id": 91,
+    "parent_kanji": "車",
+    "type": "word",
+    "kanji": "電車",
+    "answer": "でんしゃ",
+    "meaning": "train",
+    "jlpt": "N5",
+    "category": "Transportation"
+  },
+  {
+    "id": 92,
+    "kanji": "週",
+    "answer": "シュウ",
+    "meaning": "week",
+    "onyomi": ["シュウ"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "92_word_1",
+    "parent_id": 92,
+    "parent_kanji": "週",
+    "type": "word",
+    "kanji": "今週",
+    "answer": "こんしゅう",
+    "meaning": "this week",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "92_word_2",
+    "parent_id": 92,
+    "parent_kanji": "週",
+    "type": "word",
+    "kanji": "先週",
+    "answer": "せんしゅう",
+    "meaning": "last week",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "92_word_3",
+    "parent_id": 92,
+    "parent_kanji": "週",
+    "type": "word",
+    "kanji": "来週",
+    "answer": "らいしゅう",
+    "meaning": "next week",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "92_word_4",
+    "parent_id": 92,
+    "parent_kanji": "週",
+    "type": "word",
+    "kanji": "毎週",
+    "answer": "まいしゅう",
+    "meaning": "every week",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "92_word_5",
+    "parent_id": 92,
+    "parent_kanji": "週",
+    "type": "word",
+    "kanji": "週間",
+    "answer": "しゅうかん",
+    "meaning": "period of weeks",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 93,
+    "kanji": "道",
+    "answer": "みち",
+    "meaning": "course, district, journey, moral, roadway, street, teachings",
+    "onyomi": ["トウ", "ドウ"],
+    "kunyomi": ["みち"],
+    "jlpt": "N5",
+    "category": "Places",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "93_word_1",
+    "parent_id": 93,
+    "parent_kanji": "道",
+    "type": "word",
+    "kanji": "道",
+    "answer": "みち",
+    "meaning": "road",
+    "jlpt": "N5",
+    "category": "Places"
+  },
+  {
+    "id": 94,
+    "kanji": "金",
+    "answer": "かね",
+    "meaning": "gold",
+    "onyomi": ["キン"],
+    "kunyomi": ["かね"],
+    "jlpt": "N5",
+    "category": "Money",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "94_word_1",
+    "parent_id": 94,
+    "parent_kanji": "金",
+    "type": "word",
+    "kanji": "金曜日",
+    "answer": "きんようび",
+    "meaning": "Friday",
+    "jlpt": "N5",
+    "category": "Money"
+  },
+  {
+    "id": 95,
+    "kanji": "長",
+    "answer": "ながい",
+    "meaning": "leader, long, senior, superior",
+    "onyomi": ["チョウ"],
+    "kunyomi": ["ながい"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "95_word_1",
+    "parent_id": 95,
+    "parent_kanji": "長",
+    "type": "word",
+    "kanji": "長い",
+    "answer": "ながい",
+    "meaning": "long (distance or time)",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 96,
+    "kanji": "間",
+    "answer": "あいだ",
+    "meaning": "interval, space",
+    "onyomi": ["カン", "ケン"],
+    "kunyomi": ["あいだ", "ま"],
+    "jlpt": "N5",
+    "category": "Time",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "96_word_1",
+    "parent_id": 96,
+    "parent_kanji": "間",
+    "type": "word",
+    "kanji": "時間",
+    "answer": "じかん",
+    "meaning": "time",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": "96_word_2",
+    "parent_id": 96,
+    "parent_kanji": "間",
+    "type": "word",
+    "kanji": "週間",
+    "answer": "しゅうかん",
+    "meaning": "period of weeks",
+    "jlpt": "N5",
+    "category": "Time"
+  },
+  {
+    "id": 97,
+    "kanji": "雨",
+    "answer": "あめ",
+    "meaning": "rain",
+    "onyomi": ["ウ"],
+    "kunyomi": ["あめ"],
+    "jlpt": "N5",
+    "category": "Nature",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "97_word_1",
+    "parent_id": 97,
+    "parent_kanji": "雨",
+    "type": "word",
+    "kanji": "雨",
+    "answer": "あめ",
+    "meaning": "rain",
+    "jlpt": "N5",
+    "category": "Nature"
+  },
+  {
+    "id": 98,
+    "kanji": "電",
+    "answer": "デン",
+    "meaning": "electricity",
+    "onyomi": ["デン"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Technology",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "98_word_1",
+    "parent_id": 98,
+    "parent_kanji": "電",
+    "type": "word",
+    "kanji": "電気ストーブ",
+    "answer": "でんきストーブ",
+    "meaning": "electric heater",
+    "jlpt": "N5",
+    "category": "Technology"
+  },
+  {
+    "id": "98_word_2",
+    "parent_id": 98,
+    "parent_kanji": "電",
+    "type": "word",
+    "kanji": "電話",
+    "answer": "でんわ",
+    "meaning": "phone call, telephone",
+    "jlpt": "N5",
+    "category": "Technology"
+  },
+  {
+    "id": "98_word_3",
+    "parent_id": 98,
+    "parent_kanji": "電",
+    "type": "word",
+    "kanji": "電車",
+    "answer": "でんしゃ",
+    "meaning": "train",
+    "jlpt": "N5",
+    "category": "Technology"
+  },
+  {
+    "id": 99,
+    "kanji": "食",
+    "answer": "たべる",
+    "meaning": "eat, food",
+    "onyomi": ["ショク"],
+    "kunyomi": ["たべる", "くう"],
+    "jlpt": "N5",
+    "category": "Food",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "99_word_1",
+    "parent_id": 99,
+    "parent_kanji": "食",
+    "type": "word",
+    "kanji": "食べる",
+    "answer": "たべる",
+    "meaning": "to eat",
+    "jlpt": "N5",
+    "category": "Food"
+  },
+  {
+    "id": "99_word_2",
+    "parent_id": 99,
+    "parent_kanji": "食",
+    "type": "word",
+    "kanji": "食べ物",
+    "answer": "たべもの",
+    "meaning": "food",
+    "jlpt": "N5",
+    "category": "Food"
+  },
+  {
+    "id": "99_word_3",
+    "parent_id": 99,
+    "parent_kanji": "食",
+    "type": "word",
+    "kanji": "食堂",
+    "answer": "しょくどう",
+    "meaning": "cafeteria",
+    "jlpt": "N5",
+    "category": "Food"
+  },
+  {
+    "id": 100,
+    "kanji": "飲",
+    "answer": "のむ",
+    "meaning": "drink, smoke, take",
+    "onyomi": ["イン"],
+    "kunyomi": ["のむ"],
+    "jlpt": "N5",
+    "category": "Food",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "100_word_1",
+    "parent_id": 100,
+    "parent_kanji": "飲",
+    "type": "word",
+    "kanji": "飲む",
+    "answer": "のむ",
+    "meaning": "to drink, to swallow, to take (medicine)",
+    "jlpt": "N5",
+    "category": "Food"
+  },
+  {
+    "id": "100_word_2",
+    "parent_id": 100,
+    "parent_kanji": "飲",
+    "type": "word",
+    "kanji": "飲み物",
+    "answer": "のみもの",
+    "meaning": "drink, beverage",
+    "jlpt": "N5",
+    "category": "Food"
+  },
+  {
+    "id": 101,
+    "kanji": "駅",
+    "answer": "エキ",
+    "meaning": "station",
+    "onyomi": ["エキ"],
+    "kunyomi": [],
+    "jlpt": "N5",
+    "category": "Transportation",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "101_word_1",
+    "parent_id": 101,
+    "parent_kanji": "駅",
+    "type": "word",
+    "kanji": "駅",
+    "answer": "えき",
+    "meaning": "station",
+    "jlpt": "N5",
+    "category": "Transportation"
+  },
+  {
+    "id": 102,
+    "kanji": "高",
+    "answer": "たかい",
+    "meaning": "expensive, high, tall",
+    "onyomi": ["コウ"],
+    "kunyomi": ["たかい", "たかまる", "たかめる"],
+    "jlpt": "N5",
+    "category": "Adjectives",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "102_word_1",
+    "parent_id": 102,
+    "parent_kanji": "高",
+    "type": "word",
+    "kanji": "高い",
+    "answer": "たかい",
+    "meaning": "high, tall, expensive",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": "102_word_2",
+    "parent_id": 102,
+    "parent_kanji": "高",
+    "type": "word",
+    "kanji": "高校",
+    "answer": "こうこう",
+    "meaning": "high school",
+    "jlpt": "N5",
+    "category": "Adjectives"
+  },
+  {
+    "id": 103,
+    "kanji": "魚",
+    "answer": "さかな",
+    "meaning": "fish",
+    "onyomi": ["ギョ"],
+    "kunyomi": ["さかな"],
+    "jlpt": "N5",
+    "category": "Food",
+    "parent_id": null,
+    "type": "kanji"
+  },
+  {
+    "id": "103_word_1",
+    "parent_id": 103,
+    "parent_kanji": "魚",
+    "type": "word",
+    "kanji": "魚",
+    "answer": "さかな",
+    "meaning": "fish",
+    "jlpt": "N5",
+    "category": "Food"
+  }
 ]

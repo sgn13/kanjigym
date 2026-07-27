@@ -11,7 +11,7 @@ export const PricingInformation = (props: {
 
   return (
     <div className="grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-3">
-      {Object.values(PricingPlanList).map(plan => (
+      {Object.values(PricingPlanList).map((plan) => (
         <PricingCard
           key={plan.id}
           planId={plan.id}

@@ -7,7 +7,11 @@ import { Controller, FormProvider } from 'react-hook-form';
 import { Label } from '@/components/ui/label';
 import { cn } from '@/utils/Helpers';
 
-import { FormFieldContext, FormItemContext, useFormField } from './useFormField';
+import {
+  FormFieldContext,
+  FormItemContext,
+  useFormField,
+} from './useFormField';
 
 const Form = FormProvider;
 
@@ -64,8 +68,8 @@ const FormControl = React.forwardRef<
   React.ElementRef<typeof Slot>,
   React.ComponentPropsWithoutRef<typeof Slot>
 >(({ ...props }, ref) => {
-  const { error, formItemId, formDescriptionId, formMessageId }
-    = useFormField();
+  const { error, formItemId, formDescriptionId, formMessageId } =
+    useFormField();
 
   return (
     <Slot

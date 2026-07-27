@@ -18,13 +18,12 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 const IndexPage = (props: { params: { locale: string } }) => {
   unstable_setRequestLocale(props.params.locale);
 
-
   return (
     <>
       {/* <DemoBanner /> */}
       <Navbar />
 
-    <GymZone/>
+      <GymZone />
     </>
   );
 };

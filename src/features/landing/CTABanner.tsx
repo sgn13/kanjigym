@@ -12,7 +12,7 @@ export const CTABanner = (props: {
     <div className="mt-2 text-lg font-medium text-muted">
       {props.description}
     </div>
-{props.children}
+    {props.children}
     {/* <div className="mt-6">{props.buttons}</div> */}
   </div>
 );

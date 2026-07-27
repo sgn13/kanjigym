@@ -1,7 +1,7 @@
 import '@/styles/global.css';
-import { Poppins } from "next/font/google";
 
 import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
@@ -9,8 +9,8 @@ import { DemoBadge } from '@/components/DemoBadge';
 import { AllLocales } from '@/utils/AppConfig';
 
 const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -58,7 +58,10 @@ export default function RootLayout(props: {
   // which dynamically adds a `style` attribute to the body tag.
   return (
     <html lang={props.params.locale} suppressHydrationWarning>
-      <body className={`${poppins.className} bg-background text-foreground antialiased`} suppressHydrationWarning>
+      <body
+        className={`${poppins.className} bg-background text-foreground antialiased`}
+        suppressHydrationWarning
+      >
         {/* PRO: Dark mode support for Shadcn UI */}
         <NextIntlClientProvider
           locale={props.params.locale}

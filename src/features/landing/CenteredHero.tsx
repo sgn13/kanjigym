@@ -2,12 +2,12 @@ export const CenteredHero = (props: {
   banner?: React.ReactNode;
   title: React.ReactNode;
   description: string;
-  buttons: React.ReactNode;
+  buttons?: React.ReactNode;
 }) => (
   <>
     <div className="text-center">{props.banner}</div>
 
-    <div className=" mx-auto mt-3 text-center text-5xl font-bold tracking-tight w-[85%] ">
+    <div className=" mx-auto mt-3 w-[85%] text-center text-5xl font-bold tracking-tight ">
       {props.title}
     </div>
 
