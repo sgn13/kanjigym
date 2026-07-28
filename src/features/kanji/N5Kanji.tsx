@@ -188,7 +188,7 @@ export const N5Kanji = () => {
               </div>
             </div>
             <div className="mt-8 flex flex-col gap-4">
-              {options?.map((list) => {
+              {options?.map((list, index) => {
                 const isCorrect = list === currentQuestion?.answer;
                 const isSelected = list === selectedAnswer;
                 let bgColor = '';
@@ -215,8 +215,11 @@ export const N5Kanji = () => {
                     }}
                     disabled={selectedAnswer !== null}
                   >
-                    <div className="flex gap-4">
-                      {/* content */}
+                    <div className="flex items-center gap-4">
+                      <span className="flex items-center justify-center text-3xl font-bold">
+                        {index + 1}
+                      </span>
+                      {list}
                     </div>
                   </Button>
                   // <div
