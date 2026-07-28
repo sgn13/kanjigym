@@ -7,7 +7,12 @@ import { Button } from '@/components/ui/button';
 import { Modal, ModalContent } from '@/components/ui/modal';
 import FlatN5Json from '@/constants/flatn5.json';
 
-function generateOptions(current, allWords) {
+type Question = (typeof FlatN5Json)[number];
+
+function generateOptions(
+  current: Question,
+  allWords: Question[],
+): string[] {
   const wrongAnswers = allWords
     .filter(word => word.id !== current.id)
     .sort(() => Math.random() - 0.5)
@@ -84,7 +89,7 @@ export const GymZone = () => {
     return <div>Loading...</div>;
   }
 
-  const handleAnswer = (currentQuestion, option: string) => {
+  const handleAnswer = (currentQuestion: Question, option: string) => {
     if (selectedAnswer) {
       return;
     } // Prevent multiple clicks
@@ -198,7 +203,12 @@ export const GymZone = () => {
                   <div
                     key={index}
                     className={`cursor-pointer rounded-xl border border-border bg-card p-4 ${bgColor}`}
-                    onClick={() => handleAnswer(currentQuestion, list)}
+                    onClick={() => {
+                      if (!currentQuestion) {
+                        return;
+                      }
+                      handleAnswer(currentQuestion, list);
+                    }}
                   >
                     <div className="flex gap-4">
                       <div className="relative inline-block">

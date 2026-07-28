@@ -11,9 +11,9 @@ export const CTA = () => {
   return (
     <Section>
       <CTABanner
-        title={'How was it?'}
-        description={'Small steps every day, big progress over time.'}
-        buttons={
+        title="How was it?"
+        description="Small steps every day, big progress over time."
+        buttons={(
           <a
             className={buttonVariants({ size: 'lg' })}
             href="https://nextjs-boilerplate.com/nextjs-multi-tenant-saas-boilerplate"
@@ -21,7 +21,7 @@ export const CTA = () => {
             {t('button_text')}
             <ArrowRightIcon className="ml-1 size-5" />
           </a>
-        }
+        )}
       />
     </Section>
   );
