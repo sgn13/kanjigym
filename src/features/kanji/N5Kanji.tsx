@@ -191,7 +191,7 @@ export const N5Kanji = () => {
               {options?.map((list, index) => {
                 const isCorrect = list === currentQuestion?.answer;
                 const isSelected = list === selectedAnswer;
-                let bgColor = '';
+                let bgColor = 'bg-white';
 
                 if (selectedAnswer) {
                   if (isCorrect) {
@@ -202,18 +202,16 @@ export const N5Kanji = () => {
                 }
 
                 return (
-                  <Button
+                  <button
                     key={list}
                     type="button"
-                    variant="outline"
-                    className={`h-auto w-full justify-start p-4 ${bgColor}`}
+                    className={`w-full rounded-xl border p-4 text-left ${bgColor}`}
                     onClick={() => {
-                      if (!currentQuestion) {
+                      if (selectedAnswer || !currentQuestion) {
                         return;
                       }
                       handleAnswer(currentQuestion, list);
                     }}
-                    disabled={selectedAnswer !== null}
                   >
                     <div className="flex items-center gap-4">
                       <span className="flex items-center justify-center text-3xl font-bold">
@@ -221,7 +219,7 @@ export const N5Kanji = () => {
                       </span>
                       {list}
                     </div>
-                  </Button>
+                  </button>
                   // <div
                   //   key={index}
                   //   className={`cursor-pointer rounded-xl border border-border bg-card p-4 ${bgColor}`}
