@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 import { ToggleMenuButton } from '@/components/ToggleMenuButton';
 import { useMenu } from '@/hooks/UseMenu';
@@ -16,6 +17,11 @@ export const CenteredMenu = (props: {
   const navClass = cn('max-lg:w-full max-lg:bg-secondary max-lg:p-5', {
     'max-lg:hidden': !showMenu,
   });
+  const [highScore, setHighScore] = useState('0');
+
+  useEffect(() => {
+    setHighScore(localStorage.getItem('highscore') || '0');
+  }, []);
 
   return (
     <div className="flex flex-wrap items-center justify-between">
@@ -23,7 +29,7 @@ export const CenteredMenu = (props: {
         {props.logo}
         <span className="lg:hidden">
           High Score:
-          {localStorage.getItem('highscore') || '0'}
+          {highScore || '0'}
         </span>
       </Link>
 

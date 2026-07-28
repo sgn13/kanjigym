@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -14,6 +15,11 @@ import { Logo } from './Logo';
 export const Navbar = () => {
   const t = useTranslations('Navbar');
   const pathname = usePathname();
+  const [highScore, setHighScore] = useState('0');
+
+  useEffect(() => {
+    setHighScore(localStorage.getItem('highscore') || '0');
+  }, []);
 
   return (
     <Section className="px-3 py-6">
@@ -67,7 +73,7 @@ export const Navbar = () => {
         </li> */}
         <li>
           High Score:
-          {localStorage.getItem('highscore') || '0'}
+          {highScore || '0'}
         </li>
       </CenteredMenu>
     </Section>
