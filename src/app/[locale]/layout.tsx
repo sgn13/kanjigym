@@ -5,7 +5,6 @@ import { Poppins } from 'next/font/google';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
-import { DemoBadge } from '@/components/DemoBadge';
 import { AllLocales } from '@/utils/AppConfig';
 
 const poppins = Poppins({
@@ -69,7 +68,7 @@ export default function RootLayout(props: {
         >
           {props.children}
 
-          <DemoBadge />
+          {/* <DemoBadge /> */}
         </NextIntlClientProvider>
       </body>
     </html>

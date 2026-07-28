@@ -43,31 +43,31 @@ export const Hero = () => {
               {[
                 {
                   id: 1,
-                  level: 'N5',
+                  level: 'n5',
                   rate: 'Begineer',
                   active: true,
                 },
                 {
                   id: 2,
-                  level: 'N4',
+                  level: 'n4',
                   rate: 'Hard',
                   active: false,
                 },
                 {
                   id: 3,
-                  level: 'N3',
+                  level: 'n3',
                   rate: 'Intermediate',
                   active: false,
                 },
                 {
                   id: 4,
-                  level: 'N2',
+                  level: 'n2',
                   rate: 'Advance',
                   active: false,
                 },
                 {
                   id: 5,
-                  level: 'N1',
+                  level: 'n1',
                   rate: 'Native',
                   active: false,
                 },
@@ -83,7 +83,7 @@ export const Hero = () => {
                   >
                     {list.active
                       ? (
-                          <Link href={`/gym?level=${list.level}`}>
+                          <Link href={`/kanji/${list.level}`}>
                             <div className="flex items-center gap-4">
                               <div className="relative inline-block"></div>
 

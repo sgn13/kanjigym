@@ -1,7 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import { N5Kanji } from '@/features/kanji/N5Kanji';
 import { Navbar } from '@/templates/Navbar';
-import { GymZone } from '@/features/gym/GymZone';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -23,7 +23,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
       {/* <DemoBanner /> */}
       <Navbar />
 
-      <GymZone />
+      <N5Kanji />
     </>
   );
 };

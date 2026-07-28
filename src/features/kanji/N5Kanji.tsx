@@ -22,7 +22,7 @@ function generateOptions(
   return [...wrongAnswers, current.answer].sort(() => Math.random() - 0.5);
 }
 
-export const GymZone = () => {
+export const N5Kanji = () => {
   // const a = N5Json.flatMap((item) => {
   //   const { examples, ...rest } = item;
 
@@ -88,7 +88,14 @@ export const GymZone = () => {
   if (questions.length === 0) {
     return <div>Loading...</div>;
   }
-
+  const restartGame = () => {
+    setLives(3);
+    setScore(0);
+    setSelectedAnswer(null);
+    setCurrentIndex(0);
+    setQuestions(shuffle(FlatN5Json));
+    setOpen(false);
+  };
   const handleAnswer = (currentQuestion: Question, option: string) => {
     if (selectedAnswer) {
       return;
@@ -118,21 +125,18 @@ export const GymZone = () => {
               {score}
             </div>
 
-            <div
-              className="inline-block cursor-pointer underline"
-              onClick={() => {
-                setLives(3);
-                setScore(0);
-                setSelectedAnswer(null);
-                setCurrentIndex(0);
-                setOpen(false);
-              }}
+            <Button
+              type="button"
+              variant="ghost"
+              size="icon"
+              onClick={restartGame}
+              aria-label="Restart game"
             >
               <ReloadIcon
                 className="size-8 text-yellow-500"
                 strokeWidth={3.5}
               />
-            </div>
+            </Button>
           </div>
 
         </ModalContent>
@@ -158,20 +162,18 @@ export const GymZone = () => {
           ? (
               <div>
                 <div className="text-2xl font-semibold text-red-500">GAME OVER</div>
-                <div
-                  className="inline-block cursor-pointer underline"
-                  onClick={() => {
-                    setLives(3);
-                    setScore(0);
-                    setSelectedAnswer(null);
-                    setCurrentIndex(0);
-                  }}
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  onClick={restartGame}
+                  aria-label="Restart game"
                 >
                   <ReloadIcon
                     className="size-8 text-yellow-500"
                     strokeWidth={3.5}
                   />
-                </div>
+                </Button>
               </div>
             )
           : null}
@@ -186,7 +188,7 @@ export const GymZone = () => {
               </div>
             </div>
             <div className="mt-8 flex flex-col gap-4">
-              {options?.map((list, index) => {
+              {options?.map((list) => {
                 const isCorrect = list === currentQuestion?.answer;
                 const isSelected = list === selectedAnswer;
                 let bgColor = '';
@@ -200,29 +202,46 @@ export const GymZone = () => {
                 }
 
                 return (
-                  <div
-                    key={index}
-                    className={`cursor-pointer rounded-xl border border-border bg-card p-4 ${bgColor}`}
+                  <Button
+                    key={list}
+                    type="button"
+                    variant="outline"
+                    className={`h-auto w-full justify-start p-4 ${bgColor}`}
                     onClick={() => {
                       if (!currentQuestion) {
                         return;
                       }
                       handleAnswer(currentQuestion, list);
                     }}
+                    disabled={selectedAnswer !== null}
                   >
                     <div className="flex gap-4">
-                      <div className="relative inline-block">
-                        <span className="absolute inset-0 flex items-center justify-center text-3xl font-bold">
-                          {index + 1}
-                        </span>
-                      </div>
-                      <div>
-                        {list}
-                        {' '}
-                        <br />
-                      </div>
+                      {/* content */}
                     </div>
-                  </div>
+                  </Button>
+                  // <div
+                  //   key={index}
+                  //   className={`cursor-pointer rounded-xl border border-border bg-card p-4 ${bgColor}`}
+                  //   onClick={() => {
+                  //     if (!currentQuestion) {
+                  //       return;
+                  //     }
+                  //     handleAnswer(currentQuestion, list);
+                  //   }}
+                  // >
+                  //   <div className="flex gap-4">
+                  //     <div className="relative inline-block">
+                  //       <span className="absolute inset-0 flex items-center justify-center text-3xl font-bold">
+                  //         {index + 1}
+                  //       </span>
+                  //     </div>
+                  //     <div>
+                  //       {list}
+                  //       {' '}
+                  //       <br />
+                  //     </div>
+                  //   </div>
+                  // </div>
                 );
               })}
 
