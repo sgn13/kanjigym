@@ -14,7 +14,7 @@ export const Hero = () => {
   const t = useTranslations('Hero');
 
   return (
-    <Section className="py-24">
+    <Section className="py-16">
       <CenteredHero
         title={(
           <div>
@@ -44,14 +44,14 @@ export const Hero = () => {
                 {
                   id: 1,
                   level: 'n5',
-                  rate: 'Begineer',
+                  rate: 'Beginner',
                   active: true,
                 },
                 {
                   id: 2,
                   level: 'n4',
-                  rate: 'Hard',
-                  active: false,
+                  rate: 'Elementary',
+                  active: true,
                 },
                 {
                   id: 3,
@@ -62,7 +62,7 @@ export const Hero = () => {
                 {
                   id: 4,
                   level: 'n2',
-                  rate: 'Advance',
+                  rate: 'Advanced',
                   active: false,
                 },
                 {
