@@ -10,6 +10,8 @@ import { CenteredHero } from '@/features/landing/CenteredHero';
 import { CTABanner } from '@/features/landing/CTABanner';
 import { Section } from '@/features/landing/Section';
 
+import { Chibi } from './Chibi';
+
 export const Hero = () => {
   const t = useTranslations('Hero');
 
@@ -17,8 +19,12 @@ export const Hero = () => {
     <Section className="py-16">
       <CenteredHero
         title={(
-          <div>
-            <span className="text-[#898E97]">Kanji Gym</span>
+          <div className=" flex items-end justify-center gap-4 text-[#131D2E]">
+            <Chibi />
+            <span>
+              {' '}
+              Kanji Gym
+            </span>
           </div>
         )}
         description="Perfect for beginners, JLPT learners, and daily life in Japan."
@@ -90,7 +96,9 @@ export const Hero = () => {
                               <div>
                                 JLPT
                                 {' '}
-                                {list.level}
+                                <span className="capitalize">
+                                  {list.level}
+                                </span>
                                 {' '}
                                 (
                                 {list.rate}
@@ -106,7 +114,10 @@ export const Hero = () => {
                             <div>
                               JLPT
                               {' '}
-                              {list.level}
+                              <span className="capitalize">
+                                {list.level}
+                              </span>
+                              {' '}
                               {' '}
                               (
                               {list.rate}

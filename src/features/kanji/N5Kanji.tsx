@@ -120,8 +120,9 @@ export const N5Kanji = () => {
           <div className="flex flex-col items-center gap-8 text-center text-2xl font-semibold">
             <div className="text-center text-2xl font-semibold text-red-500">GAME OVER</div>
             <div className="text-center text-2xl font-semibold">
+
+              Score :
               {' '}
-              Total Score :
               {score}
             </div>
 
@@ -154,8 +155,9 @@ export const N5Kanji = () => {
           )}
         </div>
         <div>
+
+          Score :
           {' '}
-          Total Score :
           {score}
         </div>
         {lives <= 0
@@ -179,13 +181,34 @@ export const N5Kanji = () => {
           : null}
       </div>
       <div className="mx-auto grid max-w-screen-lg gap-8 sm:w-4/5 md:w-2/3 lg:w-1/2">
-        <div className="rounded-xl bg-muted bg-gradient-to-br from-blue-100 via-red-100 to-red-100 px-1 py-10 text-center">
+        <div className="rounded-xl bg-muted bg-gradient-to-br from-blue-100 via-red-100 to-red-100 px-1 py-10">
           <div className="mx-auto w-4/5 md:w-2/3 lg:w-1/2">
             {/* {JSON.stringify(currentQuestion)} */}
-            <div className="rounded-xl bg-muted bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 px-1 py-4 text-center">
-              <div className="text-3xl font-bold text-primary-foreground">
+            <div className="flex items-center gap-8 rounded-xl bg-muted bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400  ">
+              <div className="p-8 text-3xl font-bold text-primary-foreground">
                 {currentQuestion?.kanji}
               </div>
+              {/* {selectedAnswer
+                ? (
+                    <div className=" text-primary-foreground">
+                      <div>
+                        On:
+                        {' '}
+                        {currentQuestion?.onyomi?.join(',') || '-'}
+                      </div>
+                      <div>
+                        Kun:
+                        {' '}
+                        {currentQuestion?.kunyomi?.join(',') || '-'}
+                      </div>
+                      <div>
+                        Meaning:
+                        {' '}
+                        {currentQuestion?.meaning}
+                      </div>
+                    </div>
+                  )
+                : null} */}
             </div>
             <div className="mt-8 flex flex-col gap-4">
               {options?.map((list, index) => {

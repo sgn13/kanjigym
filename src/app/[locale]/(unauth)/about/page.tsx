@@ -1,6 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { FeatureCard } from '@/features/landing/FeatureCard';
+import { Chibi } from '@/templates/Chibi';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -24,32 +25,20 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <Navbar />
 
       <div className="px-3 py-16">
-        <div className="mx-auto mb-12 max-w-screen-md text-center">
-          <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-sm font-bold text-transparent">
-            About
-          </div>
 
-          <div className="mt-1 text-5xl font-bold">
-            {/* <span className='text-[#131D2E]'> <span className='text-[#FF78DD]'>Japanese </span>Gym</span>{' '} */}
-            {/* <span className='text-[#557DEC]'>Japanese</span>{' '} */}
-            {/* <br />
-          <div className='pt-4 text-[#FFC32D]'>Phrases</div> */}
-          </div>
-
-          <div className="mt-2 text-lg text-muted-foreground">
-            Train Your Japanese Skills Every Day
-            {' '}
-          </div>
-        </div>
         <div className="mx-auto grid max-w-screen-lg gap-8 sm:w-4/5 md:w-2/3">
           <div className="mt-1 text-center text-5xl ">
-            <span className="font-bold text-[#131D2E]">
-              About Japanese Gym
-            </span>
+            <div className=" flex items-end justify-center gap-4 text-[#131D2E]">
+              <Chibi />
+              <span>
+                {' '}
+                About Kanji Gym
+              </span>
+            </div>
             {' '}
             <br />
-            <div className="pt-4 text-lg text-muted-foreground">
-              Japanese Gym is a fun and interactive platform designed to help
+            <div className=" text-lg text-muted-foreground">
+              Kanji Gym is a fun and interactive platform designed to help
               learners improve their Japanese vocabulary, kanji, and reading
               skills through daily practice.
               <br />
@@ -65,13 +54,13 @@ const IndexPage = (props: { params: { locale: string } }) => {
           </div>
 
           <div className="mt-1 text-center text-5xl ">
-            <span className="font-bold text-[#131D2E]"> Our Mission</span>
+            <span className="text-[#131D2E]"> Our Mission</span>
             {' '}
             <br />
             <div className="pt-4 text-lg text-muted-foreground">
               Our mission is to help Japanese learners build strong language
               foundations through small daily challenges. Instead of
-              memorizing lists of words, Japanese Gym helps you actively
+              memorizing lists of words, Kanji Gym helps you actively
               practice by answering quizzes, reviewing kanji, and improving
               your recognition speed. Consistency creates progress. A few
               minutes of practice every day can make a big difference.
@@ -79,7 +68,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
           </div>
 
           <div className="mt-1 text-center text-5xl ">
-            <span className="font-bold text-[#131D2E]">
+            <span className="text-[#131D2E]">
               {' '}
               What You Can Practice
             </span>
@@ -116,9 +105,9 @@ const IndexPage = (props: { params: { locale: string } }) => {
           </div>
 
           <div className="mt-1 text-center text-5xl ">
-            <span className="font-bold text-[#131D2E]">
+            <span className="text-[#131D2E]">
               {' '}
-              Why "Japanese Gym"?
+              Why "Kanji Gym"?
             </span>
             {' '}
             <br />
@@ -126,13 +115,13 @@ const IndexPage = (props: { params: { locale: string } }) => {
               Just like physical training, language learning requires regular
               practice. You don't become fluent by studying once a month. You
               improve by showing up every day, practicing, and building your
-              skills step by step. Japanese Gym is your training space for
+              skills step by step. Kanji Gym is your training space for
               becoming stronger in Japanese.
             </div>
           </div>
 
           <div className="mt-1 text-center text-5xl ">
-            <span className="font-bold text-[#131D2E]">
+            <span className="text-[#131D2E]">
               {' '}
               Built for Japanese Learners
             </span>
@@ -141,13 +130,13 @@ const IndexPage = (props: { params: { locale: string } }) => {
             <div className="pt-4 text-lg text-muted-foreground">
               Whether you are: A beginner learning your first kanji Preparing
               for the JLPT exam Living in Japan and improving your daily
-              Japanese Looking for a simple way to practice Japanese Gym is
+              Japanese Looking for a simple way to practice Kanji Gym is
               here to support your learning journey.
             </div>
           </div>
 
           <div className="mt-1 text-center text-5xl ">
-            <span className="font-bold text-[#131D2E]">
+            <span className="text-[#131D2E]">
               {' '}
               Keep Training. Keep Improving.
             </span>
