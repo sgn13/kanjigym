@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { useEffect, useState } from 'react';
 
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -15,11 +14,11 @@ import { Logo } from './Logo';
 export const Navbar = () => {
   const t = useTranslations('Navbar');
   const pathname = usePathname();
-  const [highScore, setHighScore] = useState('0');
+  // const [highScore, setHighScore] = useState('0');
 
-  useEffect(() => {
-    setHighScore(localStorage.getItem('highscore') || '0');
-  }, []);
+  // useEffect(() => {
+  //   setHighScore(localStorage.getItem('highscore') || '0');
+  // }, []);
 
   return (
     <Section className="px-3 py-6">
@@ -59,6 +58,22 @@ export const Navbar = () => {
             About
           </Link>
         </li>
+        <li>
+          <Link
+            href="/kanji"
+            className={`${pathname === '/kanji' ? `font-bold text-[#ca15d7]` : ''}`}
+          >
+            Kanji
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/"
+            className={`${pathname === '/' ? `font-bold text-[#ca15d7]` : ''}`}
+          >
+            Gym
+          </Link>
+        </li>
 
         {/* <li>
           <Link href="/phrases" className={`${pathname=='/phrases'? `text-[#ca15d7] font-bold`:''}`}>Phrases</Link>
@@ -71,10 +86,10 @@ export const Navbar = () => {
         <li>
           <Link href="/grammar" className={`${pathname=='/grammar'? `text-[#ca15d7] font-bold`:''}`}>Grammar</Link>
         </li> */}
-        <li>
+        {/* <li>
           High Score:
           {highScore || '0'}
-        </li>
+        </li> */}
       </CenteredMenu>
     </Section>
   );

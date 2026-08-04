@@ -1,6 +1,5 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
-import { FeatureCard } from '@/features/landing/FeatureCard';
 import { Chibi } from '@/templates/Chibi';
 import { Navbar } from '@/templates/Navbar';
 
@@ -67,7 +66,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
             </div>
           </div>
 
-          <div className="mt-1 text-center text-5xl ">
+          {/* <div className="mt-1 text-center text-5xl ">
             <span className="text-[#131D2E]">
               {' '}
               What You Can Practice
@@ -102,7 +101,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
                 </FeatureCard>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="mt-1 text-center text-5xl ">
             <span className="text-[#131D2E]">
