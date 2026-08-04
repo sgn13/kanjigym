@@ -1,11 +1,8 @@
 import {
-  ArrowRightIcon,
   LockClosedIcon,
 } from '@radix-ui/react-icons';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 
-import { buttonVariants } from '@/components/ui/buttonVariants';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { CTABanner } from '@/features/landing/CTABanner';
 import { Section } from '@/features/landing/Section';
@@ -13,8 +10,6 @@ import { Chibi } from '@/templates/Chibi';
 import { Navbar } from '@/templates/Navbar';
 
 const IndexPage = () => {
-  const t = useTranslations('Hero');
-
   return (
     <>
       <Navbar />
@@ -35,15 +30,6 @@ const IndexPage = () => {
           <CTABanner
             title="Let's try it out."
             description="Select your level"
-            buttons={(
-              <a
-                className={buttonVariants({ size: 'lg' })}
-                href="https://nextjs-boilerplate.com/nextjs-multi-tenant-saas-boilerplate"
-              >
-                {t('button_text')}
-                <ArrowRightIcon className="ml-1 size-5" />
-              </a>
-            )}
 
           >
             <div>

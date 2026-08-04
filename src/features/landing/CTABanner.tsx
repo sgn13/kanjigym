@@ -1,7 +1,7 @@
 export const CTABanner = (props: {
   title: string;
   description: string;
-  buttons: React.ReactNode;
+  buttons?: React.ReactNode;
   children?: React.ReactNode;
 }) => (
   <div className="rounded-xl bg-muted bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 px-1 py-10 text-center">
