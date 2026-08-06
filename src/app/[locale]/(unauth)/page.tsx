@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
 import { Navbar } from '@/templates/Navbar';
 
@@ -23,6 +24,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
     <>
       <Navbar />
       <Hero />
+      <Footer />
       <Analytics />
     </>
   );
