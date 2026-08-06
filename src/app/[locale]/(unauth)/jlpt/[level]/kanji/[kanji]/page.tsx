@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { kanjiData } from '@/constants/kanji';
-import N5Json from '@/constants/n5.json';
 import { FeatureCard } from '@/features/landing/FeatureCard';
 import { Navbar } from '@/templates/Navbar';
 
@@ -114,7 +113,7 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
           </div>
           <div className="pt-4 text-lg text-muted-foreground">
             <div className="grid grid-cols-4 gap-8 text-left md:grid-cols-6 lg:grid-cols-8">
-              {N5Json?.map((list) => {
+              {levelData?.map((list) => {
                 return (
                   <Link key={list.id} href={`/jlpt/${level}/kanji/${list.kanji}`}>
                     <FeatureCard title="" icon={list.kanji}>
