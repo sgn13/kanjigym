@@ -293,16 +293,16 @@
     "id": 13,
     "kanji": "休",
     "answer": "やすむ",
-    "meaning": "day off, rest, retire",
+    "meaning": "day off, rest",
     "onyomi": ["キュウ"],
-    "kunyomi": ["やすむ"],
+    "kunyomi": ["やすむ", "やすみ"],
     "jlpt": "N5",
     "category": "Actions",
     "examples": [
       {
         "word": "休み",
         "answer": "やすみ",
-        "meaning": "rest, vacation, holiday"
+        "meaning": "rest, holiday"
       },
       {
         "word": "休む",

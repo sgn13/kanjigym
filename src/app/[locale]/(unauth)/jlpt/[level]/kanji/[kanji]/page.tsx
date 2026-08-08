@@ -61,7 +61,7 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
             </div> */}
           </div>
           <div className="cursor-pointer rounded-xl border border-border bg-card p-4">
-            <div className="text-[36px] font-bold">
+            <div className="text-[36px] font-bold text-[#ca15d7]">
               {kanji}
             </div>
 
@@ -76,13 +76,13 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
 
                 Onyomi  :
                 {' '}
-                {selectedKanji?.onyomi?.join(',') || '-'}
+                {selectedKanji?.onyomi?.join(', ') || '-'}
               </div>
               <div>
 
                 Kunyomi  :
                 {' '}
-                {selectedKanji?.onyomi?.join(',') || '-'}
+                {selectedKanji?.kunyomi?.join(', ') || '-'}
               </div>
             </div>
             <div className="py-4">
@@ -94,12 +94,18 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
 
                 {selectedKanji?.examples?.map((exampleList, index) => {
                   return (
-                    <div key={index}>
-                      {exampleList?.word}
-                      (
-                      {exampleList?.answer}
-                      )
-                      {exampleList?.meaning}
+                    <div key={index} className="flex gap-4">
+                      <span>
+                        {exampleList?.word}
+                      </span>
+                      <span className="text-[#ca15d7]">
+                        (
+                        {exampleList?.answer}
+                        )
+                      </span>
+                      <span>
+                        {exampleList?.meaning}
+                      </span>
 
                     </div>
                   );
@@ -116,7 +122,7 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
               {levelData?.map((list) => {
                 return (
                   <Link key={list.id} href={`/jlpt/${level}/kanji/${list.kanji}`}>
-                    <FeatureCard title="" icon={list.kanji}>
+                    <FeatureCard title="" icon={list.kanji} className={`${kanji === list.kanji ? 'bg-purple-700 text-white' : ''}`}>
                       <span className="">
 
                       </span>

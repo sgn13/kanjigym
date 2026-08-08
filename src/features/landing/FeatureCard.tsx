@@ -1,9 +1,10 @@
 export const FeatureCard = (props: {
   icon?: React.ReactNode;
   title: string;
+  className?: string;
   children: React.ReactNode;
 }) => (
-  <div className="cursor-pointer rounded-xl border border-border bg-card p-4">
+  <div className={`cursor-pointer rounded-xl border border-border bg-card p-4 ${props.className}`}>
     <div className="text-center font-bold">
       {props.icon}
     </div>

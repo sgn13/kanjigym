@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "kanji": "両",
+    "answer": "リョウ",
+    "meaning": "both, two",
+    "onyomi": ["リョウ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Numbers",
+    "examples": [
+      {
+        "word": "両替",
+        "answer": "りょうがえ",
+        "meaning": "money exchange"
+      },
+      {
+        "word": "両方",
+        "answer": "りょうほう",
+        "meaning": "both, both sides"
+      },
+      {
+        "word": "両親",
+        "answer": "りょうしん",
+        "meaning": "both parents"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "kanji": "予",
+    "answer": "ヨ",
+    "meaning": "beforehand, advance",
+    "onyomi": ["ヨ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "予報",
+        "answer": "よほう",
+        "meaning": "forecast, prediction"
+      },
+      {
+        "word": "予期",
+        "answer": "よき",
+        "meaning": "expectation, anticipation"
+      },
+      {
+        "word": "予測",
+        "answer": "よそく",
+        "meaning": "prediction, estimation"
+      },
+      {
+        "word": "予算",
+        "answer": "よさん",
+        "meaning": "budget"
+      },
+      {
+        "word": "予約制",
+        "answer": "よやくせい",
+        "meaning": "by reservation, reservation system"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "kanji": "争",
+    "answer": "あらそう",
+    "meaning": "argue, compete, dispute",
+    "onyomi": ["ソウ"],
+    "kunyomi": ["あらそう"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "論争",
+        "answer": "ろんそう",
+        "meaning": "dispute, controversy"
+      },
+      {
+        "word": "戦争",
+        "answer": "せんそう",
+        "meaning": "war"
+      },
+      {
+        "word": "競争",
+        "answer": "きょうそう",
+        "meaning": "competition, race"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "kanji": "交",
+    "answer": "まじわる",
+    "meaning": "interact, mix, exchange",
+    "onyomi": ["コウ"],
+    "kunyomi": ["かわす", "まじえる", "まじわる", "まざる", "まじる", "まぜる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "交換",
+        "answer": "こうかん",
+        "meaning": "exchange, substitution"
+      },
+      {
+        "word": "交際",
+        "answer": "こうさい",
+        "meaning": "association, socializing"
+      },
+      {
+        "word": "外交",
+        "answer": "がいこう",
+        "meaning": "diplomacy, foreign affairs"
+      },
+      {
+        "word": "交通",
+        "answer": "こうつう",
+        "meaning": "traffic, transportation"
+      },
+      {
+        "word": "交差点",
+        "answer": "こうさてん",
+        "meaning": "crossing, intersection"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "kanji": "他",
+    "answer": "ほか",
+    "meaning": "other, another",
+    "onyomi": ["タ"],
+    "kunyomi": ["ほか"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "他人",
+        "answer": "たにん",
+        "meaning": "another person, others"
+      },
+      {
+        "word": "他社",
+        "answer": "たしゃ",
+        "meaning": "another company"
+      },
+      {
+        "word": "他",
+        "answer": "ほか",
+        "meaning": "other, another"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "kanji": "付",
+    "answer": "つける",
+    "meaning": "attach, add, apply",
+    "onyomi": ["フ"],
+    "kunyomi": ["つく", "つける"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "付き合い",
+        "answer": "つきあい",
+        "meaning": "association, socializing"
+      },
+      {
+        "word": "味付け",
+        "answer": "あじつけ",
+        "meaning": "seasoning, flavoring"
+      },
+      {
+        "word": "寄付",
+        "answer": "きふ",
+        "meaning": "donation"
+      },
+      {
+        "word": "受付",
+        "answer": "うけつけ",
+        "meaning": "reception, reception desk"
+      },
+      {
+        "word": "片付ける",
+        "answer": "かたづける",
+        "meaning": "to tidy up, to put away"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "kanji": "伝",
+    "answer": "つたえる",
+    "meaning": "convey, communicate, tradition",
+    "onyomi": ["デン"],
+    "kunyomi": ["つたう", "つたえる", "つたわる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "伝統",
+        "answer": "でんとう",
+        "meaning": "tradition, convention"
+      },
+      {
+        "word": "手伝い",
+        "answer": "てつだい",
+        "meaning": "help, assistance"
+      },
+      {
+        "word": "伝える",
+        "answer": "つたえる",
+        "meaning": "to convey, to report, to tell"
+      },
+      {
+        "word": "手伝う",
+        "answer": "てつだう",
+        "meaning": "to help, to assist"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "kanji": "位",
+    "answer": "くらい",
+    "meaning": "rank, position, approximately",
+    "onyomi": ["イ"],
+    "kunyomi": ["くらい"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "位置",
+        "answer": "いち",
+        "meaning": "place, position"
+      },
+      {
+        "word": "単位",
+        "answer": "たんい",
+        "meaning": "unit, denomination"
+      },
+      {
+        "word": "地位",
+        "answer": "ちい",
+        "meaning": "position, status"
+      },
+      {
+        "word": "位",
+        "answer": "くらい",
+        "meaning": "rank, approximately, about"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "kanji": "係",
+    "answer": "かかり",
+    "meaning": "person in charge, connection, duty",
+    "onyomi": ["ケイ"],
+    "kunyomi": ["かかり", "かかる"],
+    "jlpt": "N3",
+    "category": "People",
+    "examples": [
+      {
+        "word": "人間関係",
+        "answer": "にんげんかんけい",
+        "meaning": "human relations"
+      },
+      {
+        "word": "係",
+        "answer": "かかり",
+        "meaning": "person in charge, clerk"
+      },
+      {
+        "word": "信頼関係",
+        "answer": "しんらいかんけい",
+        "meaning": "trusting relationship"
+      },
+      {
+        "word": "関係",
+        "answer": "かんけい",
+        "meaning": "relationship, connection"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "kanji": "信",
+    "answer": "シン",
+    "meaning": "trust, belief, faith",
+    "onyomi": ["シン"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "信じる",
+        "answer": "しんじる",
+        "meaning": "to believe, to trust"
+      },
+      {
+        "word": "信号",
+        "answer": "しんごう",
+        "meaning": "traffic signal, signal"
+      },
+      {
+        "word": "信念",
+        "answer": "しんねん",
+        "meaning": "belief, faith"
+      },
+      {
+        "word": "信用",
+        "answer": "しんよう",
+        "meaning": "confidence, trust, credit"
+      },
+      {
+        "word": "信頼",
+        "answer": "しんらい",
+        "meaning": "trust, reliance, confidence"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "kanji": "側",
+    "answer": "がわ",
+    "meaning": "side, beside",
+    "onyomi": ["ソク"],
+    "kunyomi": ["がわ", "そば"],
+    "jlpt": "N3",
+    "category": "Places",
+    "examples": [
+      {
+        "word": "右側",
+        "answer": "みぎがわ",
+        "meaning": "right side"
+      },
+      {
+        "word": "左側",
+        "answer": "ひだりがわ",
+        "meaning": "left side"
+      },
+      {
+        "word": "側",
+        "answer": "そば",
+        "meaning": "beside, proximity"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "kanji": "全",
+    "answer": "すべて",
+    "meaning": "all, entire, whole",
+    "onyomi": ["ゼン"],
+    "kunyomi": ["すべて", "まったく"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "全体",
+        "answer": "ぜんたい",
+        "meaning": "whole, entirety"
+      },
+      {
+        "word": "全員",
+        "answer": "ぜんいん",
+        "meaning": "all members, everyone"
+      },
+      {
+        "word": "全国",
+        "answer": "ぜんこく",
+        "meaning": "nationwide"
+      },
+      {
+        "word": "安全",
+        "answer": "あんぜん",
+        "meaning": "safety, security"
+      },
+      {
+        "word": "全部",
+        "answer": "ぜんぶ",
+        "meaning": "all, entire, whole"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "kanji": "内",
+    "answer": "うち",
+    "meaning": "inside, within, among",
+    "onyomi": ["ダイ", "ナイ"],
+    "kunyomi": ["うち"],
+    "jlpt": "N3",
+    "category": "Places",
+    "examples": [
+      {
+        "word": "内容",
+        "answer": "ないよう",
+        "meaning": "contents, substance, details"
+      },
+      {
+        "word": "以内",
+        "answer": "いない",
+        "meaning": "within, up to, less than"
+      },
+      {
+        "word": "家内",
+        "answer": "かない",
+        "meaning": "wife, one's family"
+      },
+      {
+        "word": "案内",
+        "answer": "あんない",
+        "meaning": "guidance, showing around"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "kanji": "冷",
+    "answer": "つめたい",
+    "meaning": "cold, cool, chill",
+    "onyomi": ["レイ"],
+    "kunyomi": ["さます", "さめる", "つめたい", "ひえる", "ひや", "ひやかす", "ひやす"],
+    "jlpt": "N3",
+    "category": "Adjectives",
+    "examples": [
+      {
+        "word": "冷凍庫",
+        "answer": "れいとうこ",
+        "meaning": "freezer"
+      },
+      {
+        "word": "冷静",
+        "answer": "れいせい",
+        "meaning": "calmness, composure"
+      },
+      {
+        "word": "冷える",
+        "answer": "ひえる",
+        "meaning": "to cool down, to get cold"
+      },
+      {
+        "word": "冷房",
+        "answer": "れいぼう",
+        "meaning": "cooling, air-conditioning"
+      },
+      {
+        "word": "冷蔵庫",
+        "answer": "れいぞうこ",
+        "meaning": "refrigerator"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "kanji": "初",
+    "answer": "はじめて",
+    "meaning": "beginning, first time",
+    "onyomi": ["ショ"],
+    "kunyomi": ["はじめ", "はじめて", "はつ"],
+    "jlpt": "N3",
+    "category": "Time",
+    "examples": [
+      {
+        "word": "初心者",
+        "answer": "しょしんしゃ",
+        "meaning": "beginner"
+      },
+      {
+        "word": "最初",
+        "answer": "さいしょ",
+        "meaning": "beginning, first"
+      },
+      {
+        "word": "初めて",
+        "answer": "はじめて",
+        "meaning": "for the first time"
+      },
+      {
+        "word": "初めに",
+        "answer": "はじめに",
+        "meaning": "first, at the beginning"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "kanji": "利",
+    "answer": "きく",
+    "meaning": "advantage, benefit, profit",
+    "onyomi": ["リ"],
+    "kunyomi": ["きく"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "不利",
+        "answer": "ふり",
+        "meaning": "disadvantage, handicap"
+      },
+      {
+        "word": "利口",
+        "answer": "りこう",
+        "meaning": "clever, shrewd, well-behaved"
+      },
+      {
+        "word": "利益",
+        "answer": "りえき",
+        "meaning": "profit, gains"
+      },
+      {
+        "word": "有利",
+        "answer": "ゆうり",
+        "meaning": "advantageous, profitable"
+      },
+      {
+        "word": "権利",
+        "answer": "けんり",
+        "meaning": "right, privilege"
+      },
+      {
+        "word": "便利",
+        "answer": "べんり",
+        "meaning": "convenient, handy, useful"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "kanji": "加",
+    "answer": "くわえる",
+    "meaning": "add, include, increase, join",
+    "onyomi": ["カ"],
+    "kunyomi": ["くわえる", "くわわる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "加える",
+        "answer": "くわえる",
+        "meaning": "to add, to include"
+      },
+      {
+        "word": "加わる",
+        "answer": "くわわる",
+        "meaning": "to be added to, to join"
+      },
+      {
+        "word": "加減",
+        "answer": "かげん",
+        "meaning": "adjustment, moderation"
+      },
+      {
+        "word": "参加",
+        "answer": "さんか",
+        "meaning": "participation"
+      },
+      {
+        "word": "参加者",
+        "answer": "さんかしゃ",
+        "meaning": "participant"
+      },
+      {
+        "word": "増加",
+        "answer": "ぞうか",
+        "meaning": "increase, growth"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "kanji": "助",
+    "answer": "たすける",
+    "meaning": "help, assist, rescue",
+    "onyomi": ["ジョ"],
+    "kunyomi": ["すけ", "たすかる", "たすける"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "助ける",
+        "answer": "たすける",
+        "meaning": "to help, to rescue, to aid"
+      },
+      {
+        "word": "助手",
+        "answer": "じょしゅ",
+        "meaning": "assistant, helper"
+      },
+      {
+        "word": "援助",
+        "answer": "えんじょ",
+        "meaning": "aid, support"
+      },
+      {
+        "word": "救助",
+        "answer": "きゅうじょ",
+        "meaning": "rescue, aid"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "kanji": "労",
+    "answer": "ロウ",
+    "meaning": "labor, work, hardship",
+    "onyomi": ["ロウ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Work",
+    "examples": [
+      {
+        "word": "労働",
+        "answer": "ろうどう",
+        "meaning": "labor, work"
+      },
+      {
+        "word": "苦労",
+        "answer": "くろう",
+        "meaning": "hardship, toil"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "kanji": "勝",
+    "answer": "かつ",
+    "meaning": "win, victory, prevail",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["かつ", "まさる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "優勝",
+        "answer": "ゆうしょう",
+        "meaning": "overall victory, championship"
+      },
+      {
+        "word": "勝ち",
+        "answer": "かち",
+        "meaning": "victory, win"
+      },
+      {
+        "word": "勝手",
+        "answer": "かって",
+        "meaning": "one's own convenience, arbitrary"
+      },
+      {
+        "word": "勝手に",
+        "answer": "かってに",
+        "meaning": "selfishly, without permission"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "kanji": "化",
+    "answer": "カ",
+    "meaning": "change, transformation, -ization",
+    "onyomi": ["カ", "ケ"],
+    "kunyomi": ["ばかす", "ばける"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "化学",
+        "answer": "かがく",
+        "meaning": "chemistry"
+      },
+      {
+        "word": "化粧",
+        "answer": "けしょう",
+        "meaning": "makeup, cosmetics"
+      },
+      {
+        "word": "化粧品",
+        "answer": "けしょうひん",
+        "meaning": "cosmetics"
+      },
+      {
+        "word": "変化",
+        "answer": "へんか",
+        "meaning": "change, transformation"
+      },
+      {
+        "word": "文化",
+        "answer": "ぶんか",
+        "meaning": "culture"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "kanji": "単",
+    "answer": "タン",
+    "meaning": "simple, single, merely",
+    "onyomi": ["タン"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "単なる",
+        "answer": "たんなる",
+        "meaning": "mere, simple"
+      },
+      {
+        "word": "単に",
+        "answer": "たんに",
+        "meaning": "simply, merely"
+      },
+      {
+        "word": "単位",
+        "answer": "たんい",
+        "meaning": "unit, denomination"
+      },
+      {
+        "word": "単純",
+        "answer": "たんじゅん",
+        "meaning": "simple, plain"
+      },
+      {
+        "word": "単語",
+        "answer": "たんご",
+        "meaning": "word, vocabulary"
+      },
+      {
+        "word": "簡単",
+        "answer": "かんたん",
+        "meaning": "simple, easy"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "kanji": "原",
+    "answer": "はら",
+    "meaning": "field, plain, original",
+    "onyomi": ["ゲン"],
+    "kunyomi": ["はら"],
+    "jlpt": "N3",
+    "category": "Nature",
+    "examples": [
+      {
+        "word": "原",
+        "answer": "はら",
+        "meaning": "field, plain"
+      },
+      {
+        "word": "原因",
+        "answer": "げんいん",
+        "meaning": "cause"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "kanji": "参",
+    "answer": "まいる",
+    "meaning": "participate, visit, go or come (humble)",
+    "onyomi": ["サン"],
+    "kunyomi": ["まいる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "参加",
+        "answer": "さんか",
+        "meaning": "participation"
+      },
+      {
+        "word": "参加者",
+        "answer": "さんかしゃ",
+        "meaning": "participant"
+      },
+      {
+        "word": "参考",
+        "answer": "さんこう",
+        "meaning": "reference"
+      },
+      {
+        "word": "参考になる",
+        "answer": "さんこうになる",
+        "meaning": "to be useful as a reference"
+      },
+      {
+        "word": "参る",
+        "answer": "まいる",
+        "meaning": "to go, to come (humble)"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "kanji": "反",
+    "answer": "ハン",
+    "meaning": "anti-, oppose, opposite",
+    "onyomi": ["ハン", "ホン", "タン"],
+    "kunyomi": ["そらす", "そる"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "反抗",
+        "answer": "はんこう",
+        "meaning": "opposition, resistance"
+      },
+      {
+        "word": "違反",
+        "answer": "いはん",
+        "meaning": "violation, offense"
+      },
+      {
+        "word": "反対",
+        "answer": "はんたい",
+        "meaning": "opposite, opposition"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "kanji": "取",
+    "answer": "とる",
+    "meaning": "take, obtain, receive",
+    "onyomi": ["シュ"],
+    "kunyomi": ["とる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "取り上げる",
+        "answer": "とりあげる",
+        "meaning": "to pick up, to adopt, to confiscate"
+      },
+      {
+        "word": "取り直す",
+        "answer": "とりなおす",
+        "meaning": "to retake, to obtain again"
+      },
+      {
+        "word": "取引先",
+        "answer": "とりひきさき",
+        "meaning": "customer, client, business partner"
+      },
+      {
+        "word": "受け取る",
+        "answer": "うけとる",
+        "meaning": "to accept, to receive"
+      },
+      {
+        "word": "取り替える",
+        "answer": "とりかえる",
+        "meaning": "to exchange, to replace"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "kanji": "受",
+    "answer": "うける",
+    "meaning": "receive, accept, take",
+    "onyomi": ["ジュ"],
+    "kunyomi": ["うかる", "うける"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "受かる",
+        "answer": "うかる",
+        "meaning": "to pass an examination"
+      },
+      {
+        "word": "受け取る",
+        "answer": "うけとる",
+        "meaning": "to accept, to receive"
+      },
+      {
+        "word": "受ける",
+        "answer": "うける",
+        "meaning": "to take a test, to receive"
+      },
+      {
+        "word": "受付",
+        "answer": "うけつけ",
+        "meaning": "reception, reception desk"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "kanji": "号",
+    "answer": "ゴウ",
+    "meaning": "number, name, call, signal",
+    "onyomi": ["ゴウ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "信号",
+        "answer": "しんごう",
+        "meaning": "traffic signal, signal"
+      },
+      {
+        "word": "番号",
+        "answer": "ばんごう",
+        "meaning": "number"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "kanji": "向",
+    "answer": "むかう",
+    "meaning": "face, head toward, direction",
+    "onyomi": ["コウ"],
+    "kunyomi": ["むかう", "むく", "むける", "むこう"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "傾向",
+        "answer": "けいこう",
+        "meaning": "tendency, inclination"
+      },
+      {
+        "word": "向かい",
+        "answer": "むかい",
+        "meaning": "facing, across the street"
+      },
+      {
+        "word": "方向",
+        "answer": "ほうこう",
+        "meaning": "direction, orientation"
+      },
+      {
+        "word": "向かう",
+        "answer": "むかう",
+        "meaning": "to face, to head toward"
+      },
+      {
+        "word": "向こう",
+        "answer": "むこう",
+        "meaning": "opposite side, other side"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "kanji": "君",
+    "answer": "きみ",
+    "meaning": "you, ruler, name suffix",
+    "onyomi": ["クン"],
+    "kunyomi": ["きみ"],
+    "jlpt": "N3",
+    "category": "People",
+    "examples": [
+      {
+        "word": "君",
+        "answer": "きみ",
+        "meaning": "you"
+      },
+      {
+        "word": "～君",
+        "answer": "～くん",
+        "meaning": "Mr. ～, used for someone of equal or lower status"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "kanji": "告",
+    "answer": "つげる",
+    "meaning": "announce, inform, tell",
+    "onyomi": ["コク"],
+    "kunyomi": ["つげる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "報告",
+        "answer": "ほうこく",
+        "meaning": "report, information"
+      },
+      {
+        "word": "報告書",
+        "answer": "ほうこくしょ",
+        "meaning": "written report"
+      },
+      {
+        "word": "広告",
+        "answer": "こうこく",
+        "meaning": "advertisement"
+      },
+      {
+        "word": "警告",
+        "answer": "けいこく",
+        "meaning": "warning, caution"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "kanji": "商",
+    "answer": "あきなう",
+    "meaning": "trade, commerce, merchant",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["あきなう"],
+    "jlpt": "N3",
+    "category": "Business",
+    "examples": [
+      {
+        "word": "商人",
+        "answer": "しょうにん",
+        "meaning": "trader, merchant"
+      },
+      {
+        "word": "商品",
+        "answer": "しょうひん",
+        "meaning": "goods, merchandise"
+      },
+      {
+        "word": "商売",
+        "answer": "しょうばい",
+        "meaning": "trade, commerce"
+      },
+      {
+        "word": "商店街",
+        "answer": "しょうてんがい",
+        "meaning": "shopping area, shopping arcade"
+      },
+      {
+        "word": "新商品",
+        "answer": "しんしょうひん",
+        "meaning": "new product"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "kanji": "園",
+    "answer": "その",
+    "meaning": "garden, park",
+    "onyomi": ["エン"],
+    "kunyomi": ["その"],
+    "jlpt": "N3",
+    "category": "Places",
+    "examples": [
+      {
+        "word": "動物園",
+        "answer": "どうぶつえん",
+        "meaning": "zoo"
+      },
+      {
+        "word": "公園",
+        "answer": "こうえん",
+        "meaning": "park"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "kanji": "変",
+    "answer": "かわる",
+    "meaning": "change, strange, unusual",
+    "onyomi": ["ヘン"],
+    "kunyomi": ["かえる", "かわる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "変化",
+        "answer": "へんか",
+        "meaning": "change, transformation"
+      },
+      {
+        "word": "変更",
+        "answer": "へんこう",
+        "meaning": "change, alteration"
+      },
+      {
+        "word": "変える",
+        "answer": "かえる",
+        "meaning": "to change, to alter"
+      },
+      {
+        "word": "変わる",
+        "answer": "かわる",
+        "meaning": "to change"
+      },
+      {
+        "word": "大変",
+        "answer": "たいへん",
+        "meaning": "very, terribly; difficult, hard"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "kanji": "夫",
+    "answer": "おっと",
+    "meaning": "husband, man",
+    "onyomi": ["フ", "フウ"],
+    "kunyomi": ["おっと"],
+    "jlpt": "N3",
+    "category": "People",
+    "examples": [
+      {
+        "word": "夫人",
+        "answer": "ふじん",
+        "meaning": "wife, Mrs."
+      },
+      {
+        "word": "夫婦",
+        "answer": "ふうふ",
+        "meaning": "married couple, husband and wife"
+      },
+      {
+        "word": "工夫",
+        "answer": "くふう",
+        "meaning": "idea, device, ingenuity"
+      },
+      {
+        "word": "丈夫",
+        "answer": "じょうぶ",
+        "meaning": "healthy, robust, solid, durable"
+      },
+      {
+        "word": "大丈夫",
+        "answer": "だいじょうぶ",
+        "meaning": "safe, all right, okay"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "kanji": "失",
+    "answer": "うしなう",
+    "meaning": "lose, miss, fail",
+    "onyomi": ["シツ"],
+    "kunyomi": ["うしなう"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "失望",
+        "answer": "しつぼう",
+        "meaning": "disappointment, despair"
+      },
+      {
+        "word": "失業",
+        "answer": "しつぎょう",
+        "meaning": "unemployment, losing one's job"
+      },
+      {
+        "word": "失敗",
+        "answer": "しっぱい",
+        "meaning": "failure"
+      },
+      {
+        "word": "失礼",
+        "answer": "しつれい",
+        "meaning": "impolite, rude; excuse me"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "kanji": "守",
+    "answer": "まもる",
+    "meaning": "protect, guard, defend",
+    "onyomi": ["シュ", "ス"],
+    "kunyomi": ["まもる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "守る",
+        "answer": "まもる",
+        "meaning": "to protect, to guard, to follow"
+      },
+      {
+        "word": "留守",
+        "answer": "るす",
+        "meaning": "absence, being away from home"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "kanji": "完",
+    "answer": "カン",
+    "meaning": "complete, finish, perfect",
+    "onyomi": ["カン"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "完了",
+        "answer": "かんりょう",
+        "meaning": "completion"
+      },
+      {
+        "word": "完全",
+        "answer": "かんぜん",
+        "meaning": "complete, perfect"
+      },
+      {
+        "word": "完成",
+        "answer": "かんせい",
+        "meaning": "completion, accomplishment"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "kanji": "官",
+    "answer": "カン",
+    "meaning": "government, official, bureaucrat",
+    "onyomi": ["カン"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Society",
+    "examples": [
+      {
+        "word": "警官",
+        "answer": "けいかん",
+        "meaning": "police officer"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "kanji": "定",
+    "answer": "さだめる",
+    "meaning": "decide, determine, establish, fix",
+    "onyomi": ["ジョウ", "テイ"],
+    "kunyomi": ["さだか", "さだまる", "さだめる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "勘定",
+        "answer": "かんじょう",
+        "meaning": "calculation, bill"
+      },
+      {
+        "word": "否定",
+        "answer": "ひてい",
+        "meaning": "denial, negation"
+      },
+      {
+        "word": "安定",
+        "answer": "あんてい",
+        "meaning": "stability, steadiness"
+      },
+      {
+        "word": "定期",
+        "answer": "ていき",
+        "meaning": "fixed period, fixed term"
+      },
+      {
+        "word": "決定",
+        "answer": "けってい",
+        "meaning": "decision"
+      },
+      {
+        "word": "予定",
+        "answer": "よてい",
+        "meaning": "plan, schedule; expectation"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "kanji": "実",
+    "answer": "みのる",
+    "meaning": "reality, truth, fruit",
+    "onyomi": ["ジツ"],
+    "kunyomi": ["み", "みのる"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "事実",
+        "answer": "じじつ",
+        "meaning": "fact, reality"
+      },
+      {
+        "word": "実に",
+        "answer": "じつに",
+        "meaning": "indeed, really, truly"
+      },
+      {
+        "word": "実は",
+        "answer": "じつは",
+        "meaning": "as a matter of fact, actually"
+      },
+      {
+        "word": "実施",
+        "answer": "じっし",
+        "meaning": "implementation, carrying out"
+      },
+      {
+        "word": "実現",
+        "answer": "じつげん",
+        "meaning": "realization, bringing into reality"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "kanji": "客",
+    "answer": "きゃく",
+    "meaning": "customer, guest, visitor, passenger",
+    "onyomi": ["カク", "キャク"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "People",
+    "examples": [
+      {
+        "word": "乗客",
+        "answer": "じょうきゃく",
+        "meaning": "passenger"
+      },
+      {
+        "word": "観光客",
+        "answer": "かんこうきゃく",
+        "meaning": "tourist"
+      },
+      {
+        "word": "観客",
+        "answer": "かんきゃく",
+        "meaning": "spectator, audience member"
+      },
+      {
+        "word": "客",
+        "answer": "きゃく",
+        "meaning": "customer, guest, visitor"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "kanji": "宿",
+    "answer": "やど",
+    "meaning": "inn, lodging, stay",
+    "onyomi": ["シュク"],
+    "kunyomi": ["やど", "やどす", "やどる"],
+    "jlpt": "N3",
+    "category": "Places",
+    "examples": [
+      {
+        "word": "宿泊",
+        "answer": "しゅくはく",
+        "meaning": "lodging, staying overnight"
+      },
+      {
+        "word": "下宿",
+        "answer": "げしゅく",
+        "meaning": "lodging, boarding house"
+      },
+      {
+        "word": "宿題",
+        "answer": "しゅくだい",
+        "meaning": "homework, assignment"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "kanji": "察",
+    "answer": "サツ",
+    "meaning": "judge, understand, observe",
+    "onyomi": ["サツ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "観察",
+        "answer": "かんさつ",
+        "meaning": "observation"
+      },
+      {
+        "word": "診察",
+        "answer": "しんさつ",
+        "meaning": "medical examination"
+      },
+      {
+        "word": "警察",
+        "answer": "けいさつ",
+        "meaning": "police"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "kanji": "対",
+    "answer": "タイ",
+    "meaning": "oppose, face, respond, opposite",
+    "onyomi": ["タイ", "ツイ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "対する",
+        "answer": "たいする",
+        "meaning": "to face, to confront, to oppose"
+      },
+      {
+        "word": "対象",
+        "answer": "たいしょう",
+        "meaning": "target, object, subject"
+      },
+      {
+        "word": "絶対",
+        "answer": "ぜったい",
+        "meaning": "absolutely, unconditionally"
+      },
+      {
+        "word": "反対",
+        "answer": "はんたい",
+        "meaning": "opposite, opposition; to oppose"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "kanji": "局",
+    "answer": "キョク",
+    "meaning": "bureau, department, station",
+    "onyomi": ["キョク"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Places",
+    "examples": [
+      {
+        "word": "テレビ局",
+        "answer": "テレビきょく",
+        "meaning": "television station"
+      },
+      {
+        "word": "結局",
+        "answer": "けっきょく",
+        "meaning": "after all, ultimately"
+      },
+      {
+        "word": "薬局",
+        "answer": "やっきょく",
+        "meaning": "pharmacy"
+      },
+      {
+        "word": "郵便局",
+        "answer": "ゆうびんきょく",
+        "meaning": "post office"
+      },
+      {
+        "word": "局",
+        "answer": "きょく",
+        "meaning": "bureau, department"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "kanji": "差",
+    "answer": "さす",
+    "meaning": "difference, variation, raise, hold up",
+    "onyomi": ["サ"],
+    "kunyomi": ["さす"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "差別",
+        "answer": "さべつ",
+        "meaning": "discrimination, differentiation"
+      },
+      {
+        "word": "差し上げる",
+        "answer": "さしあげる",
+        "meaning": "to give, to offer (humble)"
+      },
+      {
+        "word": "交差点",
+        "answer": "こうさてん",
+        "meaning": "crossing, intersection"
+      },
+      {
+        "word": "差す",
+        "answer": "さす",
+        "meaning": "to hold up, to put up, to raise"
+      },
+      {
+        "word": "差",
+        "answer": "さ",
+        "meaning": "difference, variation"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "kanji": "席",
+    "answer": "セキ",
+    "meaning": "seat, place",
+    "onyomi": ["セキ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Places",
+    "examples": [
+      {
+        "word": "出席率",
+        "answer": "しゅっせきりつ",
+        "meaning": "attendance rate"
+      },
+      {
+        "word": "座席",
+        "answer": "ざせき",
+        "meaning": "seat"
+      },
+      {
+        "word": "欠席",
+        "answer": "けっせき",
+        "meaning": "absence, non-attendance"
+      },
+      {
+        "word": "出席",
+        "answer": "しゅっせき",
+        "meaning": "attendance, presence"
+      },
+      {
+        "word": "席",
+        "answer": "せき",
+        "meaning": "seat"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "kanji": "式",
+    "answer": "シキ",
+    "meaning": "form, ceremony, formula",
+    "onyomi": ["シキ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "成人式",
+        "answer": "せいじんしき",
+        "meaning": "coming-of-age ceremony"
+      },
+      {
+        "word": "正式",
+        "answer": "せいしき",
+        "meaning": "official, formal"
+      },
+      {
+        "word": "～式",
+        "answer": "～しき",
+        "meaning": "ceremony, style"
+      },
+      {
+        "word": "式",
+        "answer": "しき",
+        "meaning": "equation, formula"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "kanji": "当",
+    "answer": "あたる",
+    "meaning": "hit, fit, appropriate, be selected",
+    "onyomi": ["トウ"],
+    "kunyomi": ["あたる", "あてる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "当たる",
+        "answer": "あたる",
+        "meaning": "to be hit, to strike, to be selected, to win"
+      },
+      {
+        "word": "当てる",
+        "answer": "あてる",
+        "meaning": "to hit, to put on, to apply"
+      },
+      {
+        "word": "当時",
+        "answer": "とうじ",
+        "meaning": "at that time, in those days"
+      },
+      {
+        "word": "当然",
+        "answer": "とうぜん",
+        "meaning": "natural, of course"
+      },
+      {
+        "word": "担当",
+        "answer": "たんとう",
+        "meaning": "being in charge, responsibility"
+      },
+      {
+        "word": "担当者",
+        "answer": "たんとうしゃ",
+        "meaning": "person in charge"
+      },
+      {
+        "word": "相当",
+        "answer": "そうとう",
+        "meaning": "considerably, rather, quite"
+      },
+      {
+        "word": "見当",
+        "answer": "けんとう",
+        "meaning": "estimate, guess"
+      },
+      {
+        "word": "適当",
+        "answer": "てきとう",
+        "meaning": "suitable, appropriate"
+      },
+      {
+        "word": "弁当",
+        "answer": "べんとう",
+        "meaning": "bento, Japanese box lunch"
+      },
+      {
+        "word": "本当",
+        "answer": "ほんとう",
+        "meaning": "truth, reality, actuality"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "kanji": "形",
+    "answer": "かたち",
+    "meaning": "form, shape, style",
+    "onyomi": ["ギョウ", "ケイ"],
+    "kunyomi": ["かた", "かたち"],
+    "jlpt": "N3",
+    "category": "Objects",
+    "examples": [
+      {
+        "word": "人形",
+        "answer": "にんぎょう",
+        "meaning": "doll, puppet, figure"
+      },
+      {
+        "word": "形",
+        "answer": "かたち",
+        "meaning": "form, shape"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "kanji": "役",
+    "answer": "ヤク",
+    "meaning": "role, duty, service",
+    "onyomi": ["ヤク", "エキ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Work",
+    "examples": [
+      {
+        "word": "役割",
+        "answer": "やくわり",
+        "meaning": "part, role"
+      },
+      {
+        "word": "役立つ",
+        "answer": "やくだつ",
+        "meaning": "to be useful"
+      },
+      {
+        "word": "役に立つ",
+        "answer": "やくにたつ",
+        "meaning": "to be useful"
+      },
+      {
+        "word": "役",
+        "answer": "やく",
+        "meaning": "role, duty, service"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "kanji": "必",
+    "answer": "かならず",
+    "meaning": "certain, surely, inevitably",
+    "onyomi": ["ヒツ"],
+    "kunyomi": ["かならず"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "必ずしも",
+        "answer": "かならずしも",
+        "meaning": "not necessarily"
+      },
+      {
+        "word": "必死",
+        "answer": "ひっし",
+        "meaning": "desperate, frantic"
+      },
+      {
+        "word": "必ず",
+        "answer": "かならず",
+        "meaning": "certainly, without fail"
+      },
+      {
+        "word": "必要",
+        "answer": "ひつよう",
+        "meaning": "necessary, needed"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "kanji": "念",
+    "answer": "ネン",
+    "meaning": "thought, attention, sense",
+    "onyomi": ["ネン"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "信念",
+        "answer": "しんねん",
+        "meaning": "belief, faith"
+      },
+      {
+        "word": "記念",
+        "answer": "きねん",
+        "meaning": "commemoration, memory"
+      },
+      {
+        "word": "残念",
+        "answer": "ざんねん",
+        "meaning": "regrettable, unfortunate"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "kanji": "息",
+    "answer": "いき",
+    "meaning": "breath, respiration, son",
+    "onyomi": ["ソク"],
+    "kunyomi": ["いき"],
+    "jlpt": "N3",
+    "category": "Body",
+    "examples": [
+      {
+        "word": "息が切れる",
+        "answer": "いきがきれる",
+        "meaning": "to be out of breath"
+      },
+      {
+        "word": "息が止まる",
+        "answer": "いきがとまる",
+        "meaning": "to stop breathing"
+      },
+      {
+        "word": "息",
+        "answer": "いき",
+        "meaning": "breath"
+      },
+      {
+        "word": "息子",
+        "answer": "むすこ",
+        "meaning": "son"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "kanji": "想",
+    "answer": "ソウ",
+    "meaning": "thought, idea, concept",
+    "onyomi": ["ソ", "ソウ"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "思想",
+        "answer": "しそう",
+        "meaning": "idea, ideology"
+      },
+      {
+        "word": "想像",
+        "answer": "そうぞう",
+        "meaning": "imagination, guess"
+      },
+      {
+        "word": "理想",
+        "answer": "りそう",
+        "meaning": "ideal"
+      },
+      {
+        "word": "連想",
+        "answer": "れんそう",
+        "meaning": "association of ideas"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "kanji": "感",
+    "answer": "カン",
+    "meaning": "feeling, emotion, sensation",
+    "onyomi": ["カン"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "感動",
+        "answer": "かんどう",
+        "meaning": "being deeply moved"
+      },
+      {
+        "word": "感心",
+        "answer": "かんしん",
+        "meaning": "admiration, being impressed"
+      },
+      {
+        "word": "感情",
+        "answer": "かんじょう",
+        "meaning": "emotion, feelings"
+      },
+      {
+        "word": "感覚",
+        "answer": "かんかく",
+        "meaning": "sensation, feeling"
+      },
+      {
+        "word": "感謝",
+        "answer": "かんしゃ",
+        "meaning": "thanks, gratitude"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "kanji": "成",
+    "answer": "なる",
+    "meaning": "become, achieve, accomplish",
+    "onyomi": ["ジョウ", "セイ"],
+    "kunyomi": ["なす", "なる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "完成",
+        "answer": "かんせい",
+        "meaning": "completion, accomplishment"
+      },
+      {
+        "word": "成人",
+        "answer": "せいじん",
+        "meaning": "adult"
+      },
+      {
+        "word": "成人式",
+        "answer": "せいじんしき",
+        "meaning": "coming-of-age ceremony"
+      },
+      {
+        "word": "成功",
+        "answer": "せいこう",
+        "meaning": "success"
+      },
+      {
+        "word": "成績",
+        "answer": "せいせき",
+        "meaning": "results, grades"
+      },
+      {
+        "word": "成長",
+        "answer": "せいちょう",
+        "meaning": "growth"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "kanji": "戦",
+    "answer": "たたかう",
+    "meaning": "battle, war, fight",
+    "onyomi": ["セン"],
+    "kunyomi": ["いくさ", "たたかう"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "大戦",
+        "answer": "たいせん",
+        "meaning": "great war, World War"
+      },
+      {
+        "word": "戦い",
+        "answer": "たたかい",
+        "meaning": "battle, conflict"
+      },
+      {
+        "word": "戦争",
+        "answer": "せんそう",
+        "meaning": "war"
+      },
+      {
+        "word": "戦う",
+        "answer": "たたかう",
+        "meaning": "to fight, to wage war"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "kanji": "投",
+    "answer": "なげる",
+    "meaning": "throw, hurl, give up",
+    "onyomi": ["トウ"],
+    "kunyomi": ["なげる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "投票",
+        "answer": "とうひょう",
+        "meaning": "voting, ballot"
+      },
+      {
+        "word": "投げる",
+        "answer": "なげる",
+        "meaning": "to throw"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "kanji": "折",
+    "answer": "おる",
+    "meaning": "break, fold, bend",
+    "onyomi": ["セツ"],
+    "kunyomi": ["おり", "おる", "おれる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "骨折",
+        "answer": "こっせつ",
+        "meaning": "broken bone, fracture"
+      },
+      {
+        "word": "折る",
+        "answer": "おる",
+        "meaning": "to break, to fold"
+      },
+      {
+        "word": "折れる",
+        "answer": "おれる",
+        "meaning": "to be broken, to be folded"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "kanji": "指",
+    "answer": "ゆび",
+    "meaning": "finger, point, indicate",
+    "onyomi": ["シ"],
+    "kunyomi": ["さす", "ゆび"],
+    "jlpt": "N3",
+    "category": "Body",
+    "examples": [
+      {
+        "word": "指導",
+        "answer": "しどう",
+        "meaning": "guidance, instruction"
+      },
+      {
+        "word": "指導員",
+        "answer": "しどういん",
+        "meaning": "instructor"
+      },
+      {
+        "word": "目指す",
+        "answer": "めざす",
+        "meaning": "to aim for, to aspire to"
+      },
+      {
+        "word": "指輪",
+        "answer": "ゆびわ",
+        "meaning": "ring, finger ring"
+      },
+      {
+        "word": "指す",
+        "answer": "さす",
+        "meaning": "to point, to specify, to indicate"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "kanji": "敗",
+    "answer": "やぶれる",
+    "meaning": "defeat, failure, lose",
+    "onyomi": ["ハイ"],
+    "kunyomi": ["やぶれる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "失敗",
+        "answer": "しっぱい",
+        "meaning": "failure"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "kanji": "数",
+    "answer": "かぞえる",
+    "meaning": "number, count, amount",
+    "onyomi": ["ス", "スウ"],
+    "kunyomi": ["かず", "かぞえる"],
+    "jlpt": "N3",
+    "category": "Numbers",
+    "examples": [
+      {
+        "word": "人数",
+        "answer": "にんずう",
+        "meaning": "number of people"
+      },
+      {
+        "word": "数える",
+        "answer": "かぞえる",
+        "meaning": "to count"
+      },
+      {
+        "word": "数字",
+        "answer": "すうじ",
+        "meaning": "numeral, digit, number"
+      },
+      {
+        "word": "数学",
+        "answer": "すうがく",
+        "meaning": "mathematics"
+      },
+      {
+        "word": "数",
+        "answer": "かず",
+        "meaning": "number, amount"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "kanji": "昔",
+    "answer": "むかし",
+    "meaning": "old times, long ago",
+    "onyomi": ["シャク", "セキ"],
+    "kunyomi": ["むかし"],
+    "jlpt": "N3",
+    "category": "Time",
+    "examples": [
+      {
+        "word": "昔",
+        "answer": "むかし",
+        "meaning": "a long time ago, old times"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "kanji": "昨",
+    "answer": "サク",
+    "meaning": "previous, yesterday, last",
+    "onyomi": ["サク"],
+    "kunyomi": [],
+    "jlpt": "N3",
+    "category": "Time",
+    "examples": [
+      {
+        "word": "昨年",
+        "answer": "さくねん",
+        "meaning": "last year"
+      },
+      {
+        "word": "昨晩",
+        "answer": "さくばん",
+        "meaning": "last night"
+      },
+      {
+        "word": "一昨年",
+        "answer": "おととし",
+        "meaning": "the year before last"
+      },
+      {
+        "word": "昨夜",
+        "answer": "さくや",
+        "meaning": "last night"
+      },
+      {
+        "word": "昨日",
+        "answer": "きのう",
+        "meaning": "yesterday"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "kanji": "晴",
+    "answer": "はれる",
+    "meaning": "clear up, become sunny",
+    "onyomi": ["セイ"],
+    "kunyomi": ["はらす", "はれる"],
+    "jlpt": "N3",
+    "category": "Weather",
+    "examples": [
+      {
+        "word": "素晴らしい",
+        "answer": "すばらしい",
+        "meaning": "wonderful, splendid"
+      },
+      {
+        "word": "晴れ",
+        "answer": "はれ",
+        "meaning": "clear weather, fine weather"
+      },
+      {
+        "word": "晴れる",
+        "answer": "はれる",
+        "meaning": "to clear up, to become sunny"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "kanji": "曲",
+    "answer": "まがる",
+    "meaning": "bend, turn, curve, melody",
+    "onyomi": ["キョク"],
+    "kunyomi": ["まがる", "まげる"],
+    "jlpt": "N3",
+    "category": "Actions",
+    "examples": [
+      {
+        "word": "作曲",
+        "answer": "さっきょく",
+        "meaning": "composition of music"
+      },
+      {
+        "word": "曲がる",
+        "answer": "まがる",
+        "meaning": "to turn, to bend"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "kanji": "最",
+    "answer": "もっとも",
+    "meaning": "most, extreme",
+    "onyomi": ["サイ"],
+    "kunyomi": ["もっとも"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "最低",
+        "answer": "さいてい",
+        "meaning": "least, lowest, worst"
+      },
+      {
+        "word": "最終",
+        "answer": "さいしゅう",
+        "meaning": "last, final"
+      },
+      {
+        "word": "最高",
+        "answer": "さいこう",
+        "meaning": "highest, best, finest"
+      },
+      {
+        "word": "～最中",
+        "answer": "～さいちゅう",
+        "meaning": "in the middle of ～"
+      },
+      {
+        "word": "最初",
+        "answer": "さいしょ",
+        "meaning": "beginning, first"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "kanji": "望",
+    "answer": "のぞむ",
+    "meaning": "hope, desire, aspire to",
+    "onyomi": ["ボウ", "モウ"],
+    "kunyomi": ["のぞむ"],
+    "jlpt": "N3",
+    "category": "Abstract",
+    "examples": [
+      {
+        "word": "失望",
+        "answer": "しつぼう",
+        "meaning": "disappointment, despair"
+      },
+      {
+        "word": "希望",
+        "answer": "きぼう",
+        "meaning": "hope, aspiration, request"
+      },
+      {
+        "word": "希望者",
+        "answer": "きぼうしゃ",
+        "meaning": "applicant, person who wishes for something"
+      },
+      {
+        "word": "望み",
+        "answer": "のぞみ",
+        "meaning": "wish, desire"
+      },
+      {
+        "word": "望む",
+        "answer": "のぞむ",
+        "meaning": "to desire, to wish for"
+      }
+    ]
+  }
+]
