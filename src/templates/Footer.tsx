@@ -6,7 +6,7 @@ import { Logo } from './Logo';
 
 export const Footer = () => {
   return (
-    <Section className="pb-16 pt-0">
+    <Section className="pb-8 pt-0">
       <footer className="">
         <div className="mx-auto max-w-7xl px-6 py-10">
 
@@ -36,7 +36,7 @@ export const Footer = () => {
               <ul className="space-y-2 text-sm ">
                 <li>
                   <Link
-                    href="/jlpt/n5"
+                    href="/jlpt/n5/kanji"
                     className="hover:text-gray-700"
                   >
                     JLPT N5 Kanji
@@ -45,7 +45,7 @@ export const Footer = () => {
 
                 <li>
                   <Link
-                    href="/jlpt/n4"
+                    href="/jlpt/n4/kanji"
                     className="hover:text-gray-700"
                   >
                     JLPT N4 Kanji
@@ -54,7 +54,7 @@ export const Footer = () => {
 
                 <li>
                   <Link
-                    href="/jlpt/n3"
+                    href="/jlpt/n3/kanji"
                     className="hover:text-gray-700"
                   >
                     JLPT N3 Kanji
@@ -90,7 +90,7 @@ export const Footer = () => {
 
                 <li>
                   <Link
-                    href="/privacy"
+                    href="/#"
                     className="hover:text-gray-700"
                   >
                     Privacy Policy
@@ -99,7 +99,7 @@ export const Footer = () => {
 
                 <li>
                   <Link
-                    href="/contact"
+                    href="/#"
                     className="hover:text-gray-700"
                   >
                     Contact

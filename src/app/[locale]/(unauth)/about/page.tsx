@@ -1,6 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { Chibi } from '@/templates/Chibi';
+import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -148,6 +149,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

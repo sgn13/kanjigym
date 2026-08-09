@@ -7,6 +7,7 @@ import { CenteredHero } from '@/features/landing/CenteredHero';
 import { CTABanner } from '@/features/landing/CTABanner';
 import { Section } from '@/features/landing/Section';
 import { Chibi } from '@/templates/Chibi';
+import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -145,6 +146,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
           </CTABanner>
         </div>
       </Section>
+      <Footer />
     </>
   );
 };

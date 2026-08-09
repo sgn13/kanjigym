@@ -3,10 +3,12 @@ import {
 } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
+import { jlptLevel } from '@/constants/kanji';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { CTABanner } from '@/features/landing/CTABanner';
 import { Section } from '@/features/landing/Section';
 import { Chibi } from '@/templates/Chibi';
+import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
 
 const IndexPage = () => {
@@ -34,38 +36,7 @@ const IndexPage = () => {
           >
             <div>
               <div className="mx-auto mt-4 flex flex-col gap-2 sm:w-4/5 md:w-2/3 lg:w-1/2">
-                {[
-                  {
-                    id: 1,
-                    level: 'n5',
-                    rate: 'Beginner',
-                    active: true,
-                  },
-                  {
-                    id: 2,
-                    level: 'n4',
-                    rate: 'Elementary',
-                    active: true,
-                  },
-                  {
-                    id: 3,
-                    level: 'n3',
-                    rate: 'Intermediate',
-                    active: false,
-                  },
-                  {
-                    id: 4,
-                    level: 'n2',
-                    rate: 'Advanced',
-                    active: false,
-                  },
-                  {
-                    id: 5,
-                    level: 'n1',
-                    rate: 'Native',
-                    active: false,
-                  },
-                ]?.map((list, index) => {
+                {jlptLevel?.map((list, index) => {
                   return (
                     <div
                       key={index}
@@ -123,6 +94,8 @@ const IndexPage = () => {
           </CTABanner>
         </div>
       </Section>
+      <Footer />
+
     </>
 
   );

@@ -3,6 +3,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
+import { KanjiTabHome } from '@/templates/KanjiTabHome';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -24,6 +25,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
     <>
       <Navbar />
       <Hero />
+      <KanjiTabHome />
       <Footer />
       <Analytics />
     </>

@@ -1,6 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { N5Kanji } from '@/features/kanji/N5Kanji';
+import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -24,6 +25,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <Navbar />
 
       <N5Kanji />
+      <Footer />
     </>
   );
 };

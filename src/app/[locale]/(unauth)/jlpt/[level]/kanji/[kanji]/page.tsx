@@ -3,6 +3,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { kanjiData } from '@/constants/kanji';
 import { FeatureCard } from '@/features/landing/FeatureCard';
+import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -31,10 +32,15 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
       {/* <DemoBanner /> */}
       <Navbar />
 
-      <div className="px-3 py-16">
+      <div className="px-3 py-8">
 
         <div className="mx-auto grid max-w-screen-lg gap-8 sm:w-4/5 md:w-2/3">
           <div className="mt-1  text-2xl ">
+            <div className="py-4 text-3xl font-bold capitalize">
+              {level}
+              {' '}
+              Kanji
+            </div>
             <span className="text-[#131D2E]">
 
               {selectedKanji?.kanji}
@@ -135,6 +141,8 @@ const IndexPage = async (props: { params: { locale: string; level: string;kanji:
           </div>
         </div>
       </div>
+      <Footer />
+
     </>
   );
 };
