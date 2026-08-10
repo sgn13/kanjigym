@@ -23,7 +23,7 @@ export const Hero = () => {
         description="Perfect for beginners, JLPT learners, and daily life in Japan."
       />
       <div className="mx-auto ">
-        <div className="grid grid-cols-1 gap-8 text-left md:grid-cols-6 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 text-left md:grid-cols-2 lg:grid-cols-2">
           {[
             {
               id: 1,

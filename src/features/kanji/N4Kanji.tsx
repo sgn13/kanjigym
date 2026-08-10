@@ -9,17 +9,40 @@ import FlatN4Json from '@/constants/flatn4.json';
 
 type Question = (typeof FlatN4Json)[number];
 
+function shuffle<T>(array: T[]): T[] {
+  const result = [...array];
+
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [result[i], result[j]] = [result[j]!, result[i]!];
+  }
+
+  return result;
+}
+
 function generateOptions(
   current: Question,
   allWords: Question[],
 ): string[] {
-  const wrongAnswers = allWords
-    .filter(word => word.id !== current.id)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 3)
-    .map(word => word.answer);
+  const wrongAnswers = Array.from(
+    new Set(
+      allWords
+        .filter(
+          word =>
+            word.id !== current.id
+            && word.answer !== current.answer,
+        )
+        .map(word => word.answer),
+    ),
+  );
 
-  return [...wrongAnswers, current.answer].sort(() => Math.random() - 0.5);
+  const selectedWrongAnswers = shuffle(wrongAnswers).slice(0, 3);
+
+  return shuffle([
+    ...selectedWrongAnswers,
+    current.answer,
+  ]);
 }
 
 export const N4Kanji = () => {

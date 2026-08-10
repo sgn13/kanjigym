@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 
+// import { useEffect, useState } from 'react';
 import { ToggleMenuButton } from '@/components/ToggleMenuButton';
 import { useMenu } from '@/hooks/UseMenu';
 import { cn } from '@/utils/Helpers';
@@ -17,20 +17,20 @@ export const CenteredMenu = (props: {
   const navClass = cn('max-lg:w-full max-lg:bg-secondary max-lg:p-5', {
     'max-lg:hidden': !showMenu,
   });
-  const [highScore, setHighScore] = useState('0');
+  // const [highScore, setHighScore] = useState('0');
 
-  useEffect(() => {
-    setHighScore(localStorage.getItem('highscore') || '0');
-  }, []);
+  // useEffect(() => {
+  //   setHighScore(localStorage.getItem('highscore') || '0');
+  // }, []);
 
   return (
     <div className="flex flex-wrap items-center justify-between">
       <Link href="/">
         {props.logo}
-        <span className="lg:hidden">
+        {/* <span className="lg:hidden">
           High Score:
           {highScore || '0'}
-        </span>
+        </span> */}
       </Link>
 
       <div className="lg:hidden [&_button:hover]:opacity-100 [&_button]:opacity-60">
@@ -38,7 +38,7 @@ export const CenteredMenu = (props: {
       </div>
 
       <nav className={cn('rounded-t max-lg:mt-2', navClass)}>
-        <ul className="flex gap-x-8 gap-y-1 text-lg font-medium max-lg:flex-col [&_a:hover]:opacity-100 [&_a]:opacity-60 max-lg:[&_a]:inline-block max-lg:[&_a]:w-full">
+        <ul className="flex gap-x-8 gap-y-1 text-lg font-light max-lg:flex-col [&_a:hover]:opacity-100 [&_a]:opacity-60 max-lg:[&_a]:inline-block max-lg:[&_a]:w-full">
           {props.children}
         </ul>
       </nav>
